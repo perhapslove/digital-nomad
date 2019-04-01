@@ -1,0 +1,1856 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-us">
+
+<head>
+<!-- P1 -->
+
+<title>Labor Force Characteristics (CPS)</title>
+<!-- ****************************************** Begin META TAGS ********************************************* -->
+	<!-- START include/global/head.stm -->
+	<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOL&subagency=BLS&yt=true"></script>
+	<script type="text/javascript" src="/javascripts/jquery-min.js"></script>
+	<script type="text/javascript" src="/javascripts/bls.js"></script>
+	<script>
+(function (g) {
+var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+aex = {
+  "src": "//gateway.foresee.com/sites/bls.gov/production/gateway.min.js",
+  "type": "text/javascript",
+  "async": "true",
+  "data-vendor": "fs",
+  "data-role": "gateway"
+};
+for (var attr in aex){am.setAttribute(attr, aex[attr]);}h.appendChild(am);g[fsr] = function () {var aT = '__' + fsr + '_stk__';g[aT] = g[aT] || [];g[aT].push(arguments);};
+})(window);
+fsReady(function() {
+	FSR.CPPS.get('visitedSubSites', function(val) {
+		var cpp = {};if(val){arr = val.split(/,/gi);if(!arr.length){arr.push(val)}for(key in arr){cpp[arr[key]] = true;}}var rp = window.location.pathname.replace(/\/(opub\/(.*?)\/.*$|(.*?)\/.*$)/gi,"$2$3");if(rp.match(/(blog|btn|ces|cew|cex|charts|cpi|cps|ebs|ect|emp|fls|iif|jlt|lau|lpc|mfp|mlr|mxp|ncs|nls|oes|ooh|ors|ppi|regions|sae|ted|tus|video)/gi)){cpp[rp] = true;out = "";for(key in cpp){out+= key + ",";}out=out.replace(/,$/,"");FSR.CPPS.set('visitedSubSites',out);
+	}
+    });
+});
+</script>
+
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_combined.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_content.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_tables.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/jquery-tools.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_nr.css">
+    <!--[if lt IE 9]>
+		<link href="/stylesheets/ie8-styles.css" media="all" rel="Stylesheet" type="text/css"> 
+	<![endif]-->
+	<!--[if lt IE 8]>
+		<link href="/stylesheets/ie7-styles.css" media="all" rel="Stylesheet" type="text/css"> 
+	<![endif]-->
+	<!--[if lt IE 7]>
+		<link href="/stylesheets/ie6-styles.css" media="all" rel="Stylesheet" type="text/css"> 
+		<style type="text/css">
+		body {
+			behavior:url(/stylesheets/csshover2.htc);
+		}
+		</style>			
+	<![endif]-->
+	<!--[if IE]>
+		<style type="text/css">
+		body {
+			font-size: expression(1 / (screen.deviceXDPI / 96) * 84 + '%');
+		}
+		</style>	
+	<![endif]-->
+	<noscript>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_noscript.css">
+	</noscript>
+	<meta http-equiv="x-ua-compatible" content="IE=Edge" />
+    <meta property="og:image" content="https://www.bls.gov/images/bls_emblem.png" />
+		<style type="text/css">
+			td.gsc-table-cell-thumbnail{
+			display:none !important;
+			}
+		</style>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+	<link rel="manifest" href="/manifest.json" />
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+	<meta name="theme-color" content="#ffffff" />
+    <!-- END include/global/head.stm -->
+	<meta http-equiv="Content-Script-Type" content="type" />
+	<meta name="agency" content="BLS" />
+	<meta name="audience" content="general" />
+<meta name="subagency" content="BLS: Employment and Unemployment">
+<meta name="program" content="BLS: Employment and Unemployment: Current Population Survey">
+<meta name="subject" content="Statistics: Demographics: Labor Force, Statistics: Employment and Unemployment">
+<meta name="date" content="2/15/2019">
+<!-- ****************************************** End META TAGS *********************************************** -->
+</head>
+<body>
+<!-- ****************************************** Begin HEADER ************************************************ -->
+<!--no_index_start-->
+<!-- DOL BANNER BEGIN -->
+<!-- DOL BANNER START -->
+		<a class="skiplink" href="#startcontent">Skip to Content</a>
+		<div id="dol-bar">
+			<div id="dol-bar-content">
+				<div id="dol-bar-emblem">
+					<a href="http://www.dol.gov/">US Department of Labor</a>
+				</div>
+				<form id="dol-bar-form" name="subsform" action="https://subscriptions.bls.gov/accounts/USDOLBLS/subscriber/qualify" method="get">
+				<div id="dol-bar-right">
+					<a href="/bls/topicsaz.htm" aria-label="A-Z Index">A to Z Index</a> &nbsp;|&nbsp;
+					<a href="/bls/faqs.htm" aria-label="Frequently Asked Questions">FAQs</a> &nbsp;|&nbsp;
+					<a href="/bls/infohome.htm" aria-label="About Bureau of Labor Statistics">About BLS</a> &nbsp;|&nbsp;
+					<a href="/bls/contact.htm" aria-label="Contact Bureau of Labor Statistics">Contact Us</a> &nbsp; &nbsp;
+					<label for="dol-bar-email" class="invisible">E-mail:</label>
+					<input id="dol-bar-email" name="email" type="text" onclick="this.value=''; this.onclick = null;" value="Subscribe to E-mail Updates" title="Enter your email address to subscribe to updates" size="32">
+					<label for="dol-bar-subscribe" class="invisible">Subscribe Submit</label>
+					<input id="dol-bar-subscribe" type="image" src="/images/buttons/subscribe_button_red_on_red.png" alt="BLS Subscribe Submit">
+				</div>
+				</form>
+				<div class="clearfloat"></div>
+			</div>
+		</div>
+<!-- DOL BANNER END -->
+
+<!-- DOL BANNER END -->
+<!-- BLS BANNER BEGIN -->
+<!-- BLS BANNER START -->
+<div id="top"></div>
+<div id="bls-banner-wrapper">
+  <div id="bls-banner">
+    <div id="bls-banner-emblem">
+      <a href="/home.htm">U.S. Bureau of Labor Statistics</a>
+    </div>
+    <div id="bls-banner-right">
+      <div id="bls-banner-links"><span class="social-follow"><a title="Follow BLS on Twitter" target="_blank" href="http://twitter.com/BLS_gov" aria-label="Bureau of Labor Statistics Twitter">Follow Us</a> </span><span class="social-follow-links"> 
+        <!-- <img src="/images/icons/facebook.png"/>--> 
+        <a target="_blank" href="http://twitter.com/BLS_gov" aria-label="Bureau of Labor Statistics Twitter"><img alt="Follow BLS on Twitter" src="/images/icons/twitter_bird_icon_white.png"/></a> 
+        <!--<img src="/images/icons/linkedin.png"/>--> 
+        </span> | <a href="/newsroom/" class="first" aria-label="Newsroom">What's New</a> | <a href="/schedule/news_release/">Release Calendar</a> | <a href="https://blogs.bls.gov/blog/" aria-label="Blog page">Blog</a></div>
+      <div id="bls-banner-search">
+        <form method="get" action="/search/query">
+		  <label for="bls-banner-search-input" class="invisible">Search:</label>
+          <input name="query" type="text" id="bls-banner-search-input" value="Search BLS.gov" title="Search Input" onclick="this.value=''; this.onclick = null;">
+		  <label for="bls-banner-search-submit" class="invisible">Search button</label>
+          <input type="image" src="/images/buttons/search_button_red_on_red.png" name="term" id="bls-banner-search-submit" alt="BLS Search Submit" title="Submit">
+        </form>
+      </div>
+    </div>
+    <div class="clearfloat"></div>
+  </div>
+</div>
+<!-- BLS BANNER END --> 
+
+
+<!-- BLS BANNER END -->
+<!-- MAIN NAV BEGIN -->
+<div id="main-nav-wrapper">
+	<div id="main-nav-container">
+		<div>
+			<ul id="main-nav" class="nojs">
+    <li class="submenu-home"><a href="/home.htm" style="padding-left: 1em;" aria-label="Section: Bureau of Labor Statistics homepage">Home</a>
+        <!-- ********************************************** Begin Home Tab LIST ****************************************** -->
+<!-- 1st column -->
+
+<div class="sub" id="submenu-home">
+	<ul>
+		<li class="heading"><a href="#" aria-label="Subject Areas">Subject Areas&#187;</a></li>
+		<li><a href="/bls/inflation.htm" aria-label="Statistics on Inflation and Prices">Inflation &amp; Prices</a></li>
+		<li><a href="/bls/spending.htm" aria-label="Statistics on Spending and Time Use">Spending &amp; Time Use</a></li>
+		<li><a href="/bls/unemployment.htm" aria-label="Statistics on Unemployment">Unemployment</a></li>
+		<li><a href="/bls/employment.htm" aria-label="Statistics on Employment">Employment</a></li>
+		<li><a href="/bls/wages.htm" aria-label="Pay and Benefits">Pay &amp; Benefits</a></li>
+		<li><a href="/bls/productivity.htm" aria-label="Productivity Statistics">Productivity</a></li>
+		<li><a href="/iif/" aria-label="Workplace Injuries, Illnesses, and Fatalities">Workplace Injuries</a></li>
+		<li><a href="/bls/international.htm" aria-label="International Data and Technical Cooperation">International</a></li>
+		<li><a href="/bls/demographics.htm" aria-label="Demographic Data">Demographics</a></li>
+		<li><a href="/bls/industry.htm" aria-label="Statistics by Industry">Industries</a></li>
+		<li><a href="/bls/business.htm" aria-label="Statistics on Business Costs">Business Costs</a></li>
+		<li><a href="/bls/occupation.htm" aria-label="Statistics by Occupation">Occupations</a></li>
+		<li><a href="/bls/geography.htm" aria-label="Statistics by Geography">Geography</a></li>
+	</ul>
+	<!-- 2nd column -->
+	<ul>
+		<li class="heading"><a href="#" aria-label="Resources For...">Resources For &#187;</a></li>
+		<li><a href="/audience/business.htm" aria-label="Resources for Business Leaders">Business Leaders</a></li>
+		<li><a href="/audience/consumers.htm" aria-label="Resources for Consumers">Consumers</a></li>
+		<li><a href="/developers/home.htm" aria-label="Developer's Site">Developers</a></li>
+		<li><a href="/audience/economists.htm" aria-label="Economist or Economic Analyst">Economists</a></li>
+		<li><a href="/audience/investors.htm" aria-label="Resources for Financial Investors">Investors</a></li>
+		<li><a href="/audience/jobseekers.htm" aria-label="Resources for Jobseekers">Jobseekers</a></li>
+		<li><a href="/newsroom/home.htm" aria-label="Newsroom">Media</a></li>
+		<li><a href="/audience/policy.htm" aria-label="Resources for Public Policymakers">Public Policymakers</a></li>
+		<li><a href="/audience/students.htm" aria-label="Resources for Students and Teachers">Students &amp; Teachers</a></li>
+		<li><a href="/respondents/home.htm" aria-label="Survey Respondents">Survey Respondents</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="#" aria-label="At a Glance Tables">At a Glance Tables &#187;</a></li>
+		<li><a href="/eag/eag.us.htm" aria-label="United States' Economy at a Glance">U.S. Economy</a></li>
+		<li><a href="/eag/" aria-label="Economy at a Glance">Regions, States, &amp; Areas</a></li>
+		<li><a href="/iag/home.htm" aria-label="Industries at a Glance">Industries</a></li>
+	</ul>
+	<!-- 3rd column -->
+	<ul>
+		<li class="heading"><a href="#" aria-label="More">MORE &#187;</a></li>
+		<li><a href="/bls/announcement.htm" aria-label="Annoucements">Announcements</a></li>
+		<li><a href="/bls/bls-speakers/bls-speakers.htm" aria-label="BLS Speakers Available">BLS Speakers Available</a></li>
+		<li><a href="/bls/erratabydate.htm" aria-label="More, Errata">Errata</a></li>      
+        <li><a href="/bls/research.htm" aria-label="Research Programs">Research</a></li>
+        <li><a href="/osmr/response-rates/home.htm" aria-label="Response Rates">Response Rates</a></li>
+		<li><a href="/bls/other.htm" aria-label="More, Statistical Sites">Statistical Sites</a></li>
+	</ul>
+</div>
+<!-- ***********************************************End Home Tab LIST ******************************************** --> 
+
+    </li>
+    <li class="submenu selected"><a href="/bls/proghome.htm" aria-label="Section: Subjects">Subjects</a>
+        <!-- ************************************* Begin SUBJECTS TAB list ****************************************** -->
+<!-- 1st column -->
+
+<div class="sub" id="submenu-programs">
+	<ul>
+		<li class="heading"><a href="/bls/inflation.htm" aria-label="Statistics on Inflation and Prices">Inflation &amp; Prices &#187;</a></li>
+		<li><a href="/cpi/" aria-label="Consumer Price Index ">Consumer Price Index</a></li>
+		<li><a href="/ppi/" aria-label="Producer Price Indexes">Producer Price Indexes</a></li>
+		<li><a href="/mxp/" aria-label="Inflation and Prices, Import Export Price Indexes">Import/Export Price Indexes</a></li>
+		<li><a href="/ncs/ect/" aria-label="Employment Cost Trends">Employment Cost Index</a></li>
+		<li><a href="/bls/escalation.htm" aria-label="Contract Escalation">Contract Escalation</a></li>
+		<li><a href="/pir/" aria-label="Price and Index Number Research">Price Index Research</a></li>
+		<li><a href="/bls/inflation.htm" aria-label="Statistics on Inflation and Prices">Inflation &amp; Prices Overview</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/wages.htm" aria-label="Statistics on Pay and Benefits">Pay &amp; Benefits &#187;</a></li>
+		<li><a href="/ncs/ect/" aria-label="Employment Cost Trends">Employment Costs</a></li>
+		<li><a href="/ncs/" aria-label="National Compensation Survey">National Compensation Data</a></li>
+		<li><a href="/bls/blswage.htm" aria-label="Wage Data by Area and Occupation">Wages by Area &amp; Occupation</a></li>
+		<li><a href="/cps/earnings.htm#demographics" aria-label="Earnings by Demographics">Earnings by Demographics</a></li>
+		<li><a href="/ces/" aria-label="Current Employment Statistics">Earnings by Industry</a></li>
+		<li><a href="http://www.bls.gov/cew/" aria-label="Quarterly Census of Employment and Wages">County Wages</a></li>
+		<li><a href="/ncs/ebs/" aria-label="Employee Benefits Survey">Benefits</a></li>
+		<li><a href="/crp/" aria-label="Compensation Research & Program Development">Compensation Research</a></li>
+		<li><a href="/wsp/" aria-label="Work Stoppages">Strikes &amp; Lockouts </a></li>
+		<li><a href="/bls/wages.htm" aria-label="Statistics on Pay and Benefits">Pay &amp; Benefits Overview</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/spending.htm" aria-label="Statistics on Spending and Time Use">Spending &amp; Time Use &#187;</a></li>
+		<li><a href="/cex/" aria-label="Consumer Expenditure Surveys">Consumer Expenditures </a></li>
+		<li><a href="/tus/" aria-label="American Time Use Survey">How Americans Spend Time</a></li>
+	</ul>
+	<!-- 2nd column -->
+	<ul>
+		<li class="heading"><a href="/bls/unemployment.htm" aria-label="Statistics on Unemployment">Unemployment &#187;</a></li>
+		<li><a href="/cps/" aria-label="Labor Force Statistics from the Current Population Survey">National Unemployment Rate </a></li>
+		<li><a href="/lau/" aria-label="Local Area Unemployment Statistics">State &amp; Local Unemployment Rates </a></li>
+		<li><a href="/ers/" aria-label="Employment Research and Program Development">Unemployment Research</a></li>
+		<li><a href="/bls/unemployment.htm" aria-label="Statistics on Unemployment">Unemployment Overview</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/employment.htm" aria-label="Statistics on Employment">Employment &#187;</a></li>
+		<li><a href="/ces/" aria-label="Current Employment Statistics">National Employment </a></li>
+		<li><a href="/sae/" aria-label="State and Metro Area Employment, Hours, and Earnings">State &amp; Local Employment </a></li>
+		<li><a href="http://www.bls.gov/cew/" aria-label="Quarterly Census of Employment and Wages">State &amp; County Employment </a></li>
+		<li><a href="/cps/" aria-label="Labor Force Statistics from the Current Population Survey">Worker Characteristics </a></li>
+		<li><a href="/emp/" aria-label="Employment Projections">Employment Projections </a></li>
+		<li><a href="/jlt/" aria-label="Job Openings and Labor Turnover Survey">Job Openings &amp; Labor Turnover </a></li>
+		<li><a href="/oes/" aria-label="Occupational Employment Statistics">Employment by Occupation </a></li>
+		<li><a href="/nls/" aria-label="National Longitudinal Surveys">Work Experience Over Time </a></li>
+		<li><a href="/bdm/" aria-label="Business Employment Dynamics">Business Employment Dynamics </a></li>
+		<li><a href="/fdi/" aria-label="Foreign Direct Investment">Foreign Direct Investment </a></li>
+		<li><a href="/ers/" aria-label="Employment Research and Program Development">Employment Research</a></li>
+		<li><a href="/bls/employment.htm" aria-label="Statistics on Employment">Employment Overview</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/iif/" aria-label="Injuries, Illnesses, and Fatalities">Workplace Injuries &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/ors/" aria-label="Occupational Requirements Survey">Occupational Requirements &#187;</a></li>
+	</ul>
+	<!-- 3rd column -->
+	<ul>
+		<li class="heading"><a href="/bls/productivity.htm" aria-label="Productivity Statistics">Productivity &#187;</a></li>
+		<li><a href="/lpc/" aria-label="Labor Productivity and Costs"> Labor Productivity &amp; Costs</a></li>
+		<li><a href="/mfp/" aria-label="Multifactor Productivity">Multifactor Productivity</a></li>
+		<li><a href="/dpr/" aria-label="Productivity Research and Program Development">Productivity Research</a></li>
+		<li><a href="/bls/productivity.htm" aria-label="Productivity Statistics">Productivity Overview</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/international.htm" aria-label="International Data and Technical Cooperation">International &#187;</a></li>
+		<li><a href="/itc/" aria-label="International Technical Cooperation">International Technical Cooperation</a></li>
+		<li><a href="/mxp/" aria-label="Import/Export Price Indexes">Import/Export Price Indexes</a></li>
+		<li><a href="/bls/international.htm" aria-label="International Data and Technical Cooperation">International Overview</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/regions/home.htm" aria-label="Regional Offices Section: Geographic Information">REGIONAL OFFICES &#187;</a></li>
+		<li><a href="/regions/new-england/" aria-label="New England Information Office">New England (Boston)</a></li>
+		<li><a href="/regions/new-york-new-jersey/" aria-label="New York to New Jersey Information Office">New York-New Jersey (NY City)</a></li>
+		<li><a href="/regions/mid-atlantic/" aria-label="Mid-Atlantic Information Office">Mid-Atlantic (Philadelphia)</a></li>
+		<li><a href="/regions/southeast/" aria-label="Southeast Information Office">Southeast (Atlanta)</a></li>
+		<li><a href="/regions/midwest/" aria-label="Midwest Information Office">Midwest (Chicago)</a></li>
+		<li><a href="/regions/southwest/" aria-label="Southwest Information Office">Southwest (Dallas)</a></li>
+		<li><a href="/regions/mountain-plains/" aria-label="Mountain-Plains Information Office">Mountain-Plains (Kansas City)</a></li>
+		<li><a href="/regions/west/" aria-label="Western Information Office">West (San Francisco)</a></li>
+		<li><a href="/regions/home.htm" aria-label="Geographic Information">Regional Overview</a></li>
+	</ul>
+</div>
+<!-- **************************************End SUBJECT AREAS ******************************************** --> 
+		
+    </li>
+    <li class="submenu"><a href="/data/" aria-label="Section: Data Tools">Data Tools</a>
+        <!-- ******************************************** Begin DATA TOOLS LIST ****************************************** -->
+
+<div class="sub" id="submenu-data">
+    <ul>
+        <li class="heading"><a href="/data/" aria-label="Databases, Tables & Calculators by Subject">Data Retrieval Tools &#187;</a></li>
+		<li><a href="/cgi-bin/surveymost?bls" aria-label="Top Picks">Top Picks</a></li>
+		<li><a href="/cgi-bin/srgate" aria-label="Series Report">Series Report</a></li>
+		<li><a href="/data/" aria-label="Databases, Tables and Calculators by Subject">One Screen</a></li>
+		<li><a href="/data/" aria-label="Databases, Tables and Calculators by Subject">Multi-Screen</a></li>
+		<li><a href="/data/#maps" aria-label="Create Customized Maps">Maps </a></li>
+		<li><a href="/data/#calculators" aria-label="Calculators">Calculators</a></li>
+		<li><a href="/data/#api" aria-label="Public Data Application Programming Interface">Public Data API</a></li>
+		<li>&nbsp;</li>
+    </ul>
+    <!-- 2nd column -->
+    <ul>
+        <li class="heading"><a href="#" aria-label="Customized Tables">CUSTOMIZED TABLES &#187;</a></li>
+		<li><a href="http://download.bls.gov/pub/time.series/" aria-label="Text Files">Text Files</a></li>
+		<li><a href="/data/#historical-tables" aria-label="Historical News Release Tables">News Release Tables</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/moredata.htm" aria-label="More Sources of Data">More Sources of Data &#187;</a></li>
+		<li><a href="/rda/home.htm" aria-label="Bureau of Labor Statistics Restricted Data Access">Restricted Data Access</a></li>
+		<li><a href="/data/archived.htm" aria-label="Discontinued Bureau of Labor Statistics Databases">Discontinued Databases </a></li>
+		<li><a href="/help/hlpform1.htm" aria-label="Frequently asked questions regarding Bureau of Labor Statistics website data retrieval tools">FAQs</a></li>
+		<li><a href="/help/notice.htm" aria-label="Program and Survey Notices">Special Notices </a></li>
+		<li><a href="/bls/moredata.htm" aria-label="More Sources of Data">More Sources of Data</a></li>
+    </ul>
+</div>
+<!-- *********************************************End DATABASES and TOOLS LIST ******************************************** --> 
+
+    </li>
+    <li class="submenu"><a href="/opub/" aria-label="Section: Publications">Publications</a>
+        <!-- ********************************************** Begin PUBLICATIONS LIST ****************************************** -->
+
+<div class="sub" id="submenu-pubs">
+    <ul>
+        <li class="heading"><a href="/opub/#latest" aria-label="Latest Publications">Latest Publications &#187;</a></li>
+		<li><a href="/opub/ted/" aria-label="The Economics Daily">The Economics Daily</a></li>
+		<li><a href="/opub/mlr/" aria-label="Monthly Labor Review">Monthly Labor Review</a></li>
+		<li><a href="/opub/btn/" aria-label="Beyond the Numbers">Beyond the Numbers</a></li>
+		<li><a href="/spotlight/" aria-label="Spotlight on Statistics">Spotlight on Statistics</a></li>
+		<li><a href="/opub/reports" aria-label="Bureau of Labor Statistics Reports">Reports</a></li>
+		<li><a href="https://blogs.bls.gov/blog/" aria-label="Commissioner's Corner">Commissioner's Corner</a></li>
+		<li><a href="/video/" aria-label="Videos">Videos</a></li>
+    </ul>
+    <!-- 2nd column -->
+    <ul>
+        <li>&nbsp;</li>
+		<li><a href="/careeroutlook/" aria-label="Career Outlook">Career Outlook</a></li>
+		<li><a href="/ooh/" aria-label="Occupational Outlook Handbook">Occupational Outlook Handbook</a></li>
+		<li><a href="/opub/geographic-profile/home.htm" aria-label="Geographic Profile">Geographic Profile</a></li>
+		<li><a href="/opub/hom/" aria-label="Handbook of Methods">Handbook of Methods</a></li>
+		<!-- <li><a href="/nls/nlsnews.htm">National Longitudinal Surveys News</a></li>
+		<li><a href="/opub/#magazines">Magazines &amp; Journals </a></li>
+		<li><a href="/opub/#chartbooks">Chartbooks</a></li>
+		<li><a href="/opub/#catalog">Catalog of Publications </a></li> -->
+		<li><a href="/osmr/" aria-label="Office of Survey Methods Research">Research Papers</a></li>
+		<li><a href="/opub/#copyright" aria-label="Copyright Information">Copyright Information</a></li>
+		<li><a href="/opub/#contact" aria-label="Contact and Help">Contact &amp; Help </a></li>
+    </ul>
+</div>
+<!-- ***********************************************End PUBLICATIONS LIST ******************************************** --> 
+    </li>
+    <li class="submenu"><a href="/bls/newsrels.htm" aria-label="Section: Economic Releases">Economic Releases</a>
+        
+<!-- ********************************************** Begin ECONOMIC RELEASES LIST ****************************************** -->
+<!-- 1st column -->
+<div class="sub" id="submenu-news">
+    <ul>
+        <li class="heading"><a href="/bls/newsrels.htm#latest-releases" aria-label="Latest Releases">Latest Releases &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/newsrels.htm#major" aria-label="Major Economic Indicators">Major Economic Indicators &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/schedule/news_release/" aria-label="Release Calendar">Schedules for news Releases &#187;</a></li>
+		<li><a href="/schedule/" aria-label="Release Calendar">By Month</a></li>
+		<li><a href="/schedule/schedule/by_prog/all_sched.htm" aria-label="Release Calendar">By News Release</a></li>
+		<li><a href="/schedule/news_release/current_year.asp" aria-label="Release Calendar Current Year">Current Year</a></li>
+		<li><a href="/bls/archived_sched.htm" aria-label="Schedules for Selected Bureau of Labor Statistics Economic News Releases for Prior Years">Prior Years</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/news-release/home.htm" aria-label="Archived News Releases">Archived News Releases &#187;</a></li>
+    </ul>
+    <!-- 2nd column -->
+    <ul>
+        <li class="heading"><a href="/bls/newsrels.htm#OEUS" aria-label="Employment and Unemployment">Employment &amp; Unemployment &#187;</a></li>
+		<li><a href="/bls/newsrels.htm#OEUS" aria-label="Monthly">Monthly</a></li>
+		<li><a href="/bls/newsrels.htm#OEUS" aria-label="Quarterly Annual and Other">Quarterly, annual, and other</a></li>
+		<li>&nbsp;</li>
+		<li class="heading" aria-label="Inflation and Prices"><a href="/bls/newsrels.htm#OPLC">Inflation &amp; Prices &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/newsrels.htm#OCWC" aria-label="Pay and Benefits and Workplace Injuries">Pay &amp; Benefits &amp; Workplace Injuries &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/newsrels.htm#OPT" aria-label="Productivity and Technology">Productivity &amp; Technology &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/newsrels.htm#OEP" aria-label="Employment Projections">Employment Projections &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/newsrels.htm#INT" aria-label="International Programs">International Programs &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/newsrels.htm#NEWS" aria-label="Regional News Releases">Regional News Releases &#187;</a></li>
+    </ul>
+</div>
+    </li>
+    <li class="submenu"><a href="/k12/" aria-label="Section: Students">Students</a>
+        
+<!-- ********************************************** Begin Students Tab LIST ****************************************** -->
+<div class="sub" id="submenu-students">
+    <ul>
+        <li><a href="/k12/games.htm" aria-label="Games and Quizzes">Games &amp; Quizzes</a></li>
+		<li><a href="/k12/students.htm" aria-label="Student Resources">Student Resources</a></li>
+		<li><a href="/k12/teachers.htm" aria-label="Teacher's Desk">Teacher&acute;s Desk</a></li>
+		<li><a href="/k12/history.htm" aria-label="History of BLS">History of BLS</a></li>
+		<li><a href="/k12/faq.htm" aria-label="Frequently Asked Questions regarding K through 12">FAQs</a></li>
+    </ul>
+</div>
+<!-- ***********************************************End Students Tab LIST ******************************************** -->
+
+    </li>
+    <li class="submenu"><a href="https://beta.bls.gov" aria-label="Section: Beta">Beta</a>
+        <!-- ***********************************************Start BETA LIST ******************************************** -->
+
+<div class="sub" id="submenu-beta">
+    <ul>
+        <li class="heading"><a href="http://beta.bls.gov/dataQuery/" aria-label="Data Finder 1.0">Data Finder &#187;</a></li>
+		<li class="heading"><a href="http://beta.bls.gov/maps/cew/us" aria-label="Quarterly Census of Employment and Wages State and Country Map">State and County Map &#187;</a></li>
+		<li class="heading"><a href="http://beta.bls.gov/comparison-matrix/home.htm" aria-label="Comparison Matrix of BLS compensation data sources">Comparing Pay Measures &#187;</a></li>
+    </ul>
+</div>
+<!-- ***********************************************End BETA LIST ******************************************** --> 
+		
+    </li>
+</ul>
+		</div>
+		<div class="clearfloat"></div>
+	</div>
+</div>
+
+<!-- MAIN NAV END -->
+
+<!-- WRAPPER TOP BEGIN -->
+	<div id="wrapper-outer">
+		<div id="wrapper">
+			<div id="container">
+<!-- WRAPPER TOP END -->
+<!-- SUBDOMAIN TITLE TOP BEGIN -->
+				<div id="subdomain-title">
+					<span id="subdomain-title-text">
+					
+<!-- SUBDOMAIN TITLE TOP END -->
+<!-- SUBDOMAIN TITLE BEGIN -->
+<!--no_index_end-->
+Labor Force Statistics from the Current Population Survey
+
+<!--no_index_start-->
+<!-- SUBDOMAIN TITLE END -->
+<!-- SUBDOMAIN TITLE MIDDLE BEGIN -->
+		</span>		
+<div class="article-tools-box-container">
+	<div class="article-tools-box social-media" style="margin: 8px 0px 0px 4px;" >
+       <span class="social-media">
+            SHARE ON:
+           <a href="javascript:void(0);" class="share_facebook"><img alt="share on facebook" src="/images/icons/facebook.png" title="Facebook" /></a>
+           <a href="javascript:void(0);" class="share_twitter"><img alt="share on twitter" src="/images/icons/twitter.png" title="Twitter" /></a>
+           <a href="javascript:void(0);" class="share_linkedin"><img alt="share on linkedin" src="/images/icons/linkedin.png" title="LinkedIn" /></a>
+           <!--<a href="javascript:void(0);" class="share_googleplus"><img src="/images/icons/google.png" title="Google Plus" /></a>-->
+         </span>
+    </div>
+	<div class="article-tools-box" style="margin-right: 4px;">
+		<a href="https://data.bls.gov/cgi-bin/print.pl/cps/lfcharacteristics.htm">PRINT:<img src="/images/icons/icon_small_printer.gif" alt="Print" width="16" height="16" style="padding-left:3px"></a>
+	</div>
+</div>
+
+<!-- SUBDOMAIN TITLE MIDDLE END -->
+
+			<div class="article-tools-box"><a href="#TB_inline?height=200&amp;width=325&amp;inlineId=cps_program_links" class="thickbox">CPS <img src="/images/icons/icon_small_link.gif" alt="CPS Program Links"></a></div>
+			<div id="cps_program_links" style="display: none;">
+				<h2>Labor Force Statistics from the Current Population Survey</h2>
+				<ul>
+					<li><a href="/cps/">CPS Homepage</a></li>
+					<li><a href="/cps/cps_over.htm">CPS Overview</a></li>
+					<li><a href="/cps/faq.htm">CPS FAQ</a></li>
+					<li><a href="/cps/contact.htm">Contact CPS</a></li>
+				</ul>
+			</div>
+	
+<!-- SUBDOMAIN TITLE BOTTOM BEGIN -->
+    
+	</div> <!-- End Subdomain Title Div -->
+	<div id="subdomain-title-border"></div>
+
+<!-- SUBDOMAIN TITLE BOTTOM END -->
+
+<!-- 2COL LAYOUT COL1 BEGIN -->	
+<div class="clearfloat" id="startcontent"></div>
+<table id="main-content-table">
+	<tr>
+		<td id="secondary-nav-td">
+			<div id="secondary-nav">
+
+<!-- 2COL LAYOUT COL1 END -->
+
+<!-- SECONDARY NAV BEGIN -->		
+<div class="secondary-nav">
+		<ul class="level1">
+			<li class="menuhead"><a href="/cps/home.htm">BROWSE CPS</a></li>
+			<li><a href="/cps/home.htm">CPS HOME</a></li>
+			<li class="submenu"><a href="/cps/cps_over.htm">CPS OVERVIEW</a>
+				<ul class="level2">
+						<li><a href="/cps/cps_over.htm#faq">Frequently Requested Information</a></li>
+						<li><a href="/cps/cps_over.htm#available">Data Available</a></li>
+						<li><a href="/cps/cps_over.htm#coverage">Coverage</a></li>
+						<li><a href="/cps/cps_over.htm#source">Data Source</a></li>
+						<li><a href="/cps/cps_over.htm#reference">Reference Period</a></li>
+						<li><a href="/cps/cps_over.htm#publication">Forms of Publication</a></li>
+						<li><a href="/cps/cps_over.htm#uses">Uses</a></li>
+						<li><a href="/cps/cps_over.htm#other">Other labor force topics and fact sheets</a></li>
+						<li><a href="/cps/cps_over.htm#methodology">Methodology</a></li>
+				</ul>
+			</li>
+			<li><a href="/cps/news.htm">CPS NEWS RELEASES</a></li>
+			<li><a href="/cps/data.htm">CPS DATABASES</a></li>
+			<li><a href="/cps/tables.htm">CPS TABLES</a></li>		
+			<li><a href="/cps/publications.htm">CPS PUBLICATIONS</a></li>
+			<li><a href="/cps/faq.htm">CPS FAQs</a></li>
+			<li><a href="/cps/contact.htm">CONTACT CPS</a></li>
+		</ul>
+	</div>
+
+		<form action="/search/query" id="search-secondary-nav-form" method="get">
+		<p>
+			<label for="search-secondary-nav-query">SEARCH CPS</label>
+			<input name="prefix" type="hidden" id="search-secondary-nav-category" value="https://www.bls.gov/cps">
+			<input name="query" type="text" id="search-secondary-nav-query">
+			<input type="submit" name="submit" id="search-secondary-nav-submit" value="Go">
+		</p>
+	</form>
+<div class="secondary-nav">
+	<ul class="level1">
+		<li class="menuhead"><a href="/cps/home.htm">CPS TOPICS</a></li>
+		<li><a href="/cps/cpsaz.htm">CPS TOPICS A TO Z</a></li>
+			<li class="submenu"><a href="/cps/demographics.htm">DEMOGRAPHICS</a>
+				<ul class="level2">
+					<li><a href="/cps/demographics.htm">ALL ABOUT DEMOGRAPHICS</a></li>
+					<li><a href="/cps/demographics.htm#disability">DISABILITY</a></li>
+					<li><a href="/cps/demographics.htm#education">EDUCATIONAL ATTAINMENT</a></li>
+					<li><a href="/cps/demographics.htm#families">FAMILIES</a></li>
+					<li><a href="/cps/demographics.htm#foreignborn">FOREIGN-BORN WORKERS</a></li>
+					<li><a href="/cps/demographics.htm#older">OLDER WORKERS</a></li>
+					<li><a href="/cps/demographics.htm#race">RACE AND HISPANIC ETHNICITY</a></li>
+					<li><a href="/cps/demographics.htm#vets">VETERANS</a></li>
+					<li><a href="/cps/demographics.htm#women">WOMEN</a></li>
+					<li><a href="/cps/demographics.htm#youth">YOUTH</a></li>
+				</ul></li>
+			<li class="submenu"><a href="/cps/lfcharacteristics.htm#emp">EMPLOYMENT</a>
+				<ul class="level2">
+					<li><a href="/cps/lfcharacteristics.htm#emp">ALL ABOUT EMPLOYMENT</a></li>
+					<li><a href="/cps/demographics.htm">DEMOGRAPHICS</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#hours">HOURS OF WORK</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#mjh">MULTIPLE JOBHOLDERS</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#occind">OCCUPATION AND INDUSTRY</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#self">SELF-EMPLOYED WORKERS</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#tenure">TENURE</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#union">UNION MEMBERS</a></li>
+				</ul></li>
+			<li class="submenu"><a href="/cps/lfcharacteristics.htm#unemp">UNEMPLOYMENT</a>
+				<ul class="level2">
+					<li><a href="/cps/lfcharacteristics.htm#unemp">ALL ABOUT UNEMPLOYMENT</a></li>
+					<li><a href="/cps/demographics.htm">DEMOGRAPHICS</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#displaced">DISPLACED WORKERS</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#occind">OCCUPATION AND INDUSTRY</a></li>
+				</ul></li>
+			<li class="submenu"><a href="/cps/earnings.htm">EARNINGS</a>
+				<ul class="level2">
+					<li><a href="/cps/earnings.htm">ALL ABOUT EARNINGS</a></li>
+					<li><a href="/cps/earnings.htm#demographics">DEMOGRAPHICS</a></li>
+					<li><a href="/cps/earnings.htm#education">EDUCATIONAL ATTAINMENT</a></li>
+					<li><a href="/cps/earnings.htm#minwage">MINIMUM WAGE WORKERS</a></li>
+					<li><a href="/cps/earnings.htm#occind">OCCUPATION AND INDUSTRY</a></li>
+					<li><a href="/cps/earnings.htm#workpoor">WORKING POOR</a></li>
+				</ul></li>
+			<li class="submenu"><a href="/cps/lfcharacteristics.htm#hours">HOURS OF WORK</a>
+				<ul class="level2">
+					<li><a href="/cps/lfcharacteristics.htm#hours">ALL ABOUT HOURS OF WORK</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#fullpart">FULL- AND PART-TIME WORK</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#workexp">WORK EXPERIENCE</a></li>
+				</ul></li>
+			<li class="submenu"><a href="/cps/documentation.htm">TECHNICAL DOCUMENTATION</a>
+				<ul class="level2">
+					<li><a href="/cps/documentation.htm#concepts">CONCEPTS AND METHODOLOGY</a></li>
+					<li><a href="/cps/documentation.htm#ces_cps">CPS AND CES EMPLOYMENT DIFFERENCES</a></li>
+					<li><a href="/cps/documentation.htm#htgm">HOW THE GOVERNMENT MEASURES UNEMPLOYMENT</a></li>
+					<li><a href="/cps/documentation.htm#oi">OCCUPATIONAL AND INDUSTRY CLASSIFICATION</a></li>
+					<li><a href="/cps/documentation.htm#pop">POPULATION CONTROL ADJUSTMENTS</a></li>
+					<li><a href="/cps/documentation.htm#reliability">RELIABILITY OF ESTIMATES</a></li>
+					<li><a href="/cps/documentation.htm#sa">SEASONAL ADJUSTMENT</a></li>
+				</ul></li>
+			</ul>
+		</div>
+		<div class="secondary-nav">
+			<ul class="level1">
+				<li class="menuhead"><a href="/cps/home.htm">RELATED LINKS</a></li>
+				<li><a href="/respondents/cps/home.htm">INFORMATION FOR CPS PARTICIPANTS</a></li>
+				<li><a href="/lau/home.htm">STATE AND LOCAL LABOR FORCE DATA</a></li>
+				<li><a href="/ces/home.htm">NONFARM PAYROLL EMPLOYMENT</a></li>
+			</ul>
+      <div id="govdelivery-banner">
+	<p class="banner-text">Subscribe <br />to Contingent and Alternative Employment Arrangements</p>
+</div>
+<div id="subscribe-form">
+	<form action="https://subscriptions.bls.gov/accounts/USDOLBLS/subscribers/qualify">
+		<input id="topic_id" name="topic_id" type="hidden" value="USDOLBLS_696" />
+		<!--<label class="hidden" for="email">email:</label>-->
+		<input class="long" id="email" name="email" aria-label="subscribe email" type="text" value="Email Address" onclick="this.value=''; this.onclick = null;"/>
+		<input class="form_button" name="commit" type="submit" value="GO" />
+	</form>
+</div>	 
+ 	</div>
+
+<!-- SECONDARY NAV END -->
+
+<!-- 2COL LAYOUT COL2 BEGIN -->
+			</div>
+		</td>
+		<td id="main-content-td" class="main-content">
+			<div id="bodytext" class="verdana md">
+			
+
+<!-- 2COL LAYOUT COL2 END -->
+
+<!--no_index_end-->
+<!-- MAIN CONTENT BEGIN -->
+
+<!-- ****************************************** End HEADER ************************************************** -->
+<h1>Labor force characteristics</h1>
+
+ <p>This page contains information on the labor force data on characteristics of <a href="#emp">employed</a> and <a href="#unemp">unemployed</a> persons and persons <a href="#nlf">not in the labor force</a>. Data on <a href="#hours">hours of work</a>, <a href="/cps/earnings.htm">earnings</a>, and <a href="/cps/demographics.htm">demographic characteristics</a> also are available.</p>
+ <p>Labor force information for States, counties, and cities are available separately from the <a href="/lau/">Local Area Unemployment Statistics</a> (LAUS) program. Contact LAUS by <a href="mailto:lausinfo@bls.gov">e-mail</a> or call (202) 691-6392.</p>
+
+ <div class="highlight-box-blue">
+  <h4>On This Page</h4>
+
+  <table style="MARGIN: 1em auto" cellspacing="0" cellpadding="0" border="0">
+   <tbody>
+    <tr>
+     <td>
+      <!--begin On This Page box-->
+
+      <ul>
+       <li><a href="#emp"><strong>All about employment</strong></a></li>
+
+       <li><a href="#unemp"><strong>All about unemployment</strong></a></li>
+
+       <li><a href="#hours"><strong>All about hours of work</strong></a></li>
+
+       <li><a href="#absences"><strong>Absences</strong></a></li>
+
+       <li><a href="#annualstory"><strong>Annual labor market summary</strong></a></li>
+
+       <li><a href="#altmeasures"><strong>Alternative measures (U1-U6)</strong></a></li>
+
+       <li><a href="#computeruse"><strong>Computer and Internet use</strong></a></li>
+
+       <li><a href="#contingent"><strong>Contingent workers</strong></a></li>
+
+       <li><a href="#discouraged"><strong>Discouraged workers</strong></a></li>
+
+       <li><a href="#displaced"><strong>Displaced workers</strong></a></li>
+
+       <li><a href="#emp"><strong>Employed persons</strong></a></li>
+
+       <li><a href="#fullpart"><strong>Full- and part-time status</strong></a></li>
+
+       <li><a href="#hours"><strong>Hours of work</strong></a></li>
+
+       <li><a href="#pter"><strong>Involuntary part-time workers</strong></a></li>
+
+       </ul>
+     </td>
+
+     <td style="WIDTH: 4em">&nbsp;</td>
+
+     <td>
+      <ul>
+       <li><a href="#laborforce"><strong>Labor force</strong></a></li>
+
+       <li><a href="#lfflows"><strong>Labor force status flows</strong></a></li>
+
+       <li><a href="#mjh"><strong>Multiple jobholders</strong></a></li>
+
+       <li><a href="#nlf"><strong>Not in the labor force</strong></a></li>
+
+       <li><a href="#occind"><strong>Occupation and industry</strong></a></li>
+
+       <li><a href="#self"><strong>Self-employed persons</strong></a></li>
+
+       <li><a href="#summer"><strong>Summer work</strong></a></li>
+
+       <li><a href="#tenure"><strong>Tenure</strong></a></li>
+
+       <li><a href="#unemp"><strong>Unemployment</strong></a></li>
+
+       <li><a href="#union"><strong>Union members</strong></a></li>
+
+       <li><a href="#workhome"><strong>Work at home</strong></a></li>
+
+       <li><a href="#workexp"><strong>Work experience</strong></a></li>
+
+       <li><a href="#schedules"><strong>Work schedules</strong></a></li>
+
+       <li><a href="#worklife"><strong>Worklife estimates</strong></a></li>
+      </ul>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </div><br>
+
+
+
+ <h2 id="absences">Absences</h2>
+ <ul>
+   <li>Employed people who missed work due to bad weather<br>
+  	<ul>
+      <li>Time series quick-links:
+   	  	<ul>
+   	  	<li><a href="https://data.bls.gov/timeseries/LNU02036012&years_option=all_years">People with a job, but not at work due to bad weather, nonagricultural sector</a></li>
+   	  	<li><a href="https://data.bls.gov/timeseries/LNU02033224&years_option=all_years">People who usually work full time, but were at work part time due to bad weather, nonagricultural sector</a></li>
+  		</ul>
+      <li>Time series quick-link:
+   	  	<ul><a href="https://data.bls.gov/timeseries/LNU02044495&years_option=all_years">Nonagricultural wage and salary workers not at work, absence was unpaid</a><br>
+            (excludes private household workers)</li>
+  		</ul>
+      </li>
+  	</ul>
+  <br>
+  <li>Absences from work of employed full-time wage and salary workers (employee absences)<br>
+  	<ul>
+  	<li><a href="/cps/tables.htm#absences">Annual tables</a></li>
+  	</ul>
+  </li>
+  <br>
+  <li>Charts:
+    <ul>
+      <li><a href="/opub/ted/2018/4-point-2-million-workers-have-illness-related-work-absences-in-january-2018.htm">4.2 million workers have illness-related work absences in January 2018</a> (March 2018)</li>
+      <li><a href="/opub/ted/2017/work-absences-due-to-bad-weather-from-1994-to-2016.htm">Work absences due to bad weather from 1994 to 2016</a> (January 2017)</li>
+      <li><a href="/opub/ted/2015/illness-related-work-absences-in-january-2015-little-different-from-a-year-earlier.htm">Illness-related work absences in January 2015 little different from a year earlier</a> (February 2015)</li>
+      <li><a href="/opub/ted/2013/ted_20130219.htm">Illness-related work absences in January 2013 highest since February 2008</a> (February 2013)</li>
+    </ul>
+  </li>
+  <br>
+  <li>Articles:
+    <ul>
+      <li>Work absences due to bad weather: analysis of data from 1977 to 2010  (February 2012) (<a href="/opub/ils/pdf/opbils90.pdf">PDF</a>)</li>
+      <li>Illness-related work absences during flu season (July 2010) (<a href="/opub/ils/summary_10_06/illness_related_work_absences.htm">HTML</a>) (<a href="/opub/ils/pdf/opbils83.pdf">PDF</a>)</li>
+    </ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="annualstory">Annual labor market summary</h2>
+ <p>Each year a summary of the labor market is published in the Monthly Labor Review.</p>
+ <ul>
+  <li><a href="/opub/mlr/2018/article/job-market-continued-to-improve-in-2017-as-unemployment-rate-declined-to-a-17-year-low.htm">Job market continued to improve in 2017 as the unemployment rate declined to a 17-year low</a> (April 2018)</li>
+  <li><a href="/opub/mlr/2017/article/unemployment-holds-steady-for-much-of-2016-but-edges-down-in-fourth-quarter.htm">Unemployment holds steady for much of 2016 but edges down in the fourth quarter</a> (April 2017)</li>
+  <li><a href="/opub/mlr/2016/article/unemployment-rate-nears-prerecession-level-by-end-of-2015.htm">Unemployment rate nears prerecession level by end of 2015</a> (April 2016)</li>
+  <li><a href="/opub/mlr/2015/article/continued-improvement-in-u-s-labor-market-in-2014.htm">Continued improvement in U.S. labor market in 2014</a> (April 2015)</li>
+  <li><a href="/opub/mlr/2014/article/unemployment-continued-its-downward-trend-in-2013.htm">Unemployment continued its downward trend in 2013</a> (April 2014)</li>
+  <li>U.S. labor market continued to improve in 2012 (March 2013) (<a href="/opub/mlr/2013/03/art1full.pdf">PDF</a>)</li>
+  <li>U.S. labor market shows gradual improvement in 2011 (March 2012) (<a href="/opub/mlr/2012/03/art1full.pdf">PDF</a>)</li>
+  <li>Unemployment remains high in 2010 (March 2011) (<a href="/opub/mlr/2011/03/art1full.pdf">PDF</a>)</li>
+  <li>The labor market in 2009: recession drags on (March 2010) (<a href="/opub/mlr/2010/03/art1full.pdf">PDF</a>)</li>
+  <li>U.S. labor market in 2008: economy in recession (March 2009) (<a href="/opub/mlr/2009/03/art1full.pdf">PDF</a>)</li>
+  <li>Household survey indicators weaken in 2007 (March 2008) (<a href="/opub/mlr/2008/03/art1full.pdf">PDF</a>)</li>
+  <li>Household survey data show labor market improvements in 2006 (March 2007) (<a href="/opub/mlr/2007/03/art1full.pdf">PDF</a>)</li>
+  <li>Lower unemployment in 2005 (March 2006) (<a href="/opub/mlr/2006/03/art1full.pdf">PDF</a>)</li>
+  <li>Household survey indicators show some improvement in 2004 (March 2005) (<a href="/opub/mlr/2005/03/art1full.pdf">PDF</a>)</li>
+  <li>The US labor market in 2003: signs of improvement by year&rsquo;s end (March 2004) (<a href="/opub/mlr/2004/03/art1full.pdf">PDF</a>)</li>
+  <li>US labor market in 2002: continued weakness (February 2003) (<a href="/opub/mlr/2003/02/art1full.pdf">PDF</a>)</li>
+  <li>US labor market in 2001: economy enters a recession (February 2002) (<a href="/opub/mlr/2002/02/art1full.pdf">PDF</a>)</li>
+  <li>The job market in 2000: slowing down as the year ended (February 2001) (<a href="/opub/mlr/2001/02/art1full.pdf">PDF</a>)</li>
+ </ul>
+<br><br>
+
+
+
+ <h2>Class of worker</h2>
+ <p>See <a href="#self">Self-employed persons</a>.</p><br>
+
+
+ <h2 id="computeruse">Computer and Internet use</h2>
+ <p>These data on computer and Internet use at work come from a special supplemental survey last conducted in October 2003.</p>
+ <ul>
+  <li>News release: Computer and Internet Use at Work<br>
+   (<a href="/news.release/ciuaw.toc.htm">HTML</a>) (<a href="/news.release/pdf/ciuaw.pdf">PDF</a>) (<a href="/bls/news-release/home.htm#CIUAW">Archives</a>)</li>
+  <br>
+  <li>Article: Computer and Internet use at work in 2001 (February 2003) (<a href="/opub/mlr/2003/02/art2full.pdf">PDF</a>)</li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="contingent">Contingent and alternative employment arrangements</h2>
+ <p>Contingent workers are people who do not expect their jobs to last or who reported that their jobs are temporary.
+ They do not have an implicit or explicit contract for continuing employment.
+ Alternative employment arrangements include people employed as independent contractors, on-call workers, temporary help agency workers, and workers provided by contract firms. </p>
+ <p>A special supplemental survey on contingent and alternative employment arrangements was conducted in May 2017.
+ A <a href="/news.release/conemp.toc.htm">news release</a> summarizing the data from this survey was published June 7, 2018. </p>
+ <p>The Census Bureau posted a <a href="https://thedataweb.rm.census.gov/ftp/cps_ftp.html#cpssupps" target="new">public use microdata file</a> with data on contingent and alternative employment arrangements from this survey.</p>
+
+<div class="highlight-box-yellow">
+  <div>
+  <h4>Announcement</h4>
+  <p><span class="new">NEW</span> <a href="/cps/electronically-mediated-employment.htm">Data on electronically mediated employment</a> </p>
+  </div></div>
+
+ <ul>
+  <li>News release: Contingent and Alternative Employment Arrangements<br>
+   (<a href="/news.release/conemp.toc.htm">HTML</a>) (<a href="/news.release/pdf/conemp.pdf">PDF</a>) (<a href="/bls/news-release/home.htm#CONEMP">Archives</a>)</li>
+  <br>
+  <li><a href="/cps/contingent-and-alternative-arrangements-faqs.htm">Frequently asked questions about contingent and alternative employment arrangements</a></li>
+  <br>
+  <li>Short video introducing the concepts of contingent work and alternative employment arrangements</li>
+  <br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/DehS8Rnb5SA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <br>
+  <br>
+  <li>Charts:
+   <ul>
+	<li><a href="/spotlight/2018/workers-in-alternative-employment-arrangements/home.htm">Workers in Alternative Employment Arrangements</a>, Spotlight on Statistics (November 2018)</li>
+	<li><a href="/spotlight/2018/contingent-workers/home.htm">A Look at Contingent Workers</a>, Spotlight on Statistics (September 2018)</li>
+	<li><a href="/opub/ted/2018/independent-contractors-made-up-6-point-9-percent-of-employment-in-may-2017.htm">Independent contractors made up 6.9 percent of employment in May 2017</a> (June 2018)</li>
+	<li><a href="/opub/ted/2018/3-point-8-percent-of-workers-were-contingent-in-may-2017.htm">3.8 percent of workers were contingent in May 2017</a> (June 2018)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Articles:
+   <ul>
+    <li>Contingent work in the late-1990s (March 2001) (<a href="/opub/mlr/2001/03/art1full.pdf">PDF</a>)</li>
+    <li>Characteristics of and preference for alternative work arrangements, 1999 (March 2001) (<a href="/opub/mlr/2001/03/art2full.pdf">PDF</a>)</li>
+    <li>Workers in alternative employment arrangements: a second look (November 1998) (<a href="/opub/mlr/1998/11/art1full.pdf">PDF</a>)</li>
+    <li>Contingent work: results from the second survey (November 1998) (<a href="/opub/mlr/1998/11/art2full.pdf">PDF</a>)</li>
+    <li>Gains in job security (March 1998) (<a href="/opub/mlr/1998/03/atissue.pdf">PDF</a>)</li>
+    <li>Contingent and alternative work arrangements, defined (October 1996) (<a href="/opub/mlr/1996/10/art1full.pdf">PDF</a>)</li>
+    <li>A profile of contingent workers (October 1996) (<a href="/opub/mlr/1996/10/art2full.pdf">PDF</a>)</li>
+    <li>Earnings and benefits of contingent and noncontingent workers (October 1996) (<a href="/opub/mlr/1996/10/art3full.pdf">PDF</a>)</li>
+    <li>Workers in alternative employment arrangements (October 1996) (<a href="/opub/mlr/1996/10/art4full.pdf">PDF</a>)</li>
+    <li>Earnings and benefits of workers in alternative work arrangements (October 1996) (<a href="/opub/mlr/1996/10/art5full.pdf">PDF</a>)</li>
+    <li>Into contingent and alternative employment: by choice? (October 1996) (<a href="/opub/mlr/1996/10/art6full.pdf">PDF</a>)</li>
+    <li>On the definition of 'contingent work' (December 1989) (<a href="/opub/mlr/1989/12/art2full.pdf">PDF</a>)</li>
+   </ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="discouraged">Discouraged workers</h2>
+ <p>Discouraged workers are a subset of persons marginally attached to the labor force. The marginally attached are those persons not in the labor force who want and are available for work, and who have looked for a job sometime in the prior 12 months, but were not counted as unemployed because they had not searched for work in the 4 weeks preceding the survey. Among the marginally attached, discouraged workers were not currently looking for work specifically because they believed no jobs were available for them or there were none for which they would qualify. See also: <a href="#nlf">Not in the labor force</a> and <a href="#altmeasures">Alternative measures of labor underutilization</a>.</p>
+ <ul>
+  <li>News release: Employment Situation (Monthly), <a href="/news.release/empsit.t16.htm">Table A-16</a><br>
+   (<a href="/news.release/empsit.toc.htm">HTML</a>) (<a href="/news.release/pdf/empsit.pdf">PDF</a>) (<a href="/bls/news-release/empsit.htm">Archives</a>)</li>
+  <br>
+  <li>Database: <a href="/webapps/legacy/cpsatab16.htm">Retrieve historical data series</a></li>
+  <br>
+  <li>Annual table:  Persons not in the labor force by desire and availability for work, age, and sex (<a href="/cps/cpsaat35.htm">HTML</a>) (<a href="/cps/cpsaat35.pdf">PDF</a>) (<a href="/cps/cpsaat35.xlsx">XLSX</a>)</li>
+  <br>
+  <li>Monthly table:  Persons not in the labor force by desire and availability for work, age, and sex (<a href="/web/empsit/cpseea38.htm">HTML</a>) (<a href="/web/empsit/cpseea38.pdf">PDF</a>)</li>
+  <br>
+  <li>Articles:
+   <ul>
+    <li>Ranks of discouraged workers and others marginally attached to the labor force rise during recession (April 2009) (<a href="/opub/ils/pdf/opbils74.pdf">PDF</a>)</li>
+    <li>Persons outside the labor force who want a job (July 1998) (<a href="/opub/mlr/1998/07/art3full.pdf">PDF</a>)</li>
+   </ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="displaced">Displaced workers</h2>
+ <p>Data on displaced workers are collected from a special supplementary survey conducted every 2 years. Displaced workers are defined as persons 20 years of age and older who lost or left jobs because their plant or company closed or moved, there was insufficient work for them to do, or their position or shift was abolished.</p>
+ <ul>
+  <li>News release: Worker Displacement<br>
+   (<a href="/news.release/disp.toc.htm">HTML</a>) (<a href="/news.release/pdf/disp.pdf">PDF</a>) (<a href="/bls/news-release/home.htm#DISP">Archives</a>)</li>
+  <br>
+  <li>Charts:
+   <ul>
+	<li><a href="/opub/ted/2018/two-thirds-of-workers-displaced-from-2015-to-2017-were-reemployed-in-january-2018.htm">Two-thirds of workers displaced from 2015 to 2017 were reemployed in January 2018</a> (September 2018)</li>
+	<li><a href="/opub/ted/2016/two-thirds-of-workers-displaced-from-2013-to-2015-were-reemployed-in-january-2016.htm">Two-thirds of workers displaced from 2013 to 2015 were reemployed in January 2016</a> (August 2016)</li>
+	<li><a href="/opub/ted/2014/ted_20140903.htm">Reemployment following worker displacement in 2011&ndash;2013 by industry</a> (September 2014)</li>
+	<li><a href="/opub/ted/2014/ted_20140828.htm">Sixty-one percent of workers displaced in 2011&ndash;2013 were reemployed in January 2014</a> (August 2014)</li>
+	<li><a href="/opub/ted/2012/ted_20120828.htm">Employment status of displaced workers</a> (August 2012)</li>
+	<li><a href="/opub/ted/2011/ted_20111012.htm">Displaced workers by industry</a> (October 2011)</li>
+	<li>Characteristics of displaced workers 2007&ndash;2009: a visual essay (<a href="/opub/mlr/2011/09/art1full.pdf">PDF</a>)</li>
+    <li><a href="/opub/ted/2010/ted_20100902.htm">Reemployment rates of displaced workers, January 2010</a> (September 2010)</li>
+    <li><a href="/opub/ted/2008/aug/wk4/art03.htm">Displaced workers' earnings at new jobs, January 2008</a> (August 2008)</li>
+    <li><a href="/opub/ted/2008/aug/wk3/art05.htm">Reason for job losses among workers displaced in 2005&ndash;07</a> (August 2008)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Articles:
+   <ul>
+   <li>Worker displacement in 1999&ndash;2000 (June 2004) (<a href="/opub/mlr/2004/06/art4full.pdf">PDF</a>)</li>
+   <li>Worker displacement in a strong labor market (June 2001) (<a href="/opub/mlr/2001/06/art2full.pdf">PDF</a>)</li>
+   </ul>
+  </li>
+  <br>
+  <li><a href="/cps/cps94dw.htm">Revised data from the February 1994 Displaced Worker Survey</a></li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="emp">Employed persons</h2>
+ <p>Employed persons consist of: persons who did any work for pay or profit during the survey reference week; persons who did at least 15 hours of unpaid work in a family-operated enterprise; and persons who were temporarily absent from their regular jobs because of illness, vacation, bad weather, industrial dispute, or various personal reasons. The employment-population ratio represents the proportion of the civilian noninstitutional population that is employed. Data are also available for <a href="/cps/demographics.htm">Demographics</a>, <a href="/cps/earnings.htm">Earnings</a>, <a href="#hours">Hours of work</a>, and <a href="/cps/lfcharacteristics.htm">other employment characteristics</a>. See also <a href="#laborforce">Labor force</a> and <a href="#unemp">Unemployment</a>.</p>
+ <ul>
+  <li>Learn more about <a href="/cps/cps_htgm.htm">how the government measures employment and unemployment</a></li>
+  <br>
+  <li>News release: Employment Situation (Monthly)<br>
+   (<a href="/news.release/empsit.toc.htm">HTML</a>) (<a href="/news.release/pdf/empsit.pdf">PDF</a>) (<a href="/bls/news-release/empsit.htm">Archives</a>)</li>
+  <li>Commissioner's Statement on the Employment Situation (Monthly)<br>
+   (<a href="/news.release/jec.htm">HTML</a>) (<a href="/news.release/pdf/jec.pdf">PDF</a>) (<a href="/bls/news-release/jec.htm">Archives</a>)</li>
+  <br>
+  <li>Database: Retrieve historical data series<br>
+   <ul>
+    <li><a href="https://data.bls.gov/cgi-bin/surveymost?ln">Most requested series</a></li>
+    <li><a href="/cps/cpsatabs.htm">Top series on employed persons</a></li>
+    <li><a href="https://data.bls.gov/PDQWeb/ln">More options</a></li>
+   </ul>
+  </li>
+  <br>
+  <li>Annual tables:
+   <ul>
+    <li><a href="/cps/tables.htm#empstat">Employment status tables</a></li>
+    <li><a href="/cps/tables.htm#charemp">Characteristics of the employed</a> including occupation and industry and hours of work</li>
+   </ul>
+  </li>
+  <br>
+  <li>Monthly tables:
+   <ul>
+    <li><a href="/cps/tables.htm#empstat_m">Employment status tables, seasonally adjusted</a> </li>
+    <li><a href="/cps/tables.htm#nempstat_m">Employment status tables, not seasonally adjusted</a> </li>
+    <li><a href="/cps/tables.htm#charemp_m">Characteristics of the employed, seasonally adjusted</a> including part-time status, age, and sex</li>
+    <li><a href="/cps/tables.htm#ncharemp_m">Characteristics of the employed, not seasonally adjusted</a> including occupation and industry and hours of work</li>
+   </ul>
+  </li>
+  <br>
+  <li>Charts:
+  	<ul>
+  	<li><a href="/web/empsit/cps_charts.pdf">Charting the labor market</a> (monthly)</li>
+  	<li><a href="/opub/ted/2017/employment-population-ratio-and-labor-force-participation-rate-by-age.htm">Employment–population ratio and labor force participation rate by age</a> (August 2017)</li>
+  	<li><a href="/opub/ted/2012/ted_20120410.htm">Employment trends from two surveys</a>  (April 2012)</li>
+  	</ul>
+  </li>
+  <br>
+  <li>Articles: See also <a href="#annualstory">Annual labor market summary</a>
+   <ul>
+    <li>Sizing up the 2007&ndash;09 recession: comparing two key labor market indicators with earlier downturns (December 2010)
+     (<a href="/opub/ils/summary_10_11/sizing_up_recession.htm">HTML</a>) (<a href="/opub/ils/pdf/opbils88.pdf">PDF</a>)</li>
+    <li>Change in employment by occupation, industry, and earnings quartile, 2000&ndash;05 (December 2006)  (<a href="/opub/mlr/2006/12/art2full.pdf">PDF</a>)</li>
+    <li>Who was affected as the economy started to slow (November 2001)      (<a href="/opub/ils/pdf/opbils44.pdf">PDF</a>)</li>
+    <li>Earnings and employment trends in the 1990s (March 2000) (<a href="/opub/mlr/2000/03/art2full.pdf">PDF</a>)</li>
+    <li><a href="/opub/mlr/1976/article/employment_and_unemployment_the_doughnut.htm"> Employment and unemployment: the doughnut or the hole?</a> (February 1976)
+   </ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="fullpart">Full- or part-time status</h2>
+ <p>Full time is 35 hours or more per week; part time is 1 to 34 hours per week.</p>
+ <p>See also: <a href="#hours">Hours of work</a>, <a href="#workexp">Work experience</a>, and <a href="#schedules">Work schedules (flexible and shift schedules)</a>.</p>
+ <ul>
+  <li>Database: <a href="https://data.bls.gov/PDQWeb/ln">Retrieve historical data series</a></li>
+  <br>
+  <li>Annual tables:
+   <ul>
+    <li>Full- or part-time status by age, sex, race and Hispanic or Latino ethnicity (<a href="/cps/cpsaat08.htm">HTML</a>) (<a href="/cps/cpsaat08.pdf">PDF</a>) (<a href="/cps/cpsaat08.xlsx">XLSX</a>)</li>
+    <li>Full- or part-time status by detailed Hispanic or Latino group (<a href="/cps/cpsaat13.htm">HTML</a>) (<a href="/cps/cpsaat13.pdf">PDF</a>) (<a href="/cps/cpsaat13.xlsx">XLSX</a>)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Monthly tables:
+   <ul>
+    <li>Full- or part-time status by sex and age, seasonally adjusted (<a href="/web/empsit/cpseea06.htm">HTML</a>) (<a href="/web/empsit/cpseea06.pdf">PDF</a>)</li>
+    <li>Full- or part-time status by age, sex, race, and Hispanic or Latino ethnicity (<a href="/web/empsit/cpseea18.htm">HTML</a>) (<a href="/web/empsit/cpseea18.pdf">PDF</a>)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Quarterly tables:
+   <ul>
+    <li>Full- or part-time status by sex and age, seasonally adjusted (<a href="/web/empsit/cpsee_e04.htm">HTML</a>) (<a href="/web/empsit/cpsee_e04.pdf">PDF</a>)</li>
+    <li>Full- or part-time status by race (<a href="/web/empsit/cpsee_e13.htm">HTML</a>) (<a href="/web/empsit/cpsee_e13.pdf">PDF</a>)</li>
+    <li>Full- or part-time status by detailed Hispanic or Latino group (<a href="/web/empsit/cpsee_e14.htm">HTML</a>) (<a href="/web/empsit/cpsee_e14.pdf">PDF</a>)</li>
+   </ul></li><br>
+  <li>Article: <a href="/opub/mlr/2018/article/who-chooses-part-time-work-and-why.htm">Who chooses part-time work and why?</a> (March 2018)</li>
+ </ul>
+<br><br>
+
+
+
+ <h5 id="pter">Part time for economic reasons (involuntary part time)</h5>
+ <p>This category includes persons who indicated that they would like to work full time but were working part time (1 to 34 hours) because of an economic reason, such as their hours were cut back or they were unable to find full-time jobs.</p>
+ <ul>
+  <li>News release: Employment Situation (Monthly), <a href="/news.release/empsit.t08.htm">Table A-8</a><br>
+   (<a href="/news.release/empsit.toc.htm">HTML</a>) (<a href="/news.release/pdf/empsit.pdf">PDF</a>) (<a href="/bls/news-release/empsit.htm">Archives</a>)</li>
+  <br>
+  <li>Database: <a href="/webapps/legacy/cpsatab8.htm">Retrieve historical data series</a></li>
+  <br>
+  <li>Annual tables:
+   <ul>
+    <li>Persons at work part time by reason (<a href="/cps/cpsaat20.htm">HTML</a>) (<a href="/cps/cpsaat20.pdf">PDF</a>) (<a href="/cps/cpsaat20.xlsx">XLSX</a>)</li>
+    <li>Persons at work part time by reason and industry (<a href="/cps/cpsaat21.htm">HTML</a>) (<a href="/cps/cpsaat21.pdf">PDF</a>) (<a href="/cps/cpsaat21.xlsx">XLSX</a>)</li>
+    <li>Persons at work part time by reason, age, sex, race, and Hispanic ethnicity (<a href="/cps/cpsaat22.htm">HTML</a>) (<a href="/cps/cpsaat22.pdf">PDF</a>) (<a href="/cps/cpsaat22.xlsx">XLSX</a>)</li>
+    <li>Persons at work part time by reason and occupation (<a href="/cps/cpsaat23.htm">HTML</a>) (<a href="/cps/cpsaat23.pdf">PDF</a>) (<a href="/cps/cpsaat23.xlsx">XLSX</a>)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Monthly tables:
+   <ul>
+    <li>Persons at work part time by reason (<a href="/web/empsit/cpseea25.htm">HTML</a>) (<a href="/web/empsit/cpseea25.pdf">PDF</a>)</li>
+    <li>Persons at work part time by reason and industry (<a href="/web/empsit/cpseea26.htm">HTML</a>) (<a href="/web/empsit/cpseea26.pdf">PDF</a>)</li>
+    <li>Persons at work part time by reason, age, sex, race, and Hispanic ethnicity (<a href="/web/empsit/cpseea27.htm">HTML</a>) (<a href="/web/empsit/cpseea27.pdf">PDF</a>)</li>
+    <li>Persons at work part time by reason and occupation (<a href="/web/empsit/cpseea28.htm">HTML</a>) (<a href="/web/empsit/cpseea28.pdf">PDF</a>)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Chart: <a href="/opub/ted/2009/jan/wk1/art02.htm">Involuntary part-time work, April 2006 and November 2008</a> (January 2009)</li>
+  <br>
+  <li>Articles:
+  	<ul>
+  	<li><a href="/opub/mlr/2018/article/who-chooses-part-time-work-and-why.htm">Who chooses part-time work and why?</a> (March 2018)</li>
+    <li>Involuntary part-time work on the rise (December 2008) (<a href="/opub/ils/pdf/opbils71.pdf">PDF</a>)</li>
+  	</ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2>Flexible and shift schedules</h2>
+ <p>See <a href="#schedules">Work schedules</a>.</p><br><br>
+
+
+
+ <h2 id="hours">Hours of work</h2>
+ <p>Data measure average hours at work per week and distributions of employed persons by hours at work. See also <a href="#fullpart">Full- or part-time status</a>.</p>
+ <ul>
+  <li>Annual tables:
+   <ul>
+    <li>Persons at work by hours of work (<a href="/cps/cpsaat19.htm">HTML</a>) (<a href="/cps/cpsaat19.pdf">PDF</a>) (<a href="/cps/cpsaat19.xlsx">XLSX</a>)</li>
+    <li>Average hours at work by industry (<a href="/cps/cpsaat21.htm">HTML</a>) (<a href="/cps/cpsaat21.pdf">PDF</a>) (<a href="/cps/cpsaat21.xlsx">XLSX</a>)</li>
+    <li>Average hours at work by age, sex, race, and Hispanic ethnicity (<a href="/cps/cpsaat22.htm">HTML</a>) (<a href="/cps/cpsaat22.pdf">PDF</a>) (<a href="/cps/cpsaat22.xlsx">XLSX</a>)</li>
+    <li>Average hours at work by occupation (<a href="/cps/cpsaat23.htm">HTML</a>) (<a href="/cps/cpsaat23.pdf">PDF</a>) (<a href="/cps/cpsaat23.xlsx">XLSX</a>)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Monthly tables:
+   <ul>
+    <li>Persons at work by hours of work (<a href="/web/empsit/cpseea24.htm">HTML</a>) (<a href="/web/empsit/cpseea24.pdf">PDF</a>)</li>
+    <li>Average hours at work by industry (<a href="/web/empsit/cpseea26.htm">HTML</a>) (<a href="/web/empsit/cpseea26.pdf">PDF</a>)</li>
+    <li>Average hours at work by age, sex, race, and Hispanic ethnicity (<a href="/web/empsit/cpseea27.htm">HTML</a>) (<a href="/web/empsit/cpseea27.pdf">PDF</a>)</li>
+    <li>Average hours at work by occupation (<a href="/web/empsit/cpseea28.htm">HTML</a>) (<a href="/web/empsit/cpseea28.pdf">PDF</a>)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Articles:
+  	<ul>
+  	<li>Seasonally adjusted hours series from the Current Population Survey (July 2010) (<a href="/opub/ils/summary_10_07/seasonally_adjusted_hours.htm">HTML</a>) (<a href="/opub/ils/pdf/opbils84.pdf">PDF</a>)</li>
+  	<li>Are managers and professionals really working more? (May 2000) (<a href="/opub/ils/pdf/opbils37.pdf">PDF</a>)</li>
+  	</ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2>Industry</h2>
+ <p>See <a href="#occind">Occupation and industry</a>.</p><br><br>
+
+
+
+ <h2 id="laborforce">Labor force</h2>
+ <p>The labor force is the sum of <a href="#emp">employed</a> and <a href="#unemp">unemployed</a> persons. The labor force participation rate is the labor force as a percent of the civilian noninstitutional population. Browse various <a href="#top">labor force characteristics</a>.  Data also are available by <a href="/cps/demographics.htm">demographic characteristics</a>. See also <a href="#nlf">Not in the labor force</a>.</p>
+ <ul>
+  <li>News release: Employment Situation (Monthly)<br>
+   (<a href="/news.release/empsit.toc.htm">HTML</a>) (<a href="/news.release/pdf/empsit.pdf">PDF</a>) (<a href="/bls/news-release/empsit.htm">Archives</a>)</li>
+  <li>Commissioner's Statement on the Employment Situation (Monthly)<br>
+   (<a href="/news.release/jec.htm">HTML</a>) (<a href="/news.release/pdf/jec.pdf">PDF</a>) (<a href="/bls/news-release/jec.htm">Archives</a>)</li>
+  <br>
+  <li>Database: Retrieve historical data series<br>
+   <ul>
+    <li><a href="/webapps/legacy/cpsatab1.htm">Top series</a></li>
+    <li><a href="/webapps/legacy/cpsatab2.htm">Top series by race</a></li>
+    <li><a href="/webapps/legacy/cpsatab3.htm">Top series by Hispanic ethnicity</a></li>
+    <li><a href="/webapps/legacy/cpsatab4.htm">Top series by educational attainment</a></li>
+    <li><a href="https://data.bls.gov/PDQWeb/ln">More options</a></li>
+   </ul>
+  </li>
+  <br>
+  <li>Annual tables:
+   <ul>
+    <li>Labor force status by age, sex, and race (<a href="/cps/cpsaat03.htm">HTML</a>) (<a href="/cps/cpsaat03.pdf">PDF</a>) (<a href="/cps/cpsaat03.xlsx">XLSX</a>)</li>
+    <li>Labor force status by Hispanic or Latino ethnicity (<a href="/cps/cpsaat04.htm">HTML</a>) (<a href="/cps/cpsaat04.pdf">PDF</a>) (<a href="/cps/cpsaat04.xlsx">XLSX</a>)</li>
+    <li>Labor force status by detailed Hispanic or Latino group (<a href="/cps/cpsaat06.htm">HTML</a>) (<a href="/cps/cpsaat06.pdf">PDF</a>) (<a href="/cps/cpsaat06.xlsx">XLSX</a>)</li>
+    <li>Labor force status by educational attainment (<a href="/cps/cpsaat07.htm">HTML</a>) (<a href="/cps/cpsaat07.pdf">PDF</a>) (<a href="/cps/cpsaat07.xlsx">XLSX</a>)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Monthly tables:
+   <ul>
+    <li>Labor force status by age and sex, seasonally adjusted (<a href="/web/empsit/cpseea03.htm">HTML</a>) (<a href="/web/empsit/cpseea03.pdf">PDF</a>)</li>
+    <li>Labor force status by age, sex, race, and Hispanic or Latino ethnicity, seasonally adjusted (<a href="/web/empsit/cpseea04.htm">HTML</a>) (<a href="/web/empsit/cpseea04.pdf">PDF</a>)</li>
+    <li>Labor force status by educational attainment, seasonally adjusted (<a href="/web/empsit/cpseea05.htm">HTML</a>) (<a href="/web/empsit/cpseea05.pdf">PDF</a>)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Charts:
+  	<ul>
+  	<li><a href="/web/empsit/cps_charts.pdf">Charting the labor market</a> (monthly)</li>
+  	<li><a href="/opub/ted/2017/employment-population-ratio-and-labor-force-participation-rate-by-age.htm">Employment–population ratio and labor force participation rate by age</a> (August 2017)</li>
+  	</ul>
+  </li>
+  <br>
+  <li>Articles: See also <a href="#annualstory">Annual labor market summary</a>, <a href="#emp">Employment</a>, <a href="#nlf">Not in the labor force</a>, and <a href="#unemp">Unemployment</a>
+   <ul>
+ 	<li><a href="/opub/mlr/2016/article/labor-force-participation-what-has-happened-since-the-peak.htm">Labor force participation: what has happened since the peak?</a> (September 2016)</li>
+    <li>Trends in labor force participation of married mothers of infants (February 2007) (<a href="/opub/mlr/2007/02/art2full.pdf">PDF</a>)</li>
+    <li>Trends in labor force participation in the United States (October 2006) (<a href="/opub/mlr/2006/10/art3full.pdf">PDF</a>)</li>
+    <li>The labor force and unemployment: three generations of change (June 2004) (<a href="/opub/mlr/2004/06/art2full.pdf">PDF</a>)</li>
+    <li>Labor force participation during recent labor market downturns (September 2003) (<a href="/opub/ils/pdf/opbils51.pdf">PDF</a>)</li>
+    <li>The labor force experience of women from &lsquo;Generation X&rsquo; (March 2002) (<a href="/opub/mlr/2002/03/art1full.pdf">PDF</a>)</li>
+    <li>Who was affected as the economy started to slow (November 2001) (<a href="/opub/ils/pdf/opbils44.pdf">PDF</a>)</li>
+    <li>Looking for a &lsquo;better&rsquo; job: job-search activity of the employed (September 2000) (<a href="/opub/mlr/2000/09/art1full.pdf">PDF</a>)</li>
+    <li>Labor supply in a tight labor market (June 2000) (<a href="/opub/ils/pdf/opbils38.pdf">PDF</a>)</li>
+   </ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="lfflows">Labor force status flows</h2>
+ <ul>
+  <li>Learn more about <a href="/cps/cps_flows.htm">research series on labor force status flows</a></li>
+  <br>
+  <li>Database: <a href="/webapps/legacy/cpsflowstab.htm">Retrieve historical data series</a></li>
+  <br>
+  <li>Monthly tables:
+     <ul>
+      <li>Labor force status flows by sex, current month (<a href="/web/empsit/cps_flows_current.pdf">PDF</a>) (<a href="/web/empsit/cps_flows_current.htm">HTML</a>)</li>
+      <li>Labor force status flows by sex, recent months (<a href="/web/empsit/cps_flows_recent.pdf">PDF</a>) (<a href="/web/empsit/cps_flows_recent.htm">HTML</a>)</li>
+     </ul>
+  </li>
+  <br>
+  <li>Charts:
+   <ul>
+    <li><a href="/opub/ted/2012/ted_20120424.htm">Length of job search for the unemployed</a> (April 2012)</li>
+    <li><a href="/opub/ted/2011/ted_20110602.htm">Duration of unemployment, 1994&ndash;2010</a> (June 2011)</li>
+    <li><a href="/opub/ted/2009/may/wk1/art03.htm">Flows into and out of employment in recent recessions</a> (May 2009)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Articles:
+   <ul>
+    <li>Employed workers leaving the labor force: an analysis of recent trends (May 2017) (<a href="/opub/mlr/2017/article/employed-workers-leaving-the-labor-force-an-analysis-of-recent-trends.htm">HTML</a>) (<a href="/opub/mlr/2017/article/pdf/employed-workers-leaving-the-labor-force-an-analysis-of-recent-trends.pdf">PDF</a>)</li>
+    <li>Job search of the unemployed by duration of unemployment (March 2012) (<a href="/opub/mlr/2012/03/art3full.pdf">PDF</a>)</li>
+    <li>How long before the unemployed find jobs or quit looking? (May 2011) (<a href="/opub/ils/summary_11_01/unemployed_jobs_quit.htm">HTML</a>) (<a href="/opub/ils/pdf/opbils89.pdf">PDF</a>)</li>
+   	<li>Labor force flows in the most recent recession (July 2010) (<a href="/opub/ils/pdf/opbils85.pdf">PDF</a>)</li>
+    <li>Trends in labor force flows during recent recessions (April 2009) (<a href="/opub/mlr/2009/04/art1full.pdf">PDF</a>)</li>
+    <li>Why has unemployment risen? Insights from labor force flows (June 2008) (<a href="/opub/ils/pdf/opbils66.pdf">PDF</a>)</li>
+    <li>Studying the labor market using BLS labor dynamics data (February 2008) (<a href="/opub/mlr/2008/02/art1full.pdf">PDF</a>)</li>
+    <li>Analyzing CPS data using gross flows (September 2005) (<a href="/opub/mlr/2005/09/art2full.pdf">PDF</a>)</li>
+    <li>Estimating gross flows consistent with stocks in the CPS (September 2005) (<a href="/opub/mlr/2005/09/art1full.pdf">PDF</a>)</li>
+   </ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2>Marginally attached to the labor force</h2>
+ <p>See: <a href="#discouraged">Discouraged workers</a>.</p><br><br>
+
+
+
+ <h2 id="mjh">Multiple jobholders</h2>
+ <p>Data on employed persons with more than one job.</p>
+ <ul>
+  <li>Database: Retrieve historical data series<br>
+   <ul>
+    <li><a href="/webapps/legacy/cpsatab9.htm">Top series</a> (seasonally adjusted level and rate)</li>
+    <li><a href="/webapps/legacy/cpsatab16.htm">Multiple jobholders by sex</a></li>
+   </ul>
+  </li>
+  <br>
+  <li>Annual table: Multiple jobholders by demographic and economic characteristics (<a href="/cps/cpsaat36.htm">HTML</a>) (<a href="/cps/cpsaat36.pdf">PDF</a>) (<a href="/cps/cpsaat36.xlsx">XLSX</a>)</li>
+  <br>
+  <li>Monthly table: Multiple jobholders by demographic and economic characteristics (<a href="/web/empsit/cpseea39.htm">HTML</a>) (<a href="/web/empsit/cpseea39.pdf">PDF</a>)</li>
+  <br>
+  <li>Charts:
+  	<ul>
+  	<li><a href="/opub/ted/2018/4-point-9-percent-of-workers-held-more-than-one-job-at-the-same-time-in-2017.htm">4.9 percent of workers held more than one job at the same time in 2017</a> (July 2018)</li>
+  	<li><a href="/opub/ted/2010/ted_20100809.htm">Demographics of multiple jobholding</a> (August 2010)</li>
+  	</ul>
+  </li>
+  <br>
+  <li>Articles:
+  	<ul>
+    <li>Multiple jobholding during the 2000s (July 2010) (<a href="/opub/mlr/2010/07/art3full.pdf">PDF</a>)</li>
+    <li>Twenty-first century moonlighters (September 2002) (<a href="/opub/ils/pdf/opbils50.pdf">PDF</a>)</li>
+   	</ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="nlf">Not in the labor force</h2>
+ <p>Persons who are neither employed nor unemployed are not in the labor force. This category includes retired persons, students, those taking care of children or other family members, and others who are neither working nor seeking work. Information is collected on their desire for and availability for work, job search activity in the prior year, and reasons for not currently searching. See also <a href="#laborforce">Labor force</a> and <a href="#discouraged">Discouraged workers</a>.</p>
+ <ul>
+  <li>Database: Retrieve historical data series<br>
+   <ul>
+    <li><a href="/webapps/legacy/cpsatab1.htm">Top series</a></li>
+    <li><a href="/webapps/legacy/cpsatab16.htm">Persons not in the labor force by desire and availability for work</a></li>
+    <li><a href="https://data.bls.gov/PDQWeb/ln">More options</a></li>
+   </ul>
+  </li>
+  <br>
+  <li>Annual tables:
+   <ul>
+    <li><a href="/cps/tables.htm#empstat">Labor force status tables</a></li>
+    <li>Persons not in the labor force by desire and availability for work, age, and sex (<a href="/cps/cpsaat35.htm">HTML</a>) (<a href="/cps/cpsaat35.pdf">PDF</a>) (<a href="/cps/cpsaat35.xlsx">XLSX</a>)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Monthly tables:
+   <ul>
+    <li><a href="/cps/tables.htm#empstat_m">Labor force status tables, seasonally adjusted</a></li>
+    <li><a href="/cps/tables.htm#nempstat_m">Labor force status tables, not seasonally adjusted</a></li>
+    <li>Persons not in the labor force by desire and availability for work, age, and sex (<a href="/web/empsit/cpseea38.htm">HTML</a>) (<a href="/web/empsit/cpseea38.pdf">PDF</a>)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Chart: <a href="/opub/ted/2016/reasons-people-give-for-not-being-in-the-labor-force-2004-and-2014.htm">Reasons people give for not being in the labor force, 2004 and 2014</a>  (January 2016)</li>
+  <br>
+  <li>Articles:
+   <ul>
+    <li><a href="/opub/btn/volume-4/people-who-are-not-in-the-labor-force-why-arent-they-working.htm">People who are not in the labor force: why aren't they working?</a> (December 2015)</li>
+    <li>Ranks of discouraged workers and others marginally attached to the labor force rise during recession (April 2009) (<a href="/opub/ils/pdf/opbils74.pdf">PDF</a>)</li>
+    <li>Labor force participation during recent labor market downturns (September 2003) (<a href="/opub/ils/pdf/opbils51.pdf">PDF</a>)</li>
+    <li>Labor supply in a tight labor market (June 2000) (<a href="/opub/ils/pdf/opbils38.pdf">PDF</a>)</li>
+    <li>Persons outside the labor force who want a job (July 1998) (<a href="/opub/mlr/1998/07/art3full.pdf">PDF</a>)</li>
+   </ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="occind">Occupation and industry</h2>
+ <p>Employed persons are classified by occupation (what kind of work they do) and industry (what kind of work their employer or business does). Unemployed persons are classified according to their last job. See also: <a href="/cps/earnings.htm#occind">Earnings by occupation and industry</a>.</p>
+ <ul>
+  <li>Database: Retrieve historical data series<br>
+   <ul>
+    <li><a href="/webapps/legacy/cpsatab13.htm">Employment and unemployment by occupation</a></li>
+    <li><a href="/webapps/legacy/cpsatab14.htm">Unemployment by industry</a></li>
+   </ul>
+  </li>
+  <br>
+  <li>Annual tables: <a href="/cps/tables.htm#charemp">Employed persons by occupation and industry</a></li>
+  <li>Annual tables: <a href="/cps/tables.htm#charunem">Unemployed persons by occupation and industry</a></li>
+  <br>
+  <li>Monthly tables: <a href="/cps/tables.htm#ncharemp_m">Employed persons by occupation and industry</a></li>
+  <li>Monthly tables: <a href="/cps/tables.htm#ncharunem_m">Unemployed persons by occupation and industry</a></li>
+  <br><br>
+
+	<h6 id="medianage">Median age of workers by occupation and industry</h6>
+
+			<p><span class="notice">NOTICE</span> Limited historical data are available for these tables due to
+					<a href="/cps/cpsoccind.htm">changes in the occupational and industry classification systems</a> that affect comparability over time.</p>
+						<ul>
+				    		<li><strong>Occupation</strong>: Employed persons by detailed occupation and age, including median age
+				    		<br>
+					    		<table cellspacing="1" border="0" cellpadding="1" style="width:40%">
+										<tr>
+											<td align="left">Latest year:</td>
+											<td align="center">2018</td>
+											<td align="center"><a href="/cps/cpsaat11b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/cpsaat11b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/cpsaat11b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="left">Previous years:</td>
+											<td align="center">2017</td>
+											<td align="center"><a href="/cps/aa2017/cpsaat11b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/aa2017/cpsaat11b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/aa2017/cpsaat11b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">2016</td>
+											<td align="center"><a href="/cps/aa2016/cpsaat11b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/aa2016/cpsaat11b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/aa2016/cpsaat11b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">2015</td>
+											<td align="center"><a href="/cps/aa2015/cpsaat11b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/aa2015/cpsaat11b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/aa2015/cpsaat11b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">2014</td>
+											<td align="center"><a href="/cps/aa2014/cpsaat11b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/aa2014/cpsaat11b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/aa2014/cpsaat11b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">2013</td>
+											<td align="center"><a href="/cps/aa2013/cpsaat11b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/aa2013/cpsaat11b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/aa2013/cpsaat11b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">2012</td>
+											<td align="center"><a href="/cps/aa2012/cpsaat11b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/aa2012/cpsaat11b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/aa2012/cpsaat11b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">2011</td>
+											<td align="center"><a href="/cps/aa2011/cpsaat11b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/aa2011/cpsaat11b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/aa2011/cpsaat11b.xlsx">XLSX</a></td>
+										</tr>
+								</table></li>
+						<br>
+						<li><strong>Industry</strong>: Employed persons by detailed industry and age, including median age
+						<br>
+								<table cellspacing="1" border="0" cellpadding="1" style="width:40%">
+										<tr>
+											<td align="left">Latest year:</td>
+											<td align="center">2018</td>
+											<td align="center"><a href="/cps/cpsaat18b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/cpsaat18b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/cpsaat18b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="left">Previous years:</td>
+											<td align="center">2017</td>
+											<td align="center"><a href="/cps/aa2017/cpsaat18b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/aa2017/cpsaat18b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/aa2017/cpsaat18b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">2016</td>
+											<td align="center"><a href="/cps/aa2016/cpsaat18b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/aa2016/cpsaat18b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/aa2016/cpsaat18b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">2015</td>
+											<td align="center"><a href="/cps/aa2015/cpsaat18b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/aa2015/cpsaat18b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/aa2015/cpsaat18b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">2014</td>
+											<td align="center"><a href="/cps/aa2014/cpsaat18b.htm">HTML</a></td>
+											<td align="center"><a href="/cps/aa2014/cpsaat18b.pdf">PDF</a></td>
+											<td align="center"><a href="/cps/aa2014/cpsaat18b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">2013</td>
+											<td align="center"><a href="/cps/aa2013/cpsaat18b.htm">HTML</a></td>
+											<td align="center">-</td>
+											<td align="center"><a href="/cps/aa2013/cpsaat18b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">2012</td>
+											<td align="center"><a href="/cps/aa2012/cpsaat18b.htm">HTML</a></td>
+											<td align="center">-</td>
+											<td align="center"><a href="/cps/aa2012/cpsaat18b.xlsx">XLSX</a></td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">2011</td>
+											<td align="center"><a href="/cps/aa2011/cpsaat18b.htm">HTML</a></td>
+											<td align="center">-</td>
+											<td align="center"><a href="/cps/aa2011/cpsaat18b.xlsx">XLSX</a></td>
+										</tr>
+								</table></li>
+								</ul>
+
+  <br>
+  <li>Charts:
+   <ul>
+      <li><a href="/opub/ted/2016/39-percent-of-managers-in-2015-were-women.htm">39 percent of managers in 2015 were women</a> (August 2016)</li>
+      <li><a href="/opub/ted/2015/educational-attainment-and-occupation-groups-by-race-and-ethnicity-in-2014.htm">Educational attainment and occupation groups by race and ethnicity in 2014</a> (November 2015)</li>
+      <li><a href="/opub/ted/2012/ted_20121026.htm">Occupational employment by race and ethnicity, 2011</a> (October 2012)</li>
+      <li><a href="/opub/ted/2012/ted_20120510.htm">Employed Asians by occupation, 2008&ndash;2010</a> (May 2012)</li>
+      <li><a href="/opub/ted/2012/ted_20120501.htm">Women as a percent of total employed in selected occupations, 2011</a> (May 2012)</li>
+      <li><a href="/opub/ted/2011/ted_20110914.htm">Earnings and employment by occupation, race, ethnicity, and sex, 2010</a> (September 2011)</li>
+	  <li><a href="/opub/ted/2011/ted_20110601.htm">Employed foreign-born and native-born persons by occupation, 2010</a> (June 2011)</li>
+	  <li><a href="/opub/ted/2008/mar/wk5/art03.htm">Occupations and foreign-born workers in 2007</a> (April 2008)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Articles:
+     <ul>
+      <li>Change in employment by occupation, industry, and earnings quartile, 2000&ndash;05 (December 2006) (<a href="/opub/mlr/2006/12/art2full.pdf">PDF</a>)</li>
+      <li>Earnings and employment trends in the 1990s (March 2000) (<a href="/opub/mlr/2000/03/art2full.pdf">PDF</a>)</li>
+     </ul>
+  </li>
+  <br>
+  <li><a href="/cps/cpsoccind.htm">Occupational and industry classifications used in the CPS</a></li>
+  <li><a href="/cps/documentation.htm#oi">More information</a> on the CPS occupational and industry classifications</li>
+ </ul>
+<br><br>
+
+
+
+ <h2>Part-time workers</h2>
+ <p>See: <a href="#fullpart">Full- and part-time status</a>.</p><br><br>
+
+
+
+ <h2 id="self">Self-employed persons (class of worker)</h2>
+ <p>Employed persons are categorized by class of worker based on their relationship to their employer. The class-of-worker categories include private and government wage and salary workers, self-employed workers, and unpaid family workers.</p>
+ <ul>
+  <li>Database: Retrieve historical data series<br>
+   <ul>
+       <li><a href="/webapps/legacy/cpsatab8.htm">Class of worker series</a> (unincorporated self-employed only)</li>
+       <li><a href="/webapps/legacy/cpsatab9.htm">Self-employed series</a> (incorporated and unincorporated self-employed)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Annual tables: <a href="/cps/tables.htm#charemp">Class of worker tables</a> (includes self-employed)</li>
+  <br>
+  <li>Monthly table: <a href="/cps/tables.htm#charemp_m">Class of worker, seasonally adjusted</a> (includes self-employed)</li>
+  <li>Monthly tables: <a href="/cps/tables.htm#ncharemp_m">Class of worker tables, not seasonally adjusted</a> (includes self-employed)</li>
+  <br>
+  <li>Chart: <a href="/opub/ted/2010/ted_20101022.htm">Demographics of the self-employed</a>  (October 2010)</li>
+  <br>
+  <li>Articles:
+  	<ul>
+  	<li><a href="/spotlight/2016/self-employment-in-the-united-states/home.htm">Self-employment in the United States</a> (March 2016)</li>
+  	<li>Self-employment in the United States (September 2010) (<a href="/opub/mlr/2010/09/art2full.pdf">PDF</a>)</li>
+  	<li>Self-employment in the United States: an update (July 2004) (<a href="/opub/mlr/2004/07/art2full.pdf">PDF</a>)</li>
+ 	</ul>
+  <br>
+  <li><a href="/cps/empsit_changes_table_a9_2011.htm">Information on the 2011 change in the display of data for the self-employed</a> (including the incorporated self-employed)</li>
+ </ul>
+<br><br>
+
+
+
+ <h2>Shift work</h2>
+ <p>See <a href="#schedules">Work schedules</a>.</p><br><br>
+
+
+
+ <h2 id="summer">Summer work</h2>
+ <p>Information on the April to July labor force participation of youth 16 to 24 years old is published each August. See also: <a href="/cps/demographics.htm#youth">Youth</a>.</p>
+ <ul>
+  <li>News release: Summer Employment and Unemployment Among Youth (Annual)<br>
+   (<a href="/news.release/youth.toc.htm">HTML</a>) (<a href="/news.release/pdf/youth.pdf">PDF</a>) (<a href="/bls/news-release/home.htm#YOUTH">Archives</a>)</li>
+  <br>
+  <li>Charts:
+	  <ul>
+	  <li><a href="/opub/ted/2017/summer-youth-labor-force-in-july-2017.htm">Summer youth labor force in July 2017</a> (August 2017)</li>
+	  <li><a href="/opub/ted/2016/youth-unemployment-rate-11-point-5-percent-employment-population-ratio-53-point-2-percent-in-july-2016.htm">Youth unemployment rate, 11.5 percent; employment–population ratio, 53.2 percent in July 2016</a> (August 2016)</li>
+	  <li><a href="/opub/ted/2015/summer-youth-employment-in-july-2015.htm">Summer youth employment in July 2015</a> (August 2015)</li>
+	  <li><a href="/opub/ted/2014/ted_20140819.htm">Youth employment and unemployment, July 2014</a> (August 2014)</li>
+	  <li><a href="/opub/ted/2013/ted_20130823.htm">Youth labor force participation rate in July 2013 same as a year earlier</a> (August 2013)</li>
+	  <li><a href="/opub/ted/2012/ted_20120822.htm">Youth employment in summer 2012</a> (August 2012)</li>
+	  <li><a href="/opub/ted/2011/ted_20110826.htm">Youth employment in July 2011</a> (August 2011)</li>
+      <li><a href="/spotlight/2011/schools_out/">School's Out</a>, Spotlight on Statistics (July 2011), includes CPS and other BLS survey data</li>
+	  <li><a href="/opub/ted/2010/ted_20100903.htm">Youth unemployment and employment in July 2010</a> (August 2010)</li>
+	  <li><a href="/opub/ted/2009/ted_20090828.htm">Youth unemployment and employment in July 2009</a> (August 2009)</li>
+	  <li><a href="/opub/ted/2008/sept/wk1/art02.htm">Summer 2008 labor force participation of youth</a> (September 2008) </li>
+      <li><a href="/opub/ted/2008/aug/wk4/art05.htm">Unemployment among youth, Summer 2008</a> (August 2008) </li>
+	  </ul>
+  </li>
+  <br>
+  <li>Article: The early 2000s: a period of declining teen summer employment rates (May 2010) (<a href="/opub/mlr/2010/05/art2full.pdf">PDF</a>)</li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="tenure">Tenure</h2>
+ <p>Data on employee tenure, which measure how long workers had been with their current employer at the time they were surveyed, come from a special supplemental survey conducted every 2 years.</p>
+ <ul>
+  <li>News release: Employee Tenure<br>
+   (<a href="/news.release/tenure.toc.htm">HTML</a>) (<a href="/news.release/pdf/tenure.pdf">PDF</a>) (<a href="/bls/news-release/home.htm#TENURE">Archives</a>)</li>
+  <br>
+  <li>Charts:
+    <ul>
+	<li><a href="/opub/ted/2018/median-tenure-with-current-employer-was-4-point-2-years-in-january-2018.htm">Median tenure with current employer was 4.2 years in January 2018</a> (September 2018)</li>
+    <li><a href="/opub/ted/2016/28-percent-of-workers-age-55-and-over-have-been-with-their-current-employer-20-years-or-more.htm">28 percent of workers age 55 and over have been with their current employer 20 years or more</a> (September 2016)</li>
+    <li><a href="/opub/ted/2014/ted_20140925.htm">Median employee tenure unchanged at 4.6 years in January 2014</a> (September 2014)</li>
+    <li><a href="/spotlight/2013/tenure/home.htm">Tenure of American workers</a>, Spotlight on Statistics (September 2013), includes CPS and other BLS survey data</li>
+    <li><a href="/opub/ted/2012/ted_20120920.htm">Employee tenure in 2012</a> (September 2012)</li>
+    <li><a href="/opub/ted/2010/ted_20100927.htm">Employee tenure, January 2010</a> (September 2010)</li>
+    <li><a href="/opub/ted/2008/sept/wk5/art03.htm">Employee tenure by industry, 2008</a> (October 2008)</li>
+    <li><a href="/opub/ted/2008/sept/wk5/art01.htm">Employees with 10 years or more of tenure with the same employer, 2008</a> (September 2008)</li>
+    </ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="unemp">Unemployment</h2>
+ <p>Persons are classified as unemployed if they do not have a job, have actively looked for work in the prior 4 weeks, and are currently available for work. Persons who were not working and were waiting to be recalled to a job from which they had been temporarily laid off are also included as unemployed. Receiving benefits from the Unemployment Insurance (UI) program has no bearing on whether a person is classified as unemployed.</p>
+ <p>The unemployment rate represents the number unemployed as a percent of the labor force. Unemployment data also are available by <a href="/cps/demographics.htm">demographic characteristics</a>. See also <a href="#laborforce">Labor force</a> and <a href="#emp">Employment</a>.</p>
+ <ul>
+  <li>Learn more about <a href="/cps/cps_htgm.htm">how the government measures unemployment</a></li>
+  <li><a href="/cps/duration.htm">Changes to data collected on unemployment duration</a> introduced in 2011</li>
+  <br>
+  <li>News release: Employment Situation (Monthly)<br>
+   (<a href="/news.release/empsit.toc.htm">HTML</a>) (<a href="/news.release/pdf/empsit.pdf">PDF</a>) (<a href="/bls/news-release/empsit.htm">Archives</a>)</li>
+  <li>Commissioner's Statement on the Employment Situation (Monthly)<br>
+   (<a href="/news.release/jec.htm">HTML</a>) (<a href="/news.release/pdf/jec.pdf">PDF</a>) (<a href="/bls/news-release/jec.htm">Archives</a>)</li>
+  <br>
+  <li>Database: Retrieve historical data series<br>
+   <ul>
+    <li><a href="https://data.bls.gov/cgi-bin/surveymost?ln">Most requested series</a></li>
+    <li><a href="/cps/cpsatabs.htm">Top series on unemployed persons</a></li>
+    <li><a href="https://data.bls.gov/PDQWeb/ln">More options</a></li>
+   </ul>
+  </li>
+  <br>
+  <li>Annual tables:
+   <ul>
+    <li><a href="/cps/tables.htm#empstat">Employment status tables</a> showing unemployed persons and the unemployment rate</li>
+    <li><a href="/cps/tables.htm#charunem">Characteristics of the unemployed</a> including duration of unemployment and reason for unemployment</li>
+   </ul>
+  </li>
+  <br>
+  <li>Monthly tables:
+   <ul>
+    <li><a href="/cps/tables.htm#empstat_m">Employment status tables, seasonally adjusted</a> showing unemployed persons and the unemployment rate</li>
+    <li><a href="/cps/tables.htm#nempstat_m">Employment status tables, not seasonally adjusted</a> showing unemployed persons and the unemployment rate</li>
+    <li><a href="/cps/tables.htm#charunem_m">Characteristics of the unemployed, seasonally adjusted</a> including duration of unemployment and reason for unemployment</li>
+    <li><a href="/cps/tables.htm#ncharunem_m">Characteristics of the unemployed, not seasonally adjusted</a> including duration of unemployment and reason for unemployment</li>
+   </ul>
+  </li>
+  <br>
+  <li>Charts:
+   <ul>
+	<li><a href="/web/empsit/cps_charts.pdf">Charting the labor market</a> (monthly)</li>
+    <li><a href="/spotlight/2015/long-term-unemployment/home.htm">Trends in long-term unemployment</a>, Spotlight on Statistics (March 2015)</li>
+    <li><a href="/opub/ted/2012/ted_20120424.htm">Length of job search for the unemployed</a> (April 2012)</li>
+    <li><a href="/opub/ted/2011/ted_20110602.htm">Duration of unemployment, 1994&ndash;2010</a> (June 2011)</li>
+    <li><a href="/opub/ted/2011/ted_20110308.htm">Duration of unemployment in February 2011</a> (March 2011)</li>
+    </ul>
+  </li>
+  <br>
+  <li>Articles: See also <a href="#annualstory">Annual labor market summary</a>
+   <ul>
+    <li><a href="/opub/mlr/2018/article/the-current-population-survey-tracking-unemployment.htm">The Current Population Survey&mdash;tracking unemployment in the United States for over 75 years</a> (January 2018)</li>
+    <li>Trends in unemployment and other labor market difficulties (November 2014)
+	  (<a href="/opub/btn/volume-3/trends-in-unemployment-and-other-labor-market-difficulties.htm">HTML</a>) (<a href="/opub/btn/volume-3/pdf/trends-in-unemployment-and-other-labor-market-difficulties.pdf">PDF</a>)</li>
+    <li>Job search of the unemployed by duration of unemployment (March 2012)  (<a href="/opub/mlr/2012/03/art3full.pdf">PDF</a>)</li>
+    <li>How long before the unemployed find jobs or quit looking? (May 2011)
+	  (<a href="/opub/ils/summary_11_01/unemployed_jobs_quit.htm">HTML</a>) (<a href="/opub/ils/pdf/opbils89.pdf">PDF</a>)</li>
+    <li>Sizing up the 2007&ndash;09 recession: comparing two key labor market indicators with earlier downturns (December 2010)
+      (<a href="/opub/ils/summary_10_11/sizing_up_recession.htm">HTML</a>) (<a href="/opub/ils/pdf/opbils88.pdf">PDF</a>)</li>
+    <li>Ranks of those unemployed for a year or more up sharply (October 2010)
+      (<a href="/opub/ils/summary_10_10/ranks_unemployed_year.htm">HTML</a>) (<a href="/opub/ils/pdf/opbils87.pdf">PDF</a>)</li>
+    <li>Long-term unemployment experience of the jobless (June 2010)
+      (<a href="/opub/ils/summary_10_05/long_term_unemployment.htm">HTML</a>) (<a href="/opub/ils/pdf/opbils82.pdf">PDF</a>)</li>
+    <li>Record unemployment among older workers does not keep them out of the job market (March 2010)
+      (<a href="/opub/ils/summary_10_04/older_workers.htm">HTML</a>) (<a href="/opub/ils/pdf/opbils81.pdf">PDF</a>)</li>
+    <li>Measures of labor underutilization from the Current Population Survey (March 2009)
+      (<a href="/osmr/abstract/ec/ec090020.htm">Abstract</a>) (<a href="/osmr/pdf/ec090020.pdf">PDF</a>)</li>
+    <li>The unemployment rate and beyond: alternative measures of labor underutilization (June 2008) (<a href="/opub/ils/pdf/opbils67.pdf">PDF</a>)</li>
+    <li>Why has unemployment risen? Insights from labor force flows (June 2008) (<a href="/opub/ils/pdf/opbils66.pdf">PDF</a>)</li>
+    <li>A glance at long-term unemployment in recent recessions (January 2006) (<a href="/opub/ils/pdf/opbils53.pdf">PDF</a>)</li>
+    <li>Who was affected as the economy started to slow (November 2001) (<a href="/opub/ils/pdf/opbils44.pdf">PDF</a>)</li>
+    <li>Unemployed job leavers: a meaningful gauge of confidence in the job market? (October 2000) (<a href="/opub/ils/pdf/opbils42.pdf">PDF</a>)</li>
+    <li>Looking for a &lsquo;better&rsquo; job: job-search activity of the employed (September 2000) (<a href="/opub/mlr/2000/09/art1full.pdf">PDF</a>)</li>
+    <li>BLS introduces new range of alternative unemployment measures (October 1995) (<a href="/opub/mlr/1995/10/art3full.pdf">PDF</a>)</li>
+    <li><a href="/opub/mlr/1976/article/employment_and_unemployment_the_doughnut.htm">Employment and unemployment: the doughnut or the hole?</a> (February 1976)</li>
+   </ul>
+  </li>
+ </ul><br>
+
+
+ <h5 id="altmeasures">Alternative measures of labor underutilization (U-1 through U-6)</h5>
+ <p>This range of measures encompasses concepts both broader and narrower than the definition of unemployment.  See also <a href="/lau/stalt.htm">State estimates</a>.</p>
+ <ul>
+  <li>News release: Employment Situation (Monthly), <a href="/news.release/empsit.t15.htm">Table A-15</a><br>
+   (<a href="/news.release/empsit.toc.htm">HTML</a>) (<a href="/news.release/pdf/empsit.pdf">PDF</a>) (<a href="/bls/news-release/empsit.htm">Archives</a>)</li>
+  <br>
+  <li>Database: <a href="/webapps/legacy/cpsatab15.htm">Retrieve historical data series</a></li>
+  <br>
+  <li>Charts:
+   <ul>
+	<li><a href="/opub/ted/2014/ted_20141118.htm">Unemployment and other labor market difficulties</a> (November 2014)</li>
+    <li><a href="/opub/ted/2008/jul/wk1/art05.htm">The unemployment rate and beyond, May 2007 and 2008</a> (July 2008)</li>
+   </ul>
+  </li>
+  <br>
+  <li>Articles:
+   <ul>
+    <li>Trends in unemployment and other labor market difficulties (November 2014) (<a href="/opub/btn/volume-3/trends-in-unemployment-and-other-labor-market-difficulties.htm">HTML</a>) (<a href="/opub/btn/volume-3/pdf/trends-in-unemployment-and-other-labor-market-difficulties.pdf">PDF</a>)</li>
+    <li>Measures of labor underutilization from the Current Population Survey (March 2009) (<a href="/osmr/abstract/ec/ec090020.htm">Abstract</a>) (<a href="/osmr/pdf/ec090020.pdf">PDF</a>)</li>
+    <li>The unemployment rate and beyond: alternative measures of labor underutilization (June 2008) (<a href="/opub/ils/pdf/opbils67.pdf">PDF</a>)</li>
+    <li>BLS introduces new range of alternative unemployment measures (October 1995) (<a href="/opub/mlr/1995/10/art3full.pdf">PDF</a>)</li>
+    <li><a href="/opub/mlr/1976/article/employment_and_unemployment_the_doughnut.htm"> Employment and unemployment: the doughnut or the hole?</a> (February 1976)
+   </ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="union">Union members</h2>
+ <p>Data measure union membership and representation of employed wage and salary workers.</p>
+ <ul>
+  <li>News release: Union Members (Annual)<br>
+   (<a href="/news.release/union2.toc.htm">HTML</a>) (<a href="/news.release/pdf/union2.pdf">PDF</a>) (<a href="/bls/news-release/home.htm#UNION2">Archives</a>)</li>
+  <br>
+  <li>Time series quick-links:
+  	  	<ul>
+  	  	<li>Union membership rate (all years): &nbsp; <a href="https://data.bls.gov/timeseries/LUU0204899600?years_option=all_years">Total</a> &nbsp; <a href="https://data.bls.gov/timeseries/LUU0204906600?years_option=all_years">Private sector</a> &nbsp; <a href="https://data.bls.gov/timeseries/LUU0204922700?years_option=all_years">Public sector</a></li>
+  	  	<li><a href="https://www.bls.gov/webapps/legacy/cpslutab5.htm">Retrieve state union membership rates</a><br>
+  	  	NOTE: BLS does not have state union membership data for the private and public sectors or for industries. <br>
+  	  	BLS tabulates only total union membership at the state level.</li>
+  		</ul>
+  </li>
+  <br>
+  <li>Databases:
+	<ul>
+	<li><a href="/cps/cpslutabs.htm">Retrieve historical data series from news release</a></li>
+	<li><a href="https://data.bls.gov/cgi-bin/surveymost?lu">Most requested series</a></li>
+	<li><a href="https://data.bls.gov/PDQWeb/lu">More options</a></li>
+	</ul>
+  <br>
+  <li>Annual tables: <a href="/cps/tables.htm#union">Union membership</a></li>
+  <br>
+  <li>Charts:
+	<ul>
+	<li><a href="/opub/ted/2019/union-membership-rate-10-point-5-percent-in-2018-down-from-20-point-1-percent-in-1983.htm">Union membership rate 10.5 percent in 2018, down from 20.1 percent in 1983</a> (January 2019)</li>
+	<li><a href="/opub/ted/2018/utilities-industry-has-highest-union-membership-rate-in-private-sector-in-2017.htm">Utilities industry has highest union membership rate in private sector in 2017</a> (February 2018)</li>
+	<li><a href="/opub/ted/2018/new-york-again-had-highest-union-membership-rate-south-carolina-the-lowest-in-2017.htm">New York again had highest union membership rate, South Carolina the lowest, in 2017</a> (January 2018)</li>
+	<li><a href="/opub/ted/2017/union-membership-rates-by-state-in-2016.htm">Union membership rates by state in 2016</a> (February 2017)</li>
+	<li><a href="/opub/ted/2017/union-membership-rate-10-point-7-percent-in-2016.htm">Union membership rate 10.7 percent in 2016</a> (February 2017)</li>
+    <li><a href="/spotlight/2016/union-membership-in-the-united-states/home.htm">Union membership in the United States</a>, Spotlight on Statistics (September 2016)</li>
+    <li><a href="/opub/ted/2016/government-utilities-and-transportation-and-warehousing-had-highest-unionization-rates-in-2015.htm">Government, utilities, and transportation and warehousing had highest unionization rates in 2015</a> (February 2016)</li>
+    <li><a href="/opub/ted/2016/union-membership-rates-by-state-2015.htm">Union membership rates by state, 2015</a> (February 2016)</li>
+    <li><a href="/opub/ted/2015/union-membership-by-state-2014.htm">Union membership by state in 2014</a> (February 2015)</li>
+    <li><a href="/opub/ted/2015/union-membership-rate-in-private-industry-and-public-sector-in-2014.htm">Union membership rate in private industry was 6.6 percent in 2014; public sector 35.7 percent</a> (January 2015)</li>
+    <li><a href="/opub/ted/2014/ted_20140128.htm">Union membership rate 11.3 percent in 2013, the same as in 2012</a> (January 2014)</li>
+    <li><a href="/opub/ted/2013/ted_20130124.htm">Union membership declines in 2012</a> (January 2013)</li>
+    <li><a href="/opub/ted/2012/ted_20120130.htm">Union membership, 2011</a> (January 2012)</li>
+    <li><a href="/opub/ted/2011/ted_20110125.htm">Union membership declines in 2010</a> (January 2011)</li>
+    <li><a href="/opub/ted/2010/ted_20100201.htm">Union membership declines in 2009</a> (February 2010)</li>
+    <li><a href="/opub/ted/2009/feb/wk1/art02.htm">Union membership by state, 2008</a> (February 2009)</li>
+    <li><a href="/opub/ted/2009/jan/wk4/art05.htm">Union membership in 2008</a> (January 2009)</li>
+    <li>Union members in 2007: a visual essay (<a href="/opub/mlr/2008/10/art3full.pdf">PDF</a>)</li>
+    </ul>
+  </li>
+  <br>
+  <li>Special: <a href="https://blogs.bls.gov/blog/2015/03/27/c-span-program-features-bls-union-membership-data/">C-SPAN program features BLS union membership data</a> (March 2015)</li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="workhome">Work at home</h2>
+ <p>These data, which measure persons who work at home as part of their job, come from a special supplemental survey last conducted in May 2004.</p>
+ <ul>
+  <li>News release: Work at Home<br>
+   (<a href="/news.release/homey.toc.htm">HTML</a>) (<a href="/news.release/pdf/homey.pdf">PDF</a>) (<a href="/bls/news-release/home.htm#HOMEY">Archives</a>)</li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="workexp">Work experience during the year</h2>
+ <p>Data measure employment and unemployment experience throughout the calendar year.  See <a href="#tenure">Tenure</a> for how long people have worked for their current employer.</p>
+ <ul>
+  <li>News release: Work Experience of the Population (Annual)<br>
+   (<a href="/news.release/work.toc.htm">HTML</a>) (<a href="/news.release/pdf/work.pdf">PDF</a>) (<a href="/bls/news-release/home.htm#WORK">Archives</a>)</li>
+  <br>
+  <li>Charts:
+    <ul>
+    <li><a href="/opub/ted/2018/69-point-5-percent-of-people-who-worked-in-2017-worked-full-time-year-round.htm">69.5 percent of people who worked in 2017 worked full time, year round</a> (December 2018)</li>
+    <li><a href="/opub/ted/2017/68-point-8-percent-of-people-who-worked-in-2016-worked-full-time-year-round.htm">68.8 percent of people who worked in 2016 worked full time, year round</a> (December 2017)</li>
+    <li><a href="/opub/ted/2016/16-point-9-million-people-unemployed-at-some-point-in-2015-down-from-17-point-7-million-in-2014.htm">16.9 million people unemployed at some point in 2015, down from 17.7 million in 2014</a> (December 2016)</li>
+    <li><a href="/opub/ted/2015/unemployment-experience-in-2014.htm">Unemployment experience in 2014</a> (December 2015)</li>
+    <li><a href="/opub/ted/2014/ted_20141223.htm">Full-time work and year-round work both rose in 2013</a> (December 2014)</li>
+    <li><a href="/opub/ted/2013/ted_20131223.htm">Employment and unemployment experience of the U.S. population in 2012</a> (December 2013)</li>
+    <li><a href="/opub/ted/2012/ted_20121227.htm">Employment and unemployment experience in 2011</a> (December 2012)</li>
+    <li><a href="/opub/ted/2012/ted_20120227.htm">Work experience during 2010</a> (February 2012)</li>
+    <li><a href="/opub/ted/2010/ted_20101221.htm">Work experience during 2009</a> (December 2010)</li>
+    <li><a href="/opub/ted/2010/ted_20100106.htm">Work-experience unemployment rate, 2008</a> (January 2010)</li>
+    <li><a href="/opub/ted/2009/ted_20091211.htm">Work experience during 2008</a> (December 2009)</li>
+    </ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="schedules">Work schedules (flexible and shift schedules)</h2>
+ <p>These data, which measure flexible schedules and shift work among full-time wage and salary workers, come from a special supplemental survey last conducted in May 2004.</p>
+ <ul>
+  <li>News release: Workers on Flexible and Shift Schedules<br>
+   (<a href="/news.release/flex.toc.htm">HTML</a>) (<a href="/news.release/pdf/flex.pdf">PDF</a>) (<a href="/bls/news-release/home.htm#FLEX">Archives</a>)</li>
+  <br>
+  <li>Articles:
+    <ul>
+    <li>A time to work: recent trends in shift work and flexible schedules (December 2007) (<a href="/opub/mlr/2007/12/art1full.pdf">PDF</a>)</li>
+    <li>Flexible schedules and shift work: replacing the '9-to-5' workday (June 2000) (<a href="/opub/mlr/2000/06/art3full.pdf">PDF</a>)</li>
+    </ul>
+  </li>
+ </ul>
+<br><br>
+
+
+
+ <h2 id="worklife">Worklife estimates</h2>
+ <p>BLS has not produced worklife estimates since February 1986. This report contains estimates of the number of years individuals would spend in the labor force based on mortality conditions, labor force entry and exit rates, and demographic characteristics.</p>
+ <ul>
+  <li>Report: Worklife Estimates: Effects of Race and Education (February 1986) (<a href="/opub/reports/worklife-estimates/archive/worklife-estimates-1986.pdf">PDF</a>)</li>
+ </ul>
+
+
+
+<p>&nbsp;</p>
+<p class="update"><strong>Last Modified Date: </strong>February 15, 2019</p>
+
+<!-- ********************************************TRAILER FILES******************************************** -->
+<!-- TwoColFoot Begin -->
+
+<!--no_index_start-->
+<!-- 2COL LAYOUT COL3 BEGIN -->
+			<div class="social-media"><div>Recommend this page using:</div>
+	<div><a href="javascript:void(0);" class="share_facebook"><img alt="share on facebook" src="/images/icons/facebook.png"></a><span><a href="javascript:void(0);" class="share_facebook">Facebook</a></span></div>
+	<div><a href="javascript:void(0);" class="share_twitter"><img alt="share on twitter" src="/images/icons/twitter.png"></a><span><a href="javascript:void(0);" class="share_twitter">Twitter</a></span></div>
+	<div><a href="javascript:void(0);" class="share_linkedin"><img alt="share on linkedin" src="/images/icons/linkedin.png"></a><span><a href="javascript:void(0);" class="share_linkedin">LinkedIn</a></span></div>
+	<!--<div><a href="javascript:void(0);" class="share_googleplus"><img src="/images/icons/google.png"></a><span><a href="javascript:void(0);" class="share_googleplus">Google+</a></span></div>-->
+</div>			
+			</div>
+		</td>
+	</tr>
+</table>
+
+<!-- 2COL LAYOUT COL3 END -->
+
+<!-- QUICK LINKS BEGIN -->
+			<div class="clearfloat"></div>
+			<div id="quicklinks-wrapper">
+				<div id="quicklinks">
+					<h3 class="invisible">Quicklinks Footer</h3>
+					<ul><li class="header">tools</li>
+						<li><a href="/eag/" aria-label="Economy at a Glance">Areas at a Glance </a></li>
+						<li><a href="/iag/" aria-label="Industries at a Glance">Industries at a Glance </a></li>
+						<li><a href="/bls/newsrels.htm" aria-label="Economic News Releases">Economic Releases</a></li>
+						<li><a href="/data/" aria-label="Databases, Tables and Calculators by Subject">Databases &amp; Tables</a></li>
+						<li><a href="/map/MapToolServlet?survey=la" aria-label="Local Area Unemployment Statistics Map">Maps</a></li>
+					</ul>
+					<ul><li class="header">calculators</li>
+						<li><a href="/data/inflation_calculator.htm" aria-label="Consumer Price Index Inflation Calculator">Inflation</a></li>
+						<!--<li><a href="/location_quotient/" aria-label="">Location Quotient</a> </li> -->
+						<li><a href="/iirc/" aria-label="Incidence Rate Calculator and Comparison Tool
+">Injury And Illness</a></li>
+					</ul>
+					<ul><li class="header">help</li>
+						<li><a href="/help/" aria-label="Help and Tutorials">Help &amp; Tutorials</a></li>
+						<li><a href="/bls/faqs.htm" aria-label="Frequently Asked Questions">FAQs</a></li>
+						<li><a href="/bls/glossary.htm" aria-label="Glossary">Glossary</a></li>
+						<li><a href="/bls/infohome.htm" aria-label="About Bureau of Labor Statistics">About BLS</a></li>
+						<li><a href="/bls/contact.htm" aria-label="Contact Bureau of Labor Statistics">Contact Us</a></li>
+					</ul>
+					<ul><li class="header">info</li>
+						<li><a href="/newsroom/" aria-label="Newsroom">What's New</a></li>
+						<li><a href="/jobs/" aria-label="Careers at Bureau of Labor Statistics">Careers @ BLS</a></li>
+						<li><a href="https://www.dol.gov/dol/findit.htm" aria-label="Department of Labor Find It! webpage">Find It! DOL</a></li>
+						<li><a href="https://subscriptions.bls.gov/accounts/USDOLBLS/subscriber/new" aria-label="Join our Mailing Lists">Join our Mailing Lists</a></li>
+						<li><a href="/bls/linksite.htm" aria-label="Linking and Copyright Information">Linking &amp; Copyright Info</a></li>
+					</ul>
+								<ul style="border-right: none;"><li class="header">resources</li>
+								<li><a href="https://www.oig.dol.gov/" aria-label="Office of Inspector General website">Inspector General (OIG)</a></li>
+						<li><a href="/bls/bls_budget_and_performance.htm" aria-label="Budget and Performance">Budget and Performance</a></li>
+									<li><a href="/bls/no_fear_act.htm" aria-label="No Fear Act">No Fear Act</a></li>
+									<li><a href="https://www.usa.gov/" aria-label="USA.gov website">USA.gov</a></li>
+										<li><a href="https://www.benefits.gov/" aria-label="Benefits.gov website">Benefits.gov </a></li>
+
+					</ul>
+					<div class="clearfloat"></div>
+  <!-- Start VETS HIRE -->                        
+					<div style="text-align:center; position:relative; top:20px;">
+						<a href="https://www.hirevets.gov/" aria-label="HIRE Vets Medallion Program">
+							<img alt="HIREVets.gov HIRE Vets Medallion Program - Recognizing employers who HIRE veterans" style="height: 60px; width: auto;" src="https://www.dol.gov/vets/resources/images/HireVETS-Recognizing-employers-v1.png">
+						</a>
+					</div>
+  <!-- End VETS HIRE -->   				
+                </div>
+			</div>
+
+
+
+<!-- QUICK LINKS END -->
+
+<!-- WRAPPER BOTTOM BEGIN -->
+	
+		</div><!-- close id="wrapper-outer" -->
+	</div><!-- close id="wrapper" -->
+</div><!-- close id="container" -->
+<!-- WRAPPER BOTTOM END -->
+
+<!-- FOOTER LEFT BEGIN -->
+<script type="text/javascript">/*<![CDATA[*/(function(){var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;sz.src = '//siteimproveanalytics.com/js/siteanalyze_6032860.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);})();/*]]>*/</script> 
+<div id="footer-wrapper">
+	<div id="footer-links-wrapper">
+		<div id="footer-links">
+			<p><a href="/bls/blsfoia.htm">Freedom of Information Act</a> &nbsp;|&nbsp; <a href="/bls/pss.htm">Privacy &amp; Security Statement</a> &nbsp;|&nbsp; <a href="/bls/disclaimer.htm">Disclaimers</a> &nbsp;|&nbsp; 
+			<a href="/bls/customer_survey.htm">Customer Survey</a> &nbsp;|&nbsp; <a href="/bls/website-policies.htm">Important Web Site Notices</a></p>
+		</div>
+	</div>
+	<div id="footer-info-wrapper">
+		<div id="footer-info"><p>
+
+<!-- FOOTER LEFT END -->
+
+<span id="footer-address">U.S. Bureau of Labor Statistics  |  Division of Labor Force Statistics, PSB Suite 4675, 2 Massachusetts Avenue, NE Washington, DC 20212-0001</span> 
+
+
+<!-- FOOTER CENTER BEGIN -->
+		</p><p>
+
+
+<!-- FOOTER CENTER END -->
+
+<span id="footer-contact"><a href="/cps/home.htm" aria-label="Labor Force Statistics from the Current Population Survey">www.bls.gov/CPS</a> | Telephone: 1-202-691-6378 | <a href="https://data.bls.gov/cgi-bin/forms/cps?/cps/lfcharacteristics.htm" aria-label="Request for Current Population Survey Information">Contact CPS</a></span>	
+
+
+
+<!-- FOOTER RIGHT BEGIN -->
+			</p>
+		</div>
+	</div>
+</div>
+
+<!-- FOOTER RIGHT END -->
+<!--no_index_end-->
+
+<!-- ***************************************************************************************************** -->
+</body>
+</html>

@@ -1,0 +1,1150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-us">
+
+
+<head>
+<!-- P1 -->
+
+<!-- P2 -->
+
+<title>CPS Tables</title>
+<!-- ****************************************** Begin META TAGS ********************************************* -->
+		<!-- START include/global/head.stm -->
+	<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOL&subagency=BLS&yt=true"></script>
+	<script type="text/javascript" src="/javascripts/jquery-min.js"></script>
+	<script type="text/javascript" src="/javascripts/bls.js"></script>
+	<script>
+(function (g) {
+var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+aex = {
+  "src": "//gateway.foresee.com/sites/bls.gov/production/gateway.min.js",
+  "type": "text/javascript",
+  "async": "true",
+  "data-vendor": "fs",
+  "data-role": "gateway"
+};
+for (var attr in aex){am.setAttribute(attr, aex[attr]);}h.appendChild(am);g[fsr] = function () {var aT = '__' + fsr + '_stk__';g[aT] = g[aT] || [];g[aT].push(arguments);};
+})(window);
+fsReady(function() {
+	FSR.CPPS.get('visitedSubSites', function(val) {
+		var cpp = {};if(val){arr = val.split(/,/gi);if(!arr.length){arr.push(val)}for(key in arr){cpp[arr[key]] = true;}}var rp = window.location.pathname.replace(/\/(opub\/(.*?)\/.*$|(.*?)\/.*$)/gi,"$2$3");if(rp.match(/(blog|btn|ces|cew|cex|charts|cpi|cps|ebs|ect|emp|fls|iif|jlt|lau|lpc|mfp|mlr|mxp|ncs|nls|oes|ooh|ors|ppi|regions|sae|ted|tus|video)/gi)){cpp[rp] = true;out = "";for(key in cpp){out+= key + ",";}out=out.replace(/,$/,"");FSR.CPPS.set('visitedSubSites',out);
+	}
+    });
+});
+</script>
+
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_combined.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_content.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_tables.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/jquery-tools.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_nr.css">
+    <!--[if lt IE 9]>
+		<link href="/stylesheets/ie8-styles.css" media="all" rel="Stylesheet" type="text/css"> 
+	<![endif]-->
+	<!--[if lt IE 8]>
+		<link href="/stylesheets/ie7-styles.css" media="all" rel="Stylesheet" type="text/css"> 
+	<![endif]-->
+	<!--[if lt IE 7]>
+		<link href="/stylesheets/ie6-styles.css" media="all" rel="Stylesheet" type="text/css"> 
+		<style type="text/css">
+		body {
+			behavior:url(/stylesheets/csshover2.htc);
+		}
+		</style>			
+	<![endif]-->
+	<!--[if IE]>
+		<style type="text/css">
+		body {
+			font-size: expression(1 / (screen.deviceXDPI / 96) * 84 + '%');
+		}
+		</style>	
+	<![endif]-->
+	<noscript>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_noscript.css">
+	</noscript>
+	<meta http-equiv="x-ua-compatible" content="IE=Edge" />
+    <meta property="og:image" content="https://www.bls.gov/images/bls_emblem.png" />
+		<style type="text/css">
+			td.gsc-table-cell-thumbnail{
+			display:none !important;
+			}
+		</style>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+	<link rel="manifest" href="/manifest.json" />
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+	<meta name="theme-color" content="#ffffff" />
+    <!-- END include/global/head.stm -->
+	<meta http-equiv="Content-Script-Type" content="type" />
+	<meta name="agency" content="BLS" />
+	<meta name="audience" content="general" />
+	<meta name="subagency" content="BLS: Employment and Unemployment">
+<meta name="program" content="BLS: Employment and Unemployment: Current Population Survey">
+<meta name="subject" content="Statistics: Demographics: Labor Force, Statistics: Employment and Unemployment">
+	<meta name="date" content="06/20/2018">
+<!-- ****************************************** End META TAGS *********************************************** -->
+</head>
+<body>
+<!-- ****************************************** Begin HEADER ************************************************ -->
+	<!--no_index_start-->
+<!-- DOL BANNER BEGIN -->
+<!-- DOL BANNER START -->
+		<a class="skiplink" href="#startcontent">Skip to Content</a>
+		<div id="dol-bar">
+			<div id="dol-bar-content">
+				<div id="dol-bar-emblem">
+					<a href="http://www.dol.gov/">US Department of Labor</a>
+				</div>
+				<form id="dol-bar-form" name="subsform" action="https://subscriptions.bls.gov/accounts/USDOLBLS/subscriber/qualify" method="get">
+				<div id="dol-bar-right">
+					<a href="/bls/topicsaz.htm" aria-label="A-Z Index">A to Z Index</a> &nbsp;|&nbsp;
+					<a href="/bls/faqs.htm" aria-label="Frequently Asked Questions">FAQs</a> &nbsp;|&nbsp;
+					<a href="/bls/infohome.htm" aria-label="About Bureau of Labor Statistics">About BLS</a> &nbsp;|&nbsp;
+					<a href="/bls/contact.htm" aria-label="Contact Bureau of Labor Statistics">Contact Us</a> &nbsp; &nbsp;
+					<label for="dol-bar-email" class="invisible">E-mail:</label>
+					<input id="dol-bar-email" name="email" type="text" onclick="this.value=''; this.onclick = null;" value="Subscribe to E-mail Updates" title="Enter your email address to subscribe to updates" size="32">
+					<label for="dol-bar-subscribe" class="invisible">Subscribe Submit</label>
+					<input id="dol-bar-subscribe" type="image" src="/images/buttons/subscribe_button_red_on_red.png" alt="BLS Subscribe Submit">
+				</div>
+				</form>
+				<div class="clearfloat"></div>
+			</div>
+		</div>
+<!-- DOL BANNER END -->
+
+<!-- DOL BANNER END -->
+<!-- BLS BANNER BEGIN -->
+<!-- BLS BANNER START -->
+<div id="top"></div>
+<div id="bls-banner-wrapper">
+  <div id="bls-banner">
+    <div id="bls-banner-emblem">
+      <a href="/home.htm">U.S. Bureau of Labor Statistics</a>
+    </div>
+    <div id="bls-banner-right">
+      <div id="bls-banner-links"><span class="social-follow"><a title="Follow BLS on Twitter" target="_blank" href="http://twitter.com/BLS_gov" aria-label="Bureau of Labor Statistics Twitter">Follow Us</a> </span><span class="social-follow-links"> 
+        <!-- <img src="/images/icons/facebook.png"/>--> 
+        <a target="_blank" href="http://twitter.com/BLS_gov" aria-label="Bureau of Labor Statistics Twitter"><img alt="Follow BLS on Twitter" src="/images/icons/twitter_bird_icon_white.png"/></a> 
+        <!--<img src="/images/icons/linkedin.png"/>--> 
+        </span> | <a href="/newsroom/" class="first" aria-label="Newsroom">What's New</a> | <a href="/schedule/news_release/">Release Calendar</a> | <a href="https://blogs.bls.gov/blog/" aria-label="Blog page">Blog</a></div>
+      <div id="bls-banner-search">
+        <form method="get" action="/search/query">
+		  <label for="bls-banner-search-input" class="invisible">Search:</label>
+          <input name="query" type="text" id="bls-banner-search-input" value="Search BLS.gov" title="Search Input" onclick="this.value=''; this.onclick = null;">
+		  <label for="bls-banner-search-submit" class="invisible">Search button</label>
+          <input type="image" src="/images/buttons/search_button_red_on_red.png" name="term" id="bls-banner-search-submit" alt="BLS Search Submit" title="Submit">
+        </form>
+      </div>
+    </div>
+    <div class="clearfloat"></div>
+  </div>
+</div>
+<!-- BLS BANNER END --> 
+
+
+<!-- BLS BANNER END -->
+<!-- MAIN NAV BEGIN -->
+<div id="main-nav-wrapper">
+	<div id="main-nav-container">
+		<div>
+			<ul id="main-nav" class="nojs">
+    <li class="submenu-home"><a href="/home.htm" style="padding-left: 1em;" aria-label="Section: Bureau of Labor Statistics homepage">Home</a>
+        <!-- ********************************************** Begin Home Tab LIST ****************************************** -->
+<!-- 1st column -->
+
+<div class="sub" id="submenu-home">
+	<ul>
+		<li class="heading"><a href="#" aria-label="Subject Areas">Subject Areas&#187;</a></li>
+		<li><a href="/bls/inflation.htm" aria-label="Statistics on Inflation and Prices">Inflation &amp; Prices</a></li>
+		<li><a href="/bls/spending.htm" aria-label="Statistics on Spending and Time Use">Spending &amp; Time Use</a></li>
+		<li><a href="/bls/unemployment.htm" aria-label="Statistics on Unemployment">Unemployment</a></li>
+		<li><a href="/bls/employment.htm" aria-label="Statistics on Employment">Employment</a></li>
+		<li><a href="/bls/wages.htm" aria-label="Pay and Benefits">Pay &amp; Benefits</a></li>
+		<li><a href="/bls/productivity.htm" aria-label="Productivity Statistics">Productivity</a></li>
+		<li><a href="/iif/" aria-label="Workplace Injuries, Illnesses, and Fatalities">Workplace Injuries</a></li>
+		<li><a href="/bls/international.htm" aria-label="International Data and Technical Cooperation">International</a></li>
+		<li><a href="/bls/demographics.htm" aria-label="Demographic Data">Demographics</a></li>
+		<li><a href="/bls/industry.htm" aria-label="Statistics by Industry">Industries</a></li>
+		<li><a href="/bls/business.htm" aria-label="Statistics on Business Costs">Business Costs</a></li>
+		<li><a href="/bls/occupation.htm" aria-label="Statistics by Occupation">Occupations</a></li>
+		<li><a href="/bls/geography.htm" aria-label="Statistics by Geography">Geography</a></li>
+	</ul>
+	<!-- 2nd column -->
+	<ul>
+		<li class="heading"><a href="#" aria-label="Resources For...">Resources For &#187;</a></li>
+		<li><a href="/audience/business.htm" aria-label="Resources for Business Leaders">Business Leaders</a></li>
+		<li><a href="/audience/consumers.htm" aria-label="Resources for Consumers">Consumers</a></li>
+		<li><a href="/developers/home.htm" aria-label="Developer's Site">Developers</a></li>
+		<li><a href="/audience/economists.htm" aria-label="Economist or Economic Analyst">Economists</a></li>
+		<li><a href="/audience/investors.htm" aria-label="Resources for Financial Investors">Investors</a></li>
+		<li><a href="/audience/jobseekers.htm" aria-label="Resources for Jobseekers">Jobseekers</a></li>
+		<li><a href="/newsroom/home.htm" aria-label="Newsroom">Media</a></li>
+		<li><a href="/audience/policy.htm" aria-label="Resources for Public Policymakers">Public Policymakers</a></li>
+		<li><a href="/audience/students.htm" aria-label="Resources for Students and Teachers">Students &amp; Teachers</a></li>
+		<li><a href="/respondents/home.htm" aria-label="Survey Respondents">Survey Respondents</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="#" aria-label="At a Glance Tables">At a Glance Tables &#187;</a></li>
+		<li><a href="/eag/eag.us.htm" aria-label="United States' Economy at a Glance">U.S. Economy</a></li>
+		<li><a href="/eag/" aria-label="Economy at a Glance">Regions, States, &amp; Areas</a></li>
+		<li><a href="/iag/home.htm" aria-label="Industries at a Glance">Industries</a></li>
+	</ul>
+	<!-- 3rd column -->
+	<ul>
+		<li class="heading"><a href="#" aria-label="More">MORE &#187;</a></li>
+		<li><a href="/bls/announcement.htm" aria-label="Annoucements">Announcements</a></li>
+		<li><a href="/bls/bls-speakers/bls-speakers.htm" aria-label="BLS Speakers Available">BLS Speakers Available</a></li>
+		<li><a href="/bls/erratabydate.htm" aria-label="More, Errata">Errata</a></li>      
+        <li><a href="/bls/research.htm" aria-label="Research Programs">Research</a></li>
+        <li><a href="/osmr/response-rates/home.htm" aria-label="Response Rates">Response Rates</a></li>
+		<li><a href="/bls/other.htm" aria-label="More, Statistical Sites">Statistical Sites</a></li>
+	</ul>
+</div>
+<!-- ***********************************************End Home Tab LIST ******************************************** --> 
+
+    </li>
+    <li class="submenu selected"><a href="/bls/proghome.htm" aria-label="Section: Subjects">Subjects</a>
+        <!-- ************************************* Begin SUBJECTS TAB list ****************************************** -->
+<!-- 1st column -->
+
+<div class="sub" id="submenu-programs">
+	<ul>
+		<li class="heading"><a href="/bls/inflation.htm" aria-label="Statistics on Inflation and Prices">Inflation &amp; Prices &#187;</a></li>
+		<li><a href="/cpi/" aria-label="Consumer Price Index ">Consumer Price Index</a></li>
+		<li><a href="/ppi/" aria-label="Producer Price Indexes">Producer Price Indexes</a></li>
+		<li><a href="/mxp/" aria-label="Inflation and Prices, Import Export Price Indexes">Import/Export Price Indexes</a></li>
+		<li><a href="/ncs/ect/" aria-label="Employment Cost Trends">Employment Cost Index</a></li>
+		<li><a href="/bls/escalation.htm" aria-label="Contract Escalation">Contract Escalation</a></li>
+		<li><a href="/pir/" aria-label="Price and Index Number Research">Price Index Research</a></li>
+		<li><a href="/bls/inflation.htm" aria-label="Statistics on Inflation and Prices">Inflation &amp; Prices Overview</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/wages.htm" aria-label="Statistics on Pay and Benefits">Pay &amp; Benefits &#187;</a></li>
+		<li><a href="/ncs/ect/" aria-label="Employment Cost Trends">Employment Costs</a></li>
+		<li><a href="/ncs/" aria-label="National Compensation Survey">National Compensation Data</a></li>
+		<li><a href="/bls/blswage.htm" aria-label="Wage Data by Area and Occupation">Wages by Area &amp; Occupation</a></li>
+		<li><a href="/cps/earnings.htm#demographics" aria-label="Earnings by Demographics">Earnings by Demographics</a></li>
+		<li><a href="/ces/" aria-label="Current Employment Statistics">Earnings by Industry</a></li>
+		<li><a href="http://www.bls.gov/cew/" aria-label="Quarterly Census of Employment and Wages">County Wages</a></li>
+		<li><a href="/ncs/ebs/" aria-label="Employee Benefits Survey">Benefits</a></li>
+		<li><a href="/crp/" aria-label="Compensation Research & Program Development">Compensation Research</a></li>
+		<li><a href="/wsp/" aria-label="Work Stoppages">Strikes &amp; Lockouts </a></li>
+		<li><a href="/bls/wages.htm" aria-label="Statistics on Pay and Benefits">Pay &amp; Benefits Overview</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/spending.htm" aria-label="Statistics on Spending and Time Use">Spending &amp; Time Use &#187;</a></li>
+		<li><a href="/cex/" aria-label="Consumer Expenditure Surveys">Consumer Expenditures </a></li>
+		<li><a href="/tus/" aria-label="American Time Use Survey">How Americans Spend Time</a></li>
+	</ul>
+	<!-- 2nd column -->
+	<ul>
+		<li class="heading"><a href="/bls/unemployment.htm" aria-label="Statistics on Unemployment">Unemployment &#187;</a></li>
+		<li><a href="/cps/" aria-label="Labor Force Statistics from the Current Population Survey">National Unemployment Rate </a></li>
+		<li><a href="/lau/" aria-label="Local Area Unemployment Statistics">State &amp; Local Unemployment Rates </a></li>
+		<li><a href="/ers/" aria-label="Employment Research and Program Development">Unemployment Research</a></li>
+		<li><a href="/bls/unemployment.htm" aria-label="Statistics on Unemployment">Unemployment Overview</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/employment.htm" aria-label="Statistics on Employment">Employment &#187;</a></li>
+		<li><a href="/ces/" aria-label="Current Employment Statistics">National Employment </a></li>
+		<li><a href="/sae/" aria-label="State and Metro Area Employment, Hours, and Earnings">State &amp; Local Employment </a></li>
+		<li><a href="http://www.bls.gov/cew/" aria-label="Quarterly Census of Employment and Wages">State &amp; County Employment </a></li>
+		<li><a href="/cps/" aria-label="Labor Force Statistics from the Current Population Survey">Worker Characteristics </a></li>
+		<li><a href="/emp/" aria-label="Employment Projections">Employment Projections </a></li>
+		<li><a href="/jlt/" aria-label="Job Openings and Labor Turnover Survey">Job Openings &amp; Labor Turnover </a></li>
+		<li><a href="/oes/" aria-label="Occupational Employment Statistics">Employment by Occupation </a></li>
+		<li><a href="/nls/" aria-label="National Longitudinal Surveys">Work Experience Over Time </a></li>
+		<li><a href="/bdm/" aria-label="Business Employment Dynamics">Business Employment Dynamics </a></li>
+		<li><a href="/fdi/" aria-label="Foreign Direct Investment">Foreign Direct Investment </a></li>
+		<li><a href="/ers/" aria-label="Employment Research and Program Development">Employment Research</a></li>
+		<li><a href="/bls/employment.htm" aria-label="Statistics on Employment">Employment Overview</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/iif/" aria-label="Injuries, Illnesses, and Fatalities">Workplace Injuries &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/ors/" aria-label="Occupational Requirements Survey">Occupational Requirements &#187;</a></li>
+	</ul>
+	<!-- 3rd column -->
+	<ul>
+		<li class="heading"><a href="/bls/productivity.htm" aria-label="Productivity Statistics">Productivity &#187;</a></li>
+		<li><a href="/lpc/" aria-label="Labor Productivity and Costs"> Labor Productivity &amp; Costs</a></li>
+		<li><a href="/mfp/" aria-label="Multifactor Productivity">Multifactor Productivity</a></li>
+		<li><a href="/dpr/" aria-label="Productivity Research and Program Development">Productivity Research</a></li>
+		<li><a href="/bls/productivity.htm" aria-label="Productivity Statistics">Productivity Overview</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/international.htm" aria-label="International Data and Technical Cooperation">International &#187;</a></li>
+		<li><a href="/itc/" aria-label="International Technical Cooperation">International Technical Cooperation</a></li>
+		<li><a href="/mxp/" aria-label="Import/Export Price Indexes">Import/Export Price Indexes</a></li>
+		<li><a href="/bls/international.htm" aria-label="International Data and Technical Cooperation">International Overview</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/regions/home.htm" aria-label="Regional Offices Section: Geographic Information">REGIONAL OFFICES &#187;</a></li>
+		<li><a href="/regions/new-england/" aria-label="New England Information Office">New England (Boston)</a></li>
+		<li><a href="/regions/new-york-new-jersey/" aria-label="New York to New Jersey Information Office">New York-New Jersey (NY City)</a></li>
+		<li><a href="/regions/mid-atlantic/" aria-label="Mid-Atlantic Information Office">Mid-Atlantic (Philadelphia)</a></li>
+		<li><a href="/regions/southeast/" aria-label="Southeast Information Office">Southeast (Atlanta)</a></li>
+		<li><a href="/regions/midwest/" aria-label="Midwest Information Office">Midwest (Chicago)</a></li>
+		<li><a href="/regions/southwest/" aria-label="Southwest Information Office">Southwest (Dallas)</a></li>
+		<li><a href="/regions/mountain-plains/" aria-label="Mountain-Plains Information Office">Mountain-Plains (Kansas City)</a></li>
+		<li><a href="/regions/west/" aria-label="Western Information Office">West (San Francisco)</a></li>
+		<li><a href="/regions/home.htm" aria-label="Geographic Information">Regional Overview</a></li>
+	</ul>
+</div>
+<!-- **************************************End SUBJECT AREAS ******************************************** --> 
+		
+    </li>
+    <li class="submenu"><a href="/data/" aria-label="Section: Data Tools">Data Tools</a>
+        <!-- ******************************************** Begin DATA TOOLS LIST ****************************************** -->
+
+<div class="sub" id="submenu-data">
+    <ul>
+        <li class="heading"><a href="/data/" aria-label="Databases, Tables & Calculators by Subject">Data Retrieval Tools &#187;</a></li>
+		<li><a href="/cgi-bin/surveymost?bls" aria-label="Top Picks">Top Picks</a></li>
+		<li><a href="/cgi-bin/srgate" aria-label="Series Report">Series Report</a></li>
+		<li><a href="/data/" aria-label="Databases, Tables and Calculators by Subject">One Screen</a></li>
+		<li><a href="/data/" aria-label="Databases, Tables and Calculators by Subject">Multi-Screen</a></li>
+		<li><a href="/data/#maps" aria-label="Create Customized Maps">Maps </a></li>
+		<li><a href="/data/#calculators" aria-label="Calculators">Calculators</a></li>
+		<li><a href="/data/#api" aria-label="Public Data Application Programming Interface">Public Data API</a></li>
+		<li>&nbsp;</li>
+    </ul>
+    <!-- 2nd column -->
+    <ul>
+        <li class="heading"><a href="#" aria-label="Customized Tables">CUSTOMIZED TABLES &#187;</a></li>
+		<li><a href="http://download.bls.gov/pub/time.series/" aria-label="Text Files">Text Files</a></li>
+		<li><a href="/data/#historical-tables" aria-label="Historical News Release Tables">News Release Tables</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/moredata.htm" aria-label="More Sources of Data">More Sources of Data &#187;</a></li>
+		<li><a href="/rda/home.htm" aria-label="Bureau of Labor Statistics Restricted Data Access">Restricted Data Access</a></li>
+		<li><a href="/data/archived.htm" aria-label="Discontinued Bureau of Labor Statistics Databases">Discontinued Databases </a></li>
+		<li><a href="/help/hlpform1.htm" aria-label="Frequently asked questions regarding Bureau of Labor Statistics website data retrieval tools">FAQs</a></li>
+		<li><a href="/help/notice.htm" aria-label="Program and Survey Notices">Special Notices </a></li>
+		<li><a href="/bls/moredata.htm" aria-label="More Sources of Data">More Sources of Data</a></li>
+    </ul>
+</div>
+<!-- *********************************************End DATABASES and TOOLS LIST ******************************************** --> 
+
+    </li>
+    <li class="submenu"><a href="/opub/" aria-label="Section: Publications">Publications</a>
+        <!-- ********************************************** Begin PUBLICATIONS LIST ****************************************** -->
+
+<div class="sub" id="submenu-pubs">
+    <ul>
+        <li class="heading"><a href="/opub/#latest" aria-label="Latest Publications">Latest Publications &#187;</a></li>
+		<li><a href="/opub/ted/" aria-label="The Economics Daily">The Economics Daily</a></li>
+		<li><a href="/opub/mlr/" aria-label="Monthly Labor Review">Monthly Labor Review</a></li>
+		<li><a href="/opub/btn/" aria-label="Beyond the Numbers">Beyond the Numbers</a></li>
+		<li><a href="/spotlight/" aria-label="Spotlight on Statistics">Spotlight on Statistics</a></li>
+		<li><a href="/opub/reports" aria-label="Bureau of Labor Statistics Reports">Reports</a></li>
+		<li><a href="https://blogs.bls.gov/blog/" aria-label="Commissioner's Corner">Commissioner's Corner</a></li>
+		<li><a href="/video/" aria-label="Videos">Videos</a></li>
+    </ul>
+    <!-- 2nd column -->
+    <ul>
+        <li>&nbsp;</li>
+		<li><a href="/careeroutlook/" aria-label="Career Outlook">Career Outlook</a></li>
+		<li><a href="/ooh/" aria-label="Occupational Outlook Handbook">Occupational Outlook Handbook</a></li>
+		<li><a href="/opub/geographic-profile/home.htm" aria-label="Geographic Profile">Geographic Profile</a></li>
+		<li><a href="/opub/hom/" aria-label="Handbook of Methods">Handbook of Methods</a></li>
+		<!-- <li><a href="/nls/nlsnews.htm">National Longitudinal Surveys News</a></li>
+		<li><a href="/opub/#magazines">Magazines &amp; Journals </a></li>
+		<li><a href="/opub/#chartbooks">Chartbooks</a></li>
+		<li><a href="/opub/#catalog">Catalog of Publications </a></li> -->
+		<li><a href="/osmr/" aria-label="Office of Survey Methods Research">Research Papers</a></li>
+		<li><a href="/opub/#copyright" aria-label="Copyright Information">Copyright Information</a></li>
+		<li><a href="/opub/#contact" aria-label="Contact and Help">Contact &amp; Help </a></li>
+    </ul>
+</div>
+<!-- ***********************************************End PUBLICATIONS LIST ******************************************** --> 
+    </li>
+    <li class="submenu"><a href="/bls/newsrels.htm" aria-label="Section: Economic Releases">Economic Releases</a>
+        
+<!-- ********************************************** Begin ECONOMIC RELEASES LIST ****************************************** -->
+<!-- 1st column -->
+<div class="sub" id="submenu-news">
+    <ul>
+        <li class="heading"><a href="/bls/newsrels.htm#latest-releases" aria-label="Latest Releases">Latest Releases &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/newsrels.htm#major" aria-label="Major Economic Indicators">Major Economic Indicators &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/schedule/news_release/" aria-label="Release Calendar">Schedules for news Releases &#187;</a></li>
+		<li><a href="/schedule/" aria-label="Release Calendar">By Month</a></li>
+		<li><a href="/schedule/schedule/by_prog/all_sched.htm" aria-label="Release Calendar">By News Release</a></li>
+		<li><a href="/schedule/news_release/current_year.asp" aria-label="Release Calendar Current Year">Current Year</a></li>
+		<li><a href="/bls/archived_sched.htm" aria-label="Schedules for Selected Bureau of Labor Statistics Economic News Releases for Prior Years">Prior Years</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/news-release/home.htm" aria-label="Archived News Releases">Archived News Releases &#187;</a></li>
+    </ul>
+    <!-- 2nd column -->
+    <ul>
+        <li class="heading"><a href="/bls/newsrels.htm#OEUS" aria-label="Employment and Unemployment">Employment &amp; Unemployment &#187;</a></li>
+		<li><a href="/bls/newsrels.htm#OEUS" aria-label="Monthly">Monthly</a></li>
+		<li><a href="/bls/newsrels.htm#OEUS" aria-label="Quarterly Annual and Other">Quarterly, annual, and other</a></li>
+		<li>&nbsp;</li>
+		<li class="heading" aria-label="Inflation and Prices"><a href="/bls/newsrels.htm#OPLC">Inflation &amp; Prices &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/newsrels.htm#OCWC" aria-label="Pay and Benefits and Workplace Injuries">Pay &amp; Benefits &amp; Workplace Injuries &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/newsrels.htm#OPT" aria-label="Productivity and Technology">Productivity &amp; Technology &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/newsrels.htm#OEP" aria-label="Employment Projections">Employment Projections &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/newsrels.htm#INT" aria-label="International Programs">International Programs &#187;</a></li>
+		<li>&nbsp;</li>
+		<li class="heading"><a href="/bls/newsrels.htm#NEWS" aria-label="Regional News Releases">Regional News Releases &#187;</a></li>
+    </ul>
+</div>
+    </li>
+    <li class="submenu"><a href="/k12/" aria-label="Section: Students">Students</a>
+        
+<!-- ********************************************** Begin Students Tab LIST ****************************************** -->
+<div class="sub" id="submenu-students">
+    <ul>
+        <li><a href="/k12/games.htm" aria-label="Games and Quizzes">Games &amp; Quizzes</a></li>
+		<li><a href="/k12/students.htm" aria-label="Student Resources">Student Resources</a></li>
+		<li><a href="/k12/teachers.htm" aria-label="Teacher's Desk">Teacher&acute;s Desk</a></li>
+		<li><a href="/k12/history.htm" aria-label="History of BLS">History of BLS</a></li>
+		<li><a href="/k12/faq.htm" aria-label="Frequently Asked Questions regarding K through 12">FAQs</a></li>
+    </ul>
+</div>
+<!-- ***********************************************End Students Tab LIST ******************************************** -->
+
+    </li>
+    <li class="submenu"><a href="https://beta.bls.gov" aria-label="Section: Beta">Beta</a>
+        <!-- ***********************************************Start BETA LIST ******************************************** -->
+
+<div class="sub" id="submenu-beta">
+    <ul>
+        <li class="heading"><a href="http://beta.bls.gov/dataQuery/" aria-label="Data Finder 1.0">Data Finder &#187;</a></li>
+		<li class="heading"><a href="http://beta.bls.gov/maps/cew/us" aria-label="Quarterly Census of Employment and Wages State and Country Map">State and County Map &#187;</a></li>
+		<li class="heading"><a href="http://beta.bls.gov/comparison-matrix/home.htm" aria-label="Comparison Matrix of BLS compensation data sources">Comparing Pay Measures &#187;</a></li>
+    </ul>
+</div>
+<!-- ***********************************************End BETA LIST ******************************************** --> 
+		
+    </li>
+</ul>
+		</div>
+		<div class="clearfloat"></div>
+	</div>
+</div>
+
+<!-- MAIN NAV END -->
+
+<!-- WRAPPER TOP BEGIN -->
+	<div id="wrapper-outer">
+		<div id="wrapper">
+			<div id="container">
+<!-- WRAPPER TOP END -->
+<!-- SUBDOMAIN TITLE TOP BEGIN -->
+				<div id="subdomain-title">
+					<span id="subdomain-title-text">
+					
+<!-- SUBDOMAIN TITLE TOP END -->
+<!-- SUBDOMAIN TITLE BEGIN -->
+<!--no_index_end-->
+Labor Force Statistics from the Current Population Survey
+
+<!--no_index_start-->
+<!-- SUBDOMAIN TITLE END -->
+<!-- SUBDOMAIN TITLE MIDDLE BEGIN -->
+		</span>		
+<div class="article-tools-box-container">
+	<div class="article-tools-box social-media" style="margin: 8px 0px 0px 4px;" >
+       <span class="social-media">
+            SHARE ON:
+           <a href="javascript:void(0);" class="share_facebook"><img alt="share on facebook" src="/images/icons/facebook.png" title="Facebook" /></a>
+           <a href="javascript:void(0);" class="share_twitter"><img alt="share on twitter" src="/images/icons/twitter.png" title="Twitter" /></a>
+           <a href="javascript:void(0);" class="share_linkedin"><img alt="share on linkedin" src="/images/icons/linkedin.png" title="LinkedIn" /></a>
+           <!--<a href="javascript:void(0);" class="share_googleplus"><img src="/images/icons/google.png" title="Google Plus" /></a>-->
+         </span>
+    </div>
+	<div class="article-tools-box" style="margin-right: 4px;">
+		<a href="https://data.bls.gov/cgi-bin/print.pl/cps/tables.htm">PRINT:<img src="/images/icons/icon_small_printer.gif" alt="Print" width="16" height="16" style="padding-left:3px"></a>
+	</div>
+</div>
+
+<!-- SUBDOMAIN TITLE MIDDLE END -->
+
+			<div class="article-tools-box"><a href="#TB_inline?height=200&amp;width=325&amp;inlineId=cps_program_links" class="thickbox">CPS <img src="/images/icons/icon_small_link.gif" alt="CPS Program Links"></a></div>
+			<div id="cps_program_links" style="display: none;">
+				<h2>Labor Force Statistics from the Current Population Survey</h2>
+				<ul>
+					<li><a href="/cps/">CPS Homepage</a></li>
+					<li><a href="/cps/cps_over.htm">CPS Overview</a></li>
+					<li><a href="/cps/faq.htm">CPS FAQ</a></li>
+					<li><a href="/cps/contact.htm">Contact CPS</a></li>
+				</ul>
+			</div>
+	
+<!-- SUBDOMAIN TITLE BOTTOM BEGIN -->
+    
+	</div> <!-- End Subdomain Title Div -->
+	<div id="subdomain-title-border"></div>
+
+<!-- SUBDOMAIN TITLE BOTTOM END -->
+
+<!-- 2COL LAYOUT COL1 BEGIN -->	
+<div class="clearfloat" id="startcontent"></div>
+<table id="main-content-table">
+	<tr>
+		<td id="secondary-nav-td">
+			<div id="secondary-nav">
+
+<!-- 2COL LAYOUT COL1 END -->
+
+<!-- SECONDARY NAV BEGIN -->		
+<div class="secondary-nav">
+		<ul class="level1">
+			<li class="menuhead"><a href="/cps/home.htm">BROWSE CPS</a></li>
+			<li><a href="/cps/home.htm">CPS HOME</a></li>
+			<li class="submenu"><a href="/cps/cps_over.htm">CPS OVERVIEW</a>
+				<ul class="level2">
+						<li><a href="/cps/cps_over.htm#faq">Frequently Requested Information</a></li>
+						<li><a href="/cps/cps_over.htm#available">Data Available</a></li>
+						<li><a href="/cps/cps_over.htm#coverage">Coverage</a></li>
+						<li><a href="/cps/cps_over.htm#source">Data Source</a></li>
+						<li><a href="/cps/cps_over.htm#reference">Reference Period</a></li>
+						<li><a href="/cps/cps_over.htm#publication">Forms of Publication</a></li>
+						<li><a href="/cps/cps_over.htm#uses">Uses</a></li>
+						<li><a href="/cps/cps_over.htm#other">Other labor force topics and fact sheets</a></li>
+						<li><a href="/cps/cps_over.htm#methodology">Methodology</a></li>
+				</ul>
+			</li>
+			<li><a href="/cps/news.htm">CPS NEWS RELEASES</a></li>
+			<li><a href="/cps/data.htm">CPS DATABASES</a></li>
+			<li><a href="/cps/tables.htm">CPS TABLES</a></li>		
+			<li><a href="/cps/publications.htm">CPS PUBLICATIONS</a></li>
+			<li><a href="/cps/faq.htm">CPS FAQs</a></li>
+			<li><a href="/cps/contact.htm">CONTACT CPS</a></li>
+		</ul>
+	</div>
+
+		<form action="/search/query" id="search-secondary-nav-form" method="get">
+		<p>
+			<label for="search-secondary-nav-query">SEARCH CPS</label>
+			<input name="prefix" type="hidden" id="search-secondary-nav-category" value="https://www.bls.gov/cps">
+			<input name="query" type="text" id="search-secondary-nav-query">
+			<input type="submit" name="submit" id="search-secondary-nav-submit" value="Go">
+		</p>
+	</form>
+<div class="secondary-nav">
+	<ul class="level1">
+		<li class="menuhead"><a href="/cps/home.htm">CPS TOPICS</a></li>
+		<li><a href="/cps/cpsaz.htm">CPS TOPICS A TO Z</a></li>
+			<li class="submenu"><a href="/cps/demographics.htm">DEMOGRAPHICS</a>
+				<ul class="level2">
+					<li><a href="/cps/demographics.htm">ALL ABOUT DEMOGRAPHICS</a></li>
+					<li><a href="/cps/demographics.htm#disability">DISABILITY</a></li>
+					<li><a href="/cps/demographics.htm#education">EDUCATIONAL ATTAINMENT</a></li>
+					<li><a href="/cps/demographics.htm#families">FAMILIES</a></li>
+					<li><a href="/cps/demographics.htm#foreignborn">FOREIGN-BORN WORKERS</a></li>
+					<li><a href="/cps/demographics.htm#older">OLDER WORKERS</a></li>
+					<li><a href="/cps/demographics.htm#race">RACE AND HISPANIC ETHNICITY</a></li>
+					<li><a href="/cps/demographics.htm#vets">VETERANS</a></li>
+					<li><a href="/cps/demographics.htm#women">WOMEN</a></li>
+					<li><a href="/cps/demographics.htm#youth">YOUTH</a></li>
+				</ul></li>
+			<li class="submenu"><a href="/cps/lfcharacteristics.htm#emp">EMPLOYMENT</a>
+				<ul class="level2">
+					<li><a href="/cps/lfcharacteristics.htm#emp">ALL ABOUT EMPLOYMENT</a></li>
+					<li><a href="/cps/demographics.htm">DEMOGRAPHICS</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#hours">HOURS OF WORK</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#mjh">MULTIPLE JOBHOLDERS</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#occind">OCCUPATION AND INDUSTRY</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#self">SELF-EMPLOYED WORKERS</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#tenure">TENURE</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#union">UNION MEMBERS</a></li>
+				</ul></li>
+			<li class="submenu"><a href="/cps/lfcharacteristics.htm#unemp">UNEMPLOYMENT</a>
+				<ul class="level2">
+					<li><a href="/cps/lfcharacteristics.htm#unemp">ALL ABOUT UNEMPLOYMENT</a></li>
+					<li><a href="/cps/demographics.htm">DEMOGRAPHICS</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#displaced">DISPLACED WORKERS</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#occind">OCCUPATION AND INDUSTRY</a></li>
+				</ul></li>
+			<li class="submenu"><a href="/cps/earnings.htm">EARNINGS</a>
+				<ul class="level2">
+					<li><a href="/cps/earnings.htm">ALL ABOUT EARNINGS</a></li>
+					<li><a href="/cps/earnings.htm#demographics">DEMOGRAPHICS</a></li>
+					<li><a href="/cps/earnings.htm#education">EDUCATIONAL ATTAINMENT</a></li>
+					<li><a href="/cps/earnings.htm#minwage">MINIMUM WAGE WORKERS</a></li>
+					<li><a href="/cps/earnings.htm#occind">OCCUPATION AND INDUSTRY</a></li>
+					<li><a href="/cps/earnings.htm#workpoor">WORKING POOR</a></li>
+				</ul></li>
+			<li class="submenu"><a href="/cps/lfcharacteristics.htm#hours">HOURS OF WORK</a>
+				<ul class="level2">
+					<li><a href="/cps/lfcharacteristics.htm#hours">ALL ABOUT HOURS OF WORK</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#fullpart">FULL- AND PART-TIME WORK</a></li>
+					<li><a href="/cps/lfcharacteristics.htm#workexp">WORK EXPERIENCE</a></li>
+				</ul></li>
+			<li class="submenu"><a href="/cps/documentation.htm">TECHNICAL DOCUMENTATION</a>
+				<ul class="level2">
+					<li><a href="/cps/documentation.htm#concepts">CONCEPTS AND METHODOLOGY</a></li>
+					<li><a href="/cps/documentation.htm#ces_cps">CPS AND CES EMPLOYMENT DIFFERENCES</a></li>
+					<li><a href="/cps/documentation.htm#htgm">HOW THE GOVERNMENT MEASURES UNEMPLOYMENT</a></li>
+					<li><a href="/cps/documentation.htm#oi">OCCUPATIONAL AND INDUSTRY CLASSIFICATION</a></li>
+					<li><a href="/cps/documentation.htm#pop">POPULATION CONTROL ADJUSTMENTS</a></li>
+					<li><a href="/cps/documentation.htm#reliability">RELIABILITY OF ESTIMATES</a></li>
+					<li><a href="/cps/documentation.htm#sa">SEASONAL ADJUSTMENT</a></li>
+				</ul></li>
+			</ul>
+		</div>
+		<div class="secondary-nav">
+			<ul class="level1">
+				<li class="menuhead"><a href="/cps/home.htm">RELATED LINKS</a></li>
+				<li><a href="/respondents/cps/home.htm">INFORMATION FOR CPS PARTICIPANTS</a></li>
+				<li><a href="/lau/home.htm">STATE AND LOCAL LABOR FORCE DATA</a></li>
+				<li><a href="/ces/home.htm">NONFARM PAYROLL EMPLOYMENT</a></li>
+			</ul>
+      <div id="govdelivery-banner">
+	<p class="banner-text">Subscribe <br />to Contingent and Alternative Employment Arrangements</p>
+</div>
+<div id="subscribe-form">
+	<form action="https://subscriptions.bls.gov/accounts/USDOLBLS/subscribers/qualify">
+		<input id="topic_id" name="topic_id" type="hidden" value="USDOLBLS_696" />
+		<!--<label class="hidden" for="email">email:</label>-->
+		<input class="long" id="email" name="email" aria-label="subscribe email" type="text" value="Email Address" onclick="this.value=''; this.onclick = null;"/>
+		<input class="form_button" name="commit" type="submit" value="GO" />
+	</form>
+</div>	 
+ 	</div>
+
+<!-- SECONDARY NAV END -->
+
+<!-- 2COL LAYOUT COL2 BEGIN -->
+			</div>
+		</td>
+		<td id="main-content-td" class="main-content">
+			<div id="bodytext" class="verdana md">
+			
+
+<!-- 2COL LAYOUT COL2 END -->
+
+<!--no_index_end-->
+<!-- MAIN CONTENT BEGIN -->
+
+<!-- ****************************************** End HEADER ************************************************** -->
+
+<!-- ****************************************** End HEADER ************************************************** -->
+	<p> The <strong>Current Population Survey (CPS)</strong> is a monthly survey of households conducted by the Bureau of Census for the Bureau  of Labor Statistics. It provides a comprehensive body of data on the <a href="/cps/lfcharacteristics.htm#laborforce">labor force</a>, <a href="/cps/lfcharacteristics.htm#emp">employment</a>, <a href="/cps/lfcharacteristics.htm#unemp">unemployment</a>,  persons <a href="/cps/lfcharacteristics.htm#nlf">not in the  labor force</a>, <a href="/cps/lfcharacteristics.htm#hours">hours  of work</a>, <a href="/cps/earnings.htm">earnings</a>, and  other <a href="/cps/demographics.htm">demographic</a> and <a href="/cps/lfcharacteristics.htm">labor force characteristics</a>. </p>
+<p>Labor force information for Census regions and divisions, states, counties, metropolitan areas, and many cities are available separately from the <a href="/lau/">Local Area Unemployment Statistics</a> (LAUS) program.
+	See also the BLS <a href="/opub/geographic-profile/home.htm">Geographic Profile of Employment and Unemployment</a>.</p>
+<br>
+<div class="highlight-box-blue">
+<h4>On this Page:</h4>
+<ul>
+<li><a href="#annual">Annual average data</a> - Complete set of all 57 tables (<a href="/cps/cpsa2018.pdf">PDF</a>, 127 printed pages)  (<a href="/cps/cpsa2018.xlsx">XLSX</a>)<br>
+	<table  cellspacing="0" cellpadding="0" border="0">
+		<tbody>
+			<tr>
+				<td width=48%><ul>
+						<li><a href="#empstat">Employment status</a></li>
+						<li><a href="#charemp">Characteristics of the employed</a></li>
+						<li><a href="#charunem">Characteristics of the unemployed</a></li>
+						<li><a href="#pnilf">Persons not in the labor force</a></li>
+						<li><a href="#multjob">Multiple jobholders</a></li>
+					</ul></td>
+				<td width=48%><ul>
+						<li><a href="#weekearn">Weekly earnings</a></li>
+						<li><a href="#union">Union affiliation</a></li>
+						<li><a href="#minimum">Minimum wage workers</a></li>
+						<li><a href="#absences">Absences from work</a></li>
+						<li><a href="#vets">Veteran status</a></li>
+						<li><a href="#certs_licenses">Certification and licensing status</a></li>
+					</ul></td>
+			</tr>
+			<tr valign="top">
+
+				<td colspan=2><ul>
+				<br>
+				<li>Other years: [<a href="/cps/tables.htm">2018</a>] [<a href="/cps/cps_aa2017.htm">2017</a>] [<a href="/cps/cps_aa2016.htm">2016</a>] [<a href="/cps/cps_aa2015.htm">2015</a>] [<a href="/cps/cps_aa2014.htm">2014</a>] [<a href="/cps/cps_aa2013.htm">2013</a>] [<a href="/cps/cps_aa2012.htm">2012</a>] [<a href="/cps/cps_aa2011.htm">2011</a>] [<a href="/cps/cps_aa2010.htm">2010</a>] [<a href="/cps/cps_aa2009.htm">2009</a>] [<a href="/cps/cps_aa2008.htm">2008</a>] [<a href="/cps/cps_aa2007.htm">2007</a>] [<a href="/cps/cps_aa2006.htm">2006</a>] [<a href="/cps/cps_aa2005.htm">2005</a>] [<a href="/cps/cps_aa2004.htm">2004</a>] [<a href="/cps/cps_aa2003.htm">2003</a>] [<a href="/cps/cps_aa2002.htm">2002</a>] [<a href="/cps/cps_aa1995_1999.htm">1995&ndash;1999</a>]</li>
+					</ul></td>
+			</tr>
+		</tbody>
+	</table>
+</li>
+<br>
+<li><a href="#monthly">Monthly data</a>
+	<table  cellspacing="0" cellpadding="0" border="0">
+		<tbody>
+			<tr valign="top">
+				<td width=48%><ul>
+						<li><a href="#History_m">Historical</a></li>
+						<li>Seasonally adjusted data
+							<ul>
+								<li><a href="#empstat_m">Employment status</a></li>
+								<li><a href="#charemp_m">Characteristics of the employed and the labor force</a></li>
+								<li><a href="#charunem_m">Characteristics of the unemployed</a></li>
+							</ul>
+						</li>
+					</ul></td>
+				<td width=4%>&nbsp;</td>
+				<td width=48%><ul>
+						<li>Not seasonally adjusted data
+							<ul>
+								<li><a href="#nempstat_m">Employment status</a></li>
+								<li><a href="#ncharemp_m">Characteristics of the employed</a></li>
+								<li><a href="#ncharunem_m">Characteristics of the unemployed</a></li>
+								<li><a href="#pnilf_m">Persons not in the labor force</a></li>
+								<li><a href="#multjob_m">Multiple jobholders</a></li>
+								<li><a href="#vets_m">Veteran status</a></li>
+							</ul>
+						</li>
+					</ul></td>
+			</tr>
+		</tbody>
+	</table>
+</li>
+<li><a href="#quarterly">Quarterly data</a>
+
+	<ul>
+		<table  cellspacing="0" cellpadding="0" border="0">
+			<tbody>
+				<tr valign="top">
+					<td width=48%><ul>
+							<li>Seasonally adjusted data
+								<ul>
+									<li><a href="#empstat_q">Employment status</a></li>
+									<li><a href="#charemp_q">Characteristics of the employed</a></li>
+									<li><a href="#charunem_q">Characteristics of the unemployed</a></li>
+								</ul>
+							</li>
+						</ul></td>
+					<td width=4%>&nbsp;</td>
+					<td width=48%><ul>
+							<li>Not seasonally adjusted data
+								<ul>
+									<li><a href="#nempstat_q">Employment status</a></li>
+									<li><a href="#charemp_r">Characteristics of the employed</a></li>
+									<li><a href="#ncharunem_q">Characteristics of the unemployed</a></li>
+									<li><a href="#vets_q">Veteran status</a></li>
+								</ul>
+							</li>
+						</ul></td>
+				</tr>
+			</tbody>
+		</table>
+	</ul>
+</div>
+<br>
+<h1>CPS Tables</h1>
+<h3 id="annual">Annual averages</h3>
+<fieldset>
+	<p class="sub3">
+		<legend id="empstat"><strong>EMPLOYMENT STATUS</strong></legend>
+	</p>
+	<ul>
+		<li>1. Employment status of the civilian noninstitutional population, 1940s to date (<a href="/cps/cpsaat01.htm">HTML</a>) (<a href="/cps/cpsaat01.pdf">PDF</a>) (<a href="/cps/cpsaat01.xlsx">XLSX</a>)</li>
+		<li>2. Employment status of the civilian noninstitutional population 16 years and over by sex, 1970s to date (<a href="/cps/cpsaat02.htm">HTML</a>) (<a href="/cps/cpsaat02.pdf">PDF</a>) (<a href="/cps/cpsaat02.xlsx">XLSX</a>)</li>
+		<li>3. Employment status of the civilian noninstitutional population by age, sex, and race (<a href="/cps/cpsaat03.htm">HTML</a>) (<a href="/cps/cpsaat03.pdf">PDF</a>) (<a href="/cps/cpsaat03.xlsx">XLSX</a>)</li>
+		<li>4. Employment status of the Hispanic or Latino population by age and sex (<a href="/cps/cpsaat04.htm">HTML</a>) (<a href="/cps/cpsaat04.pdf">PDF</a>) (<a href="/cps/cpsaat04.xlsx">XLSX</a>)</li>
+		<li>5. Employment status of the civilian noninstitutional population by sex, age, and race (<a href="/cps/cpsaat05.htm">HTML</a>) (<a href="/cps/cpsaat05.pdf">PDF</a>) (<a href="/cps/cpsaat05.xlsx">XLSX</a>)</li>
+		<li>6. Employment status of the Hispanic or Latino population by sex, age, and detailed ethnic group (<a href="/cps/cpsaat06.htm">HTML</a>) (<a href="/cps/cpsaat06.pdf">PDF</a>) (<a href="/cps/cpsaat06.xlsx">XLSX</a>)</li>
+		<li>7. Employment status of the civilian noninstitutional population 25 years and over by educational attainment, sex, race, and Hispanic or Latino ethnicity (<a href="/cps/cpsaat07.htm">HTML</a>) (<a href="/cps/cpsaat07.pdf">PDF</a>) (<a href="/cps/cpsaat07.xlsx">XLSX</a>)</li>
+		<li>8. Employed and unemployed full- and part-time workers by age, sex, race, and Hispanic or Latino ethnicity (<a href="/cps/cpsaat08.htm">HTML</a>) (<a href="/cps/cpsaat08.pdf">PDF</a>) (<a href="/cps/cpsaat08.xlsx">XLSX</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub3">
+		<legend id="charemp"><strong>CHARACTERISTICS OF THE EMPLOYED</strong></legend>
+	</p>
+	<ul>
+		<li>9. Employed persons by occupation, sex, and age (<a href="/cps/cpsaat09.htm">HTML</a>) (<a href="/cps/cpsaat09.pdf">PDF</a>) (<a href="/cps/cpsaat09.xlsx">XLSX</a>)</li>
+		<li>10. Employed persons by occupation, race, Hispanic or Latino ethnicity, and sex (<a href="/cps/cpsaat10.htm">HTML</a>) (<a href="/cps/cpsaat10.pdf">PDF</a>) (<a href="/cps/cpsaat10.xlsx">XLSX</a>)</li>
+		<li>11. Employed persons by detailed occupation, sex, race, and Hispanic or Latino ethnicity (<a href="/cps/cpsaat11.htm">HTML</a>) (<a href="/cps/cpsaat11.pdf">PDF</a>) (<a href="/cps/cpsaat11.xlsx">XLSX</a>)</li>
+		<li>11b. Employed persons by detailed occupation and age (<a href="/cps/cpsaat11b.htm">HTML</a>) (<a href="/cps/cpsaat11b.pdf">PDF</a>) (<a href="/cps/cpsaat11b.xlsx">XLSX</a>)</li>
+		<li>12. Employed persons by sex, occupation, class of worker, full- or part-time status, and race (<a href="/cps/cpsaat12.htm">HTML</a>) (<a href="/cps/cpsaat12.pdf">PDF</a>) (<a href="/cps/cpsaat12.xlsx">XLSX</a>)</li>
+		<li>13. Employed Hispanic or Latino workers by sex, occupation, class of worker, full- or part-time status, and detailed ethnic group (<a href="/cps/cpsaat13.htm">HTML</a>) (<a href="/cps/cpsaat13.pdf">PDF</a>) (<a href="/cps/cpsaat13.xlsx">XLSX</a>)</li>
+		<li>14. Employed persons in nonagricultural industries by age, sex, race, and Hispanic or Latino ethnicity (<a href="/cps/cpsaat14.htm">HTML</a>) (<a href="/cps/cpsaat14.pdf">PDF</a>) (<a href="/cps/cpsaat14.xlsx">XLSX</a>)</li>
+		<li>15. Employed persons in agriculture and nonagricultural industries by age, sex, and class of worker (<a href="/cps/cpsaat15.htm">HTML</a>) (<a href="/cps/cpsaat15.pdf">PDF</a>) (<a href="/cps/cpsaat15.xlsx">XLSX</a>)</li>
+		<li>16. Employed persons in nonagricultural industries by sex and class of worker (<a href="/cps/cpsaat16.htm">HTML</a>) (<a href="/cps/cpsaat16.pdf">PDF</a>) (<a href="/cps/cpsaat16.xlsx">XLSX</a>)</li>
+		<li>17. Employed persons by industry, sex, race, and occupation (<a href="/cps/cpsaat17.htm">HTML</a>) (<a href="/cps/cpsaat17.pdf">PDF</a>) (<a href="/cps/cpsaat17.xlsx">XLSX</a>)</li>
+		<li>18. Employed persons by detailed industry, sex, race, and Hispanic or Latino ethnicity (<a href="/cps/cpsaat18.htm">HTML</a>) (<a href="/cps/cpsaat18.pdf">PDF</a>) (<a href="/cps/cpsaat18.xlsx">XLSX</a>)</li>
+		<li>18b. Employed persons by detailed industry and age (<a href="/cps/cpsaat18b.htm">HTML</a>) (<a href="/cps/cpsaat18b.pdf">PDF</a>) (<a href="/cps/cpsaat18b.xlsx">XLSX</a>)</li>
+		<li>19. Persons at work in agriculture and nonagricultural industries by hours of work (<a href="/cps/cpsaat19.htm">HTML</a>) (<a href="/cps/cpsaat19.pdf">PDF</a>) (<a href="/cps/cpsaat19.xlsx">XLSX</a>)</li>
+		<li>20. Persons at work 1 to 34 hours in all and in nonagricultural industries by reason for working less than 35 hours and usual full- or part-time status (<a href="/cps/cpsaat20.htm">HTML</a>) (<a href="/cps/cpsaat20.pdf">PDF</a>) (<a href="/cps/cpsaat20.xlsx">XLSX</a>)</li>
+		<li>21. Persons at work in nonagricultural industries by class of worker and usual full- or part-time status (<a href="/cps/cpsaat21.htm">HTML</a>) (<a href="/cps/cpsaat21.pdf">PDF</a>) (<a href="/cps/cpsaat21.xlsx">XLSX</a>)</li>
+		<li>22. Persons at work in nonagricultural industries by age, sex, race, Hispanic or Latino ethnicity, marital status, and usual full- or part-time status (<a href="/cps/cpsaat22.htm">HTML</a>) (<a href="/cps/cpsaat22.pdf">PDF</a>) (<a href="/cps/cpsaat22.xlsx">XLSX</a>)</li>
+		<li>23. Persons at work by occupation, sex, and usual full- or part-time status (<a href="/cps/cpsaat23.htm">HTML</a>) (<a href="/cps/cpsaat23.pdf">PDF</a>) (<a href="/cps/cpsaat23.xlsx">XLSX</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub3">
+		<legend id="charunem"><strong>CHARACTERISTICS OF THE UNEMPLOYED</strong></legend>
+	</p>
+	<ul>
+		<li>24. Unemployed persons by marital status, race, Hispanic or Latino ethnicity, age, and sex (<a href="/cps/cpsaat24.htm">HTML</a>) (<a href="/cps/cpsaat24.pdf">PDF</a>) (<a href="/cps/cpsaat24.xlsx">XLSX</a>)</li>
+		<li>25. Unemployed persons by occupation and sex (<a href="/cps/cpsaat25.htm">HTML</a>) (<a href="/cps/cpsaat25.pdf">PDF</a>) (<a href="/cps/cpsaat25.xlsx">XLSX</a>)</li>
+		<li>26. Unemployed persons by industry, class of worker, and sex (<a href="/cps/cpsaat26.htm">HTML</a>) (<a href="/cps/cpsaat26.pdf">PDF</a>) (<a href="/cps/cpsaat26.xlsx">XLSX</a>)</li>
+		<li>27. Unemployed persons by reason for unemployment, sex, and age (<a href="/cps/cpsaat27.htm">HTML</a>) (<a href="/cps/cpsaat27.pdf">PDF</a>) (<a href="/cps/cpsaat27.xlsx">XLSX</a>)</li>
+		<li>28. Unemployed persons by reason for unemployment, race, and Hispanic or Latino ethnicity (<a href="/cps/cpsaat28.htm">HTML</a>) (<a href="/cps/cpsaat28.pdf">PDF</a>) (<a href="/cps/cpsaat28.xlsx">XLSX</a>)</li>
+		<li>29. Unemployed persons by reason for unemployment, sex, age, and duration of unemployment (<a href="/cps/cpsaat29.htm">HTML</a>) (<a href="/cps/cpsaat29.pdf">PDF</a>) (<a href="/cps/cpsaat29.xlsx">XLSX</a>)</li>
+		<li>30. Unemployed total and full-time workers by duration of unemployment (<a href="/cps/cpsaat30.htm">HTML</a>) (<a href="/cps/cpsaat30.pdf">PDF</a>) (<a href="/cps/cpsaat30.xlsx">XLSX</a>)</li>
+		<li>31. Unemployed persons by age, sex, race, Hispanic or Latino ethnicity, marital status, and duration of unemployment (<a href="/cps/cpsaat31.htm">HTML</a>) (<a href="/cps/cpsaat31.pdf">PDF</a>) (<a href="/cps/cpsaat31.xlsx">XLSX</a>)</li>
+		<li>32. Unemployed persons by occupation, industry, and duration of unemployment (<a href="/cps/cpsaat32.htm">HTML</a>) (<a href="/cps/cpsaat32.pdf">PDF</a>) (<a href="/cps/cpsaat32.xlsx">XLSX</a>)</li>
+		<li>33. Unemployed jobseekers by sex, age, race, Hispanic or Latino ethnicity, and active jobsearch methods used (<a href="/cps/cpsaat33.htm">HTML</a>) (<a href="/cps/cpsaat33.pdf">PDF</a>) (<a href="/cps/cpsaat33.xlsx">XLSX</a>)</li>
+		<li>34. Unemployed jobseekers by sex, reason for unemployment, and active jobsearch methods used (<a href="/cps/cpsaat34.htm">HTML</a>) (<a href="/cps/cpsaat34.pdf">PDF</a>) (<a href="/cps/cpsaat34.xlsx">XLSX</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub3">
+		<legend id="pnilf"><strong>PERSONS NOT IN THE LABOR FORCE</strong></legend>
+	</p>
+	<ul>
+		<li>35. Persons not in the labor force by desire and availability for work, age, and sex (<a href="/cps/cpsaat35.htm">HTML</a>) (<a href="/cps/cpsaat35.pdf">PDF</a>) (<a href="/cps/cpsaat35.xlsx">XLSX</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub3">
+		<legend id="multjob"><strong>MULTIPLE JOBHOLDERS</strong></legend>
+	</p>
+	<ul>
+		<li>36. Multiple jobholders by selected characteristics (<a href="/cps/cpsaat36.htm">HTML</a>) (<a href="/cps/cpsaat36.pdf">PDF</a>) (<a href="/cps/cpsaat36.xlsx">XLSX</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub3">
+		<legend id="weekearn"><strong>WEEKLY EARNINGS</strong></legend>
+	</p>
+	<ul>
+		<li>37. Median weekly earnings of full-time wage and salary workers by selected characteristics (<a href="/cps/cpsaat37.htm">HTML</a>) (<a href="/cps/cpsaat37.pdf">PDF</a>) (<a href="/cps/cpsaat37.xlsx">XLSX</a>)</li>
+		<li>38. Median weekly earnings of part-time wage and salary workers by selected characteristics (<a href="/cps/cpsaat38.htm">HTML</a>) (<a href="/cps/cpsaat38.pdf">PDF</a>) (<a href="/cps/cpsaat38.xlsx">XLSX</a>)</li>
+		<li>39. Median weekly earnings of full-time wage and salary workers by detailed occupation and sex (<a href="/cps/cpsaat39.htm">HTML</a>) (<a href="/cps/cpsaat39.pdf">PDF</a>) (<a href="/cps/cpsaat39.xlsx">XLSX</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub3">
+		<legend id="union"><strong>UNION AFFILIATION</strong></legend>
+	</p>
+	<ul>
+		<li>40. Union affiliation of employed wage and salary workers by selected characteristics (<a href="/cps/cpsaat40.htm">HTML</a>) (<a href="/cps/cpsaat40.pdf">PDF</a>) (<a href="/cps/cpsaat40.xlsx">XLSX</a>)</li>
+		<li>41. Median weekly earnings of full-time wage and salary workers by union affiliation and selected characteristics (<a href="/cps/cpsaat41.htm">HTML</a>) (<a href="/cps/cpsaat41.pdf">PDF</a>) (<a href="/cps/cpsaat41.xlsx">XLSX</a>)</li>
+		<li>42. Union affiliation of employed wage and salary workers by occupation and industry (<a href="/cps/cpsaat42.htm">HTML</a>) (<a href="/cps/cpsaat42.pdf">PDF</a>) (<a href="/cps/cpsaat42.xlsx">XLSX</a>)</li>
+		<li>43. Median weekly earnings of full-time wage and salary workers by union affiliation, occupation, and industry (<a href="/cps/cpsaat43.htm">HTML</a>) (<a href="/cps/cpsaat43.pdf">PDF</a>) (<a href="/cps/cpsaat43.xlsx">XLSX</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub3">
+		<legend id="minimum"><strong>MINIMUM WAGE WORKERS</strong></legend>
+	</p>
+	<ul>
+		<li>44. Wage and salary workers paid hourly rates with earnings at or below the prevailing Federal minimum wage by selected characteristics (<a href="/cps/cpsaat44.htm">HTML</a>) (<a href="/cps/cpsaat44.pdf">PDF</a>) (<a href="/cps/cpsaat44.xlsx">XLSX</a>)</li>
+		<li>45. Wage and salary workers paid hourly rates with earnings at or below the prevailing Federal minimum wage by occupation and industry (<a href="/cps/cpsaat45.htm">HTML</a>) (<a href="/cps/cpsaat45.pdf">PDF</a>) (<a href="/cps/cpsaat45.xlsx">XLSX</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub3">
+		<legend id="absences"><strong>ABSENCES FROM WORK</strong></legend>
+	</p>
+	<ul>
+		<li>46. Absences from work of employed full-time wage and salary workers by age, sex, race, and Hispanic or Latino ethnicity (<a href="/cps/cpsaat46.htm">HTML</a>) (<a href="/cps/cpsaat46.pdf">PDF</a>) (<a href="/cps/cpsaat46.xlsx">XLSX</a>)</li>
+		<li>47. Absences from work of employed full-time wage and salary workers by occupation and industry (<a href="/cps/cpsaat47.htm">HTML</a>) (<a href="/cps/cpsaat47.pdf">PDF</a>) (<a href="/cps/cpsaat47.xlsx">XLSX</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub3">
+		<legend id="vets"><strong>VETERAN STATUS</strong></legend>
+	</p>
+	<ul>
+		<li>48. Employment status of persons 18 years and over by veteran status, age, and sex (<a href="/cps/cpsaat48.htm">HTML</a>) (<a href="/cps/cpsaat48.pdf">PDF</a>) (<a href="/cps/cpsaat48.xlsx">XLSX</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub3">
+		<legend id="certs_licenses"><strong>CERTIFICATION AND LICENSING STATUS</strong></legend>
+	</p>
+	<ul>
+		<li>49. Certification and licensing status of the civilian noninstitutional population 16 years and over by employment status (<a href="/cps/cpsaat49.htm">HTML</a>) (<a href="/cps/cpsaat49.pdf">PDF</a>) (<a href="/cps/cpsaat49.xlsx">XLSX</a>)</li>
+		<li>50. Employment status of the civilian noninstitutional population by certification and licensing status and selected characteristics (<a href="/cps/cpsaat50.htm">HTML</a>) (<a href="/cps/cpsaat50.pdf">PDF</a>) (<a href="/cps/cpsaat50.xlsx">XLSX</a>)</li>
+		<li>51. Certification and licensing status of employed persons 16 years and over by selected characteristics (<a href="/cps/cpsaat51.htm">HTML</a>) (<a href="/cps/cpsaat51.pdf">PDF</a>) (<a href="/cps/cpsaat51.xlsx">XLSX</a>)</li>
+		<li>52. Certification and licensing status of the employed by industry and class of worker (<a href="/cps/cpsaat52.htm">HTML</a>) (<a href="/cps/cpsaat52.pdf">PDF</a>) (<a href="/cps/cpsaat52.xlsx">XLSX</a>)</li>
+		<li>53. Certification and licensing status of the employed by occupation (<a href="/cps/cpsaat53.htm">HTML</a>) (<a href="/cps/cpsaat53.pdf">PDF</a>) (<a href="/cps/cpsaat53.xlsx">XLSX</a>)</li>
+		<li>54. Median weekly earnings of full-time wage and salary workers by certification and licensing status and selected characteristics (<a href="/cps/cpsaat54.htm">HTML</a>) (<a href="/cps/cpsaat54.pdf">PDF</a>) (<a href="/cps/cpsaat54.xlsx">XLSX</a>)</li>
+		<li>55. Median weekly earnings of full-time wage and salary workers by certification and licensing status and occupation (<a href="/cps/cpsaat55.htm">HTML</a>) (<a href="/cps/cpsaat55.pdf">PDF</a>) (<a href="/cps/cpsaat55.xlsx">XLSX</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<br>
+<h3 class="lev2" id="monthly">Monthly data</h3>
+<fieldset>
+	<p class="sub2">
+		<legend id="history_m"><strong>HISTORICAL</strong></legend>
+	</p>
+	<ul>
+		<li>A-1. Employment status of the civilian noninstitutional population 16 years and over, prior years to date (<a href="/web/empsit/cpseea01.htm">HTML</a>) (<a href="/web/empsit/cpseea01.pdf">PDF</a>)</li>
+		<li>A-2. Employment status of the civilian noninstitutional population 16 years and over by sex, recent years to date (<a href="/web/empsit/cpseea02.htm">HTML</a>) (<a href="/web/empsit/cpseea02.pdf">PDF</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub2">
+		<legend id="empstat_m"><strong>SEASONALLY ADJUSTED DATA</strong></legend>
+	</p>
+	<p class="subbox">Employment Status</p>
+	<ul>
+		<li>A-3. Employment status of the civilian noninstitutional population by sex and age, seasonally adjusted (<a href="/web/empsit/cpseea03.htm">HTML</a>) (<a href="/web/empsit/cpseea03.pdf">PDF</a>)</li>
+		<li>A-4. Employment status of the civilian noninstitutional population by race, Hispanic or Latino ethnicity, sex, and age, seasonally adjusted (<a href="/web/empsit/cpseea04.htm">HTML</a>) (<a href="/web/empsit/cpseea04.pdf">PDF</a>)</li>
+		<li>A-5. Employment status of the civilian noninstitutional population 25 years and over by educational attainment, seasonally adjusted (<a href="/web/empsit/cpseea05.htm">HTML</a>) (<a href="/web/empsit/cpseea05.pdf">PDF</a>)</li>
+		<li>A-6. Employed and unemployed full- and part-time workers by sex and age, seasonally adjusted (<a href="/web/empsit/cpseea06.htm">HTML</a>) (<a href="/web/empsit/cpseea06.pdf">PDF</a>)</li>
+	</ul>
+	<br>
+	<p class="subbox" id="charemp_m">Characteristics of the Employed and the Labor Force</p>
+	<ul>
+		<li>A-7. Employed persons by class of worker and part-time status, seasonally adjusted (<a href="/web/empsit/cpseea07.htm">HTML</a>) (<a href="/web/empsit/cpseea07.pdf">PDF</a>)</li>
+		<li>A-8. Employed persons by age, sex, marital status, multiple jobholding status, and self-employment, seasonally adjusted (<a href="/web/empsit/cpseea08.htm">HTML</a>) (<a href="/web/empsit/cpseea08.pdf">PDF</a>)</li>
+		<li>A-8a. Employed persons and employment-population ratios by age and sex, seasonally adjusted (<a href="/web/empsit/cpseea08a.htm">HTML</a>) (<a href="/web/empsit/cpseea08a.pdf">PDF</a>)</li>
+		<li>A-8b. Persons in the labor force and labor force participation rates by age and sex, seasonally adjusted (<a href="/web/empsit/cpseea08b.htm">HTML</a>) (<a href="/web/empsit/cpseea08b.pdf">PDF</a>)</li>
+	</ul>
+	<br>
+	<p class="subbox" id="charunem_m">Characteristics of the Unemployed</p>
+	<ul>
+		<li>A-9. Unemployed persons by age, sex, and marital status, seasonally adjusted (<a href="/web/empsit/cpseea09.htm">HTML</a>) (<a href="/web/empsit/cpseea09.pdf">PDF</a>)</li>
+		<li>A-10. Unemployment rates by age, sex, and marital status, seasonally adjusted (<a href="/web/empsit/cpseea10.htm">HTML</a>) (<a href="/web/empsit/cpseea10.pdf">PDF</a>)</li>
+		<li>A-11. Unemployed persons by reason for unemployment, seasonally adjusted (<a href="/web/empsit/cpseea11.htm">HTML</a>) (<a href="/web/empsit/cpseea11.pdf">PDF</a>)</li>
+		<li>A-12. Unemployed persons by duration of unemployment, seasonally adjusted (<a href="/web/empsit/cpseea12.htm">HTML</a>) (<a href="/web/empsit/cpseea12.pdf">PDF</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub2">
+		<legend id="nempstat_m"><strong>NOT SEASONALLY ADJUSTED DATA</strong></legend>
+	</p>
+	<p class="subbox">Employment Status</p>
+	<ul>
+		<li>A-13. Employment status of the civilian noninstitutional population by age, sex, and race (<a href="/web/empsit/cpseea13.htm">HTML</a>) (<a href="/web/empsit/cpseea13.pdf">PDF</a>)</li>
+		<li>A-14. Employment status of the Hispanic or Latino population by age and sex (<a href="/web/empsit/cpseea14.htm">HTML</a>) (<a href="/web/empsit/cpseea14.pdf">PDF</a>)</li>
+		<li>A-15. Employment status of the civilian noninstitutional population by race, Hispanic or Latino ethnicity, sex, and age (<a href="/web/empsit/cpseea15.htm">HTML</a>) (<a href="/web/empsit/cpseea15.pdf">PDF</a>)</li>
+		<li>A-16. Employment status of the civilian noninstitutional population 16 to 24 years of age by school enrollment, age, sex, race, Hispanic or Latino ethnicity, and educational attainment (<a href="/web/empsit/cpseea16.htm">HTML</a>) (<a href="/web/empsit/cpseea16.pdf">PDF</a>)</li>
+		<li>A-17. Employment status of the civilian noninstitutional population 25 years and over by educational attainment, sex, race, and Hispanic or Latino ethnicity (<a href="/web/empsit/cpseea17.htm">HTML</a>) (<a href="/web/empsit/cpseea17.pdf">PDF</a>)</li>
+		<li>A-18. Employed and unemployed full- and part-time workers by age, sex, race, and Hispanic or Latino ethnicity (<a href="/web/empsit/cpseea18.htm">HTML</a>) (<a href="/web/empsit/cpseea18.pdf">PDF</a>)</li>
+	</ul>
+	<br>
+	<p class="subbox" id="ncharemp_m">Characteristics of the Employed</p>
+	<ul>
+		<li>A-19. Employed persons by occupation, sex, and age (<a href="/web/empsit/cpseea19.htm">HTML</a>) (<a href="/web/empsit/cpseea19.pdf">PDF</a>)</li>
+		<li>A-20. Employed persons by occupation, race, Hispanic or Latino ethnicity, and sex (<a href="/web/empsit/cpseea20.htm">HTML</a>) (<a href="/web/empsit/cpseea20.pdf">PDF</a>)</li>
+		<li>A-21. Employed persons by industry and occupation (<a href="/web/empsit/cpseea21.htm">HTML</a>) (<a href="/web/empsit/cpseea21.pdf">PDF</a>)</li>
+		<li>A-22. Employed persons in agriculture and nonagricultural industries by age, sex, and class of worker (<a href="/web/empsit/cpseea22.htm">HTML</a>) (<a href="/web/empsit/cpseea22.pdf">PDF</a>)</li>
+		<li>A-23. Employed persons in nonagricultural industries by sex and class of worker (<a href="/web/empsit/cpseea23.htm">HTML</a>) (<a href="/web/empsit/cpseea23.pdf">PDF</a>)</li>
+		<li>A-24. Persons at work in agriculture and nonagricultural industries by hours of work (<a href="/web/empsit/cpseea24.htm">HTML</a>) (<a href="/web/empsit/cpseea24.pdf">PDF</a>)</li>
+		<li>A-25. Persons at work 1 to 34 hours in all and in nonagricultural industries by reason for working less than 35 hours and usual full- or part-time status (<a href="/web/empsit/cpseea25.htm">HTML</a>) (<a href="/web/empsit/cpseea25.pdf">PDF</a>)</li>
+		<li>A-26. Persons at work in nonagricultural industries by class of worker and usual full- or part-time status (<a href="/web/empsit/cpseea26.htm">HTML</a>) (<a href="/web/empsit/cpseea26.pdf">PDF</a>)</li>
+		<li>A-27. Persons at work in nonagricultural industries by age, sex, race, Hispanic or Latino ethnicity, marital status, and usual full- or part-time status (<a href="/web/empsit/cpseea27.htm">HTML</a>) (<a href="/web/empsit/cpseea27.pdf">PDF</a>)</li>
+		<li>A-28. Persons at work by occupation, sex, and usual full- or part-time status (<a href="/web/empsit/cpseea28.htm">HTML</a>) (<a href="/web/empsit/cpseea28.pdf">PDF</a>)</li>
+	</ul>
+	<br>
+	<p class="subbox" id="ncharunem_m">Characteristics of the Unemployed</p>
+	<ul>
+		<li>A-29. Unemployed persons by marital status, race, Hispanic or Latino ethnicity, age, and sex (<a href="/web/empsit/cpseea29.htm">HTML</a>) (<a href="/web/empsit/cpseea29.pdf">PDF</a>)</li>
+		<li>A-30. Unemployed persons by occupation and sex (<a href="/web/empsit/cpseea30.htm">HTML</a>) (<a href="/web/empsit/cpseea30.pdf">PDF</a>)</li>
+		<li>A-31. Unemployed persons by industry, class of worker, and sex (<a href="/web/empsit/cpseea31.htm">HTML</a>) (<a href="/web/empsit/cpseea31.pdf">PDF</a>)</li>
+		<li>A-32. Unemployed persons by reason for unemployment, sex, and age (<a href="/web/empsit/cpseea32.htm">HTML</a>) (<a href="/web/empsit/cpseea32.pdf">PDF</a>)</li>
+		<li>A-33. Unemployed persons by reason for unemployment, race, and Hispanic or Latino ethnicity (<a href="/web/empsit/cpseea33.htm">HTML</a>) (<a href="/web/empsit/cpseea33.pdf">PDF</a>)</li>
+		<li>A-34. Unemployed persons by reason for unemployment, sex, age, and duration of unemployment (<a href="/web/empsit/cpseea34.htm">HTML</a>) (<a href="/web/empsit/cpseea34.pdf">PDF</a>)</li>
+		<li>A-35. Unemployed total and full-time workers by duration of unemployment (<a href="/web/empsit/cpseea35.htm">HTML</a>) (<a href="/web/empsit/cpseea35.pdf">PDF</a>)</li>
+		<li>A-36. Unemployed persons by age, sex, race, Hispanic or Latino ethnicity, marital status, and duration of unemployment (<a href="/web/empsit/cpseea36.htm">HTML</a>) (<a href="/web/empsit/cpseea36.pdf">PDF</a>)</li>
+		<li>A-37. Unemployed persons by occupation, industry, and duration of unemployment (<a href="/web/empsit/cpseea37.htm">HTML</a>) (<a href="/web/empsit/cpseea37.pdf">PDF</a>)</li>
+	</ul>
+	<br>
+	<p class="subbox" id="pnilf_m">Persons not in the Labor Force</p>
+	<ul>
+		<li>A-38. Persons not in the labor force by desire and availability for work, age, and sex (<a href="/web/empsit/cpseea38.htm">HTML</a>) (<a href="/web/empsit/cpseea38.pdf">PDF</a>)</li>
+	</ul>
+	<br>
+	<p class="subbox" id="multjob_m">Multiple Jobholders</p>
+	<ul>
+		<li>A-39. Multiple jobholders by selected demographic and economic characteristics (<a href="/web/empsit/cpseea39.htm">HTML</a>) (<a href="/web/empsit/cpseea39.pdf">PDF</a>)</li>
+	</ul>
+	<br>
+	<p class="subbox" id="vets_m">Veteran Status</p>
+	<ul>
+		<li>A-40. Employment status of persons 18 years and over by veteran status, age, and sex (<a href="/web/empsit/cpseea40.htm">HTML</a>) (<a href="/web/empsit/cpseea40.pdf">PDF</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<br>
+<h3 class="lev2" id="quarterly">Quarterly averages</h3>
+<fieldset>
+	<p class="sub2">
+		<legend id="empstat_q"><strong>SEASONALLY ADJUSTED DATA</strong></legend>
+	</p>
+	<p class="subbox">Employment Status</p>
+	<ul>
+		<li>E-1. Employment status of the civilian noninstitutional population by sex and age, seasonally adjusted (<a href="/web/empsit/cpsee_e01.htm">HTML</a>) (<a href="/web/empsit/cpsee_e01.pdf">PDF</a>)</li>
+		<li>E-2. Employment status of the civilian noninstitutional population by race, Hispanic or Latino ethnicity, sex, and age, seasonally adjusted (<a href="/web/empsit/cpsee_e02.htm">HTML</a>) (<a href="/web/empsit/cpsee_e02.pdf">PDF</a>)</li>
+		<li>E-3. Employment status of the civilian noninstitutional population 25 years and over by educational attainment, seasonally adjusted (<a href="/web/empsit/cpsee_e03.htm">HTML</a>) (<a href="/web/empsit/cpsee_e03.pdf">PDF</a>)</li>
+		<li>E-4. Employed and unemployed full- and part-time workers by sex and age, seasonally adjusted (<a href="/web/empsit/cpsee_e04.htm">HTML</a>) (<a href="/web/empsit/cpsee_e04.pdf">PDF</a>)</li>
+	</ul>
+	<br>
+	<p class="subbox" id="charemp_q">Characteristics of the Employed</p>
+	<ul>
+		<li>E-5. Employed persons by class of worker and part-time status, seasonally adjusted (<a href="/web/empsit/cpsee_e05.htm">HTML</a>) (<a href="/web/empsit/cpsee_e05.pdf">PDF</a>)</li>
+		<li>E-6. Employed persons by age, sex, marital status, multiple jobholding status, and self-employment, seasonally adjusted (<a href="/web/empsit/cpsee_e06.htm">HTML</a>) (<a href="/web/empsit/cpsee_e06.pdf">PDF</a>)</li>
+	</ul>
+	<br>
+	<p class="subbox" id="charunem_q">Characteristics of the Unemployed</p>
+	<ul>
+		<li>E-7. Unemployed persons by age, sex, and marital status, seasonally adjusted (<a href="/web/empsit/cpsee_e07.htm">HTML</a>) (<a href="/web/empsit/cpsee_e07.pdf">PDF</a>)</li>
+		<li>E-8. Unemployment rates by age, sex, and marital status, seasonally adjusted (<a href="/web/empsit/cpsee_e08.htm">HTML</a>) (<a href="/web/empsit/cpsee_e08.pdf">PDF</a>)</li>
+		<li>E-9. Unemployed persons by reason for unemployment, seasonally adjusted (<a href="/web/empsit/cpsee_e09.htm">HTML</a>) (<a href="/web/empsit/cpsee_e09.pdf">PDF</a>)</li>
+		<li>E-10. Unemployed persons by duration of unemployment, seasonally adjusted (<a href="/web/empsit/cpsee_e10.htm">HTML</a>) (<a href="/web/empsit/cpsee_e10.pdf">PDF</a>)</li>
+	</ul>
+</fieldset>
+<br>
+<fieldset>
+	<p class="sub2">
+		<legend id="nempstat_q"><strong>NOT SEASONALLY ADJUSTED DATA</strong></legend>
+	</p>
+	<p class="subbox">Employment Status</p>
+	<ul>
+		<li>E-11. Employment status of the civilian noninstitutional population by sex, age, and race (<a href="/web/empsit/cpsee_e11.htm">HTML</a>) (<a href="/web/empsit/cpsee_e11.pdf">PDF</a>)</li>
+		<li>E-12. Employment status of the Hispanic or Latino population by sex, age, and detailed ethnic group (<a href="/web/empsit/cpsee_e12.htm">HTML</a>) (<a href="/web/empsit/cpsee_e12.pdf">PDF</a>)</li>
+	</ul>
+	<br>
+	<p class="subbox" id="charemp_r">Characteristics of the Employed</p>
+	<ul>
+		<li>E-13. Employed persons by sex, occupation, class of worker, full- or part-time status, and race (<a href="/web/empsit/cpsee_e13.htm">HTML</a>) (<a href="/web/empsit/cpsee_e13.pdf">PDF</a>)</li>
+		<li>E-14. Employed Hispanic or Latino workers by sex, occupation, class of worker, full- or part-time status, and detailed ethnic group (<a href="/web/empsit/cpsee_e14.htm">HTML</a>) (<a href="/web/empsit/cpsee_e14.pdf">PDF</a>)</li>
+		<li>E-15. Employed persons by age, sex, race, and Hispanic or Latino ethnicity (<a href="/web/empsit/cpsee_e15.htm">HTML</a>) (<a href="/web/empsit/cpsee_e15.pdf">PDF</a>)</li>
+	</ul>
+	<br>
+	<p class="subbox" id="ncharunem_q">Characteristics of the Unemployed</p>
+	<ul>
+		<li>E-16. Unemployment rates by age, sex, race, and Hispanic or Latino ethnicity (<a href="/web/empsit/cpsee_e16.htm">HTML</a>) (<a href="/web/empsit/cpsee_e16.pdf">PDF</a>)</li>
+		<li>E-17. Unemployed persons by reason for unemployment, race, and Hispanic or Latino ethnicity (<a href="/web/empsit/cpsee_e17.htm">HTML</a>) (<a href="/web/empsit/cpsee_e17.pdf">PDF</a>)</li>
+		<li>E-18. Unemployed persons by duration of unemployment, race, and Hispanic or Latino ethnicity (<a href="/web/empsit/cpsee_e18.htm">HTML</a>) (<a href="/web/empsit/cpsee_e18.pdf">PDF</a>)</li>
+	</ul>
+	<br>
+	<p class="subbox" id="vets_q">Veteran Status</p>
+	<ul>
+		<li>E-19. Employment status of persons 18 years and over by veteran status, age, and sex (<a href="/web/empsit/cpsee_e19.htm">HTML</a>) (<a href="/web/empsit/cpsee_e19.pdf">PDF</a>)</li>
+	</ul>
+</fieldset>
+<p>&nbsp;</p>
+<p class="update"><strong>Last Modified Date:</strong> January 18, 2019</p>
+
+<!-- ********************************************TRAILER FILES******************************************** -->
+	<!-- TwoColFoot Begin -->
+
+<!--no_index_start-->
+<!-- 2COL LAYOUT COL3 BEGIN -->
+			<div class="social-media"><div>Recommend this page using:</div>
+	<div><a href="javascript:void(0);" class="share_facebook"><img alt="share on facebook" src="/images/icons/facebook.png"></a><span><a href="javascript:void(0);" class="share_facebook">Facebook</a></span></div>
+	<div><a href="javascript:void(0);" class="share_twitter"><img alt="share on twitter" src="/images/icons/twitter.png"></a><span><a href="javascript:void(0);" class="share_twitter">Twitter</a></span></div>
+	<div><a href="javascript:void(0);" class="share_linkedin"><img alt="share on linkedin" src="/images/icons/linkedin.png"></a><span><a href="javascript:void(0);" class="share_linkedin">LinkedIn</a></span></div>
+	<!--<div><a href="javascript:void(0);" class="share_googleplus"><img src="/images/icons/google.png"></a><span><a href="javascript:void(0);" class="share_googleplus">Google+</a></span></div>-->
+</div>			
+			</div>
+		</td>
+	</tr>
+</table>
+
+<!-- 2COL LAYOUT COL3 END -->
+
+<!-- QUICK LINKS BEGIN -->
+			<div class="clearfloat"></div>
+			<div id="quicklinks-wrapper">
+				<div id="quicklinks">
+					<h3 class="invisible">Quicklinks Footer</h3>
+					<ul><li class="header">tools</li>
+						<li><a href="/eag/" aria-label="Economy at a Glance">Areas at a Glance </a></li>
+						<li><a href="/iag/" aria-label="Industries at a Glance">Industries at a Glance </a></li>
+						<li><a href="/bls/newsrels.htm" aria-label="Economic News Releases">Economic Releases</a></li>
+						<li><a href="/data/" aria-label="Databases, Tables and Calculators by Subject">Databases &amp; Tables</a></li>
+						<li><a href="/map/MapToolServlet?survey=la" aria-label="Local Area Unemployment Statistics Map">Maps</a></li>
+					</ul>
+					<ul><li class="header">calculators</li>
+						<li><a href="/data/inflation_calculator.htm" aria-label="Consumer Price Index Inflation Calculator">Inflation</a></li>
+						<!--<li><a href="/location_quotient/" aria-label="">Location Quotient</a> </li> -->
+						<li><a href="/iirc/" aria-label="Incidence Rate Calculator and Comparison Tool
+">Injury And Illness</a></li>
+					</ul>
+					<ul><li class="header">help</li>
+						<li><a href="/help/" aria-label="Help and Tutorials">Help &amp; Tutorials</a></li>
+						<li><a href="/bls/faqs.htm" aria-label="Frequently Asked Questions">FAQs</a></li>
+						<li><a href="/bls/glossary.htm" aria-label="Glossary">Glossary</a></li>
+						<li><a href="/bls/infohome.htm" aria-label="About Bureau of Labor Statistics">About BLS</a></li>
+						<li><a href="/bls/contact.htm" aria-label="Contact Bureau of Labor Statistics">Contact Us</a></li>
+					</ul>
+					<ul><li class="header">info</li>
+						<li><a href="/newsroom/" aria-label="Newsroom">What's New</a></li>
+						<li><a href="/jobs/" aria-label="Careers at Bureau of Labor Statistics">Careers @ BLS</a></li>
+						<li><a href="https://www.dol.gov/dol/findit.htm" aria-label="Department of Labor Find It! webpage">Find It! DOL</a></li>
+						<li><a href="https://subscriptions.bls.gov/accounts/USDOLBLS/subscriber/new" aria-label="Join our Mailing Lists">Join our Mailing Lists</a></li>
+						<li><a href="/bls/linksite.htm" aria-label="Linking and Copyright Information">Linking &amp; Copyright Info</a></li>
+					</ul>
+								<ul style="border-right: none;"><li class="header">resources</li>
+								<li><a href="https://www.oig.dol.gov/" aria-label="Office of Inspector General website">Inspector General (OIG)</a></li>
+						<li><a href="/bls/bls_budget_and_performance.htm" aria-label="Budget and Performance">Budget and Performance</a></li>
+									<li><a href="/bls/no_fear_act.htm" aria-label="No Fear Act">No Fear Act</a></li>
+									<li><a href="https://www.usa.gov/" aria-label="USA.gov website">USA.gov</a></li>
+										<li><a href="https://www.benefits.gov/" aria-label="Benefits.gov website">Benefits.gov </a></li>
+
+					</ul>
+					<div class="clearfloat"></div>
+  <!-- Start VETS HIRE -->                        
+					<div style="text-align:center; position:relative; top:20px;">
+						<a href="https://www.hirevets.gov/" aria-label="HIRE Vets Medallion Program">
+							<img alt="HIREVets.gov HIRE Vets Medallion Program - Recognizing employers who HIRE veterans" style="height: 60px; width: auto;" src="https://www.dol.gov/vets/resources/images/HireVETS-Recognizing-employers-v1.png">
+						</a>
+					</div>
+  <!-- End VETS HIRE -->   				
+                </div>
+			</div>
+
+
+
+<!-- QUICK LINKS END -->
+
+<!-- WRAPPER BOTTOM BEGIN -->
+	
+		</div><!-- close id="wrapper-outer" -->
+	</div><!-- close id="wrapper" -->
+</div><!-- close id="container" -->
+<!-- WRAPPER BOTTOM END -->
+
+<!-- FOOTER LEFT BEGIN -->
+<script type="text/javascript">/*<![CDATA[*/(function(){var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;sz.src = '//siteimproveanalytics.com/js/siteanalyze_6032860.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);})();/*]]>*/</script> 
+<div id="footer-wrapper">
+	<div id="footer-links-wrapper">
+		<div id="footer-links">
+			<p><a href="/bls/blsfoia.htm">Freedom of Information Act</a> &nbsp;|&nbsp; <a href="/bls/pss.htm">Privacy &amp; Security Statement</a> &nbsp;|&nbsp; <a href="/bls/disclaimer.htm">Disclaimers</a> &nbsp;|&nbsp; 
+			<a href="/bls/customer_survey.htm">Customer Survey</a> &nbsp;|&nbsp; <a href="/bls/website-policies.htm">Important Web Site Notices</a></p>
+		</div>
+	</div>
+	<div id="footer-info-wrapper">
+		<div id="footer-info"><p>
+
+<!-- FOOTER LEFT END -->
+
+<span id="footer-address">U.S. Bureau of Labor Statistics  |  Division of Labor Force Statistics, PSB Suite 4675, 2 Massachusetts Avenue, NE Washington, DC 20212-0001</span> 
+
+
+<!-- FOOTER CENTER BEGIN -->
+		</p><p>
+
+
+<!-- FOOTER CENTER END -->
+
+<span id="footer-contact"><a href="/cps/home.htm" aria-label="Labor Force Statistics from the Current Population Survey">www.bls.gov/CPS</a> | Telephone: 1-202-691-6378 | <a href="https://data.bls.gov/cgi-bin/forms/cps?/cps/tables.htm" aria-label="Request for Current Population Survey Information">Contact CPS</a></span>	
+
+
+
+<!-- FOOTER RIGHT BEGIN -->
+			</p>
+		</div>
+	</div>
+</div>
+
+<!-- FOOTER RIGHT END -->
+<!--no_index_end-->
+	
+<!-- ***************************************************************************************************** -->
+</body>
+</html>
